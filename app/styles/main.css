@@ -87,3 +87,26 @@ body {
     border-bottom: 0;
   }
 }
+
+#lead-in {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+#logo {
+  display: flex;
+  font-size: 80px;
+}
+
+#logo h1 {
+  font-size: 80px;
+}
+#tag-lines {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+
+}
