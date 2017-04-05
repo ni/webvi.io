@@ -6,13 +6,17 @@ body {
   min-width: 375px;
 }
 
-h1 {
-  font-size: 64px;
-}
+
 
 #lead-in {
   background-color: #065FA3;
   color: #E0E0E0;
+  height: 350px;
+}
+
+#lead-in h1 {
+  font-size: 76px;
+  margin: auto;
 }
 
 /* Custom page footer */
@@ -70,4 +74,10 @@ h1 {
 
 .container-b {
   background-color: green;
+}
+
+@media (max-width: 430px) {
+  #lead-in .right-content {
+    justify-content: flex-start;
+  }
 }
