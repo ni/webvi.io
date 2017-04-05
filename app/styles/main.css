@@ -2,7 +2,7 @@ body {
   padding: 0px;
   font-family: Lato;
   margin: 0px;
-  color: #E9EBEC;
+  color: #4487BA;
   min-width: 375px;
 }
 
@@ -17,6 +17,16 @@ body {
 #lead-in h1 {
   font-size: 76px;
   margin: auto;
+}
+
+#FrontPanelCanvas {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+
 }
 
 /* Custom page footer */
@@ -35,11 +45,14 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 5px;
+}
+
+#graph-demo {
 
 }
 
 .section-a {
-  background-color: #E9EBEC;
+  background-color: white;
 }
 
 .section-b {
@@ -49,23 +62,27 @@ body {
 .left-content {
   display: flex;
   justify-content: center;
-  text-align: right;
+  text-align: center;
   flex-direction: column;
 }
 
 .right-content{
   display: flex;
-  text-align: left;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
 }
 
 .container{
-  width: 250px;
-  height: 250px;
+  width: 275px;
+  height: 275px;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.container img {
+  width: 100%;
 }
 
 .container-a{
