@@ -88,25 +88,67 @@ body {
   }
 }
 
-#lead-in {
+h1 {
+  font-size: 80px;
+  color: #E0E0E0;
+}
+
+.section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 25px;
 
 }
 
-#logo {
+.section-a {
+  background-color: grey;
+}
+
+.section-b {
+  background-color: cyan;
+}
+
+.left-content {
   display: flex;
-  font-size: 80px;
+  justify-content: center;
+  text-align: right;
+
 }
 
-#logo h1 {
-  font-size: 80px;
-}
-#tag-lines {
+.right-content{
   display: flex;
   text-align: left;
   flex-direction: column;
   justify-content: center;
+}
 
+#lead-in {
+  background-color: #065FA3;
+  color: #E0E0E0;
+}
+
+/*.container{
+  width: 250px;
+  height: 250px;
+}*/
+
+.container-a{
+  background-color: pink;
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+
+.container-b {
+  background-color: green;
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+
+body {
+  padding: 0px;
+  font-family: Lato;
+  margin: 0px;
 }
