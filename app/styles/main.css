@@ -6,8 +6,6 @@ body {
   min-width: 375px;
 }
 
-
-
 #lead-in {
   background-color: #065FA3;
   color: #E0E0E0;
@@ -29,29 +27,17 @@ body {
   height: 250px;
   position: relative;
   overflow: hidden;
-  float: left;
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
+#footer {
+  background-color: #E0E0E0;
+  height: 150px;
 }
 
 .section {
   display: flex;
   justify-content: center;
-
   padding-bottom: 5px;
-}
-
-#graph-demo {
-
 }
 
 .section-a {
@@ -64,23 +50,14 @@ body {
   flex-wrap: wrap-reverse;
 }
 
-.left-content {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-.right-content {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
-
 .container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content{
   width: 375px;
   height: 275px;
   margin-top: 5px;
@@ -88,15 +65,15 @@ body {
   margin-right: auto;
 }
 
-.container img {
+.content img {
   width: 100%;
 }
 
-.container-a{
+.content-a{
   background-color: pink;
 }
 
-.container-b {
+.content-b {
   background-color: green;
 }
 
@@ -124,7 +101,7 @@ jqx-slider[ni-control-id='28'] {
   width: 250px;
   height: 62px;
   font-size: 12px;
-  font-family: Segoe UI, sans-serif;
+  font-family: Lato, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -136,7 +113,7 @@ jqx-slider[ni-control-id='31'] {
   width: 250px;
   height: 62px;
   font-size: 12px;
-  font-family: Segoe UI,
+  font-family: Lato,
   sans-serif; font-style:
   normal;
   font-weight: normal;
@@ -149,7 +126,7 @@ jqx-tank[ni-control-id='38'] {
   width: 75px;
   height: 152px;
   font-size: 12px;
-  font-family: Segoe UI, sans-serif;
+  font-family: Lato, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -159,28 +136,28 @@ ni-cartesian-graph[ni-control-id='64'] {
   width: 375px;
   height: 260px;
   font-size: 12px;
-  font-family: Segoe UI, sans-serif;
+  font-family: Lato, sans-serif;
   font-style: normal; font-weight: normal;
   text-decoration: none;
   color: rgba(43,48,51,1);
 }
 ni-cartesian-axis[ni-control-id='65'] {
   font-size: 12px;
-  font-family: Segoe UI, sans-serif;
+  font-family: Lato, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
 }
 ni-cartesian-axis[ni-control-id='66'] {
   font-size: 12px;
-  font-family: Segoe UI, sans-serif;
+  font-family: Lato, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
 }
 ni-cartesian-plot[ni-control-id='67'] {
   font-size: 12px;
-  font-family: Segoe UI, sans-serif;
+  font-family: Lato, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
