@@ -100,21 +100,21 @@ body {
   padding-left: 5px;
 }
 
-.nav-links a {
+a {
   text-decoration: none;
   color: #4487BA;
 }
 
-.nav-links a:visited {
+ a:visited {
     text-decoration: none;
     color: #4487BA;
 }
 
- .nav-links a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-.nav-links a:active {
+a:active {
     text-decoration: underline;
 }
 
