@@ -36,6 +36,17 @@
     <ni-web-application engine="VIREO" location="BROWSER" vireo-source="../g-source/Builds/Web%20Server/Configuration1/WebApp/Main.via.txt"><ni-virtual-instrument vi-name="Main.gviweb"></ni-virtual-instrument></ni-web-application>
         <div id="ni-outdated-browser-message" style="display:none">This browser is reporting compatibility with older browser technologies that may perform poorly if it all.</div>
 
+    <div class="nav-bar">
+      <h1 id="logo">NI</h1>
+      <ul class="nav-links">
+        <li><a href="#g-on-the-web">G on the Web</a></li>
+        <li><a href="#engineering-views">Engineering Views</a></li>
+        <li><a href="#iot">IoT</a></li>
+        <li><a href="#vireo">Vireo</a></li>
+        <li><a href="#whats-next">What's Next?</a></li>
+      </ul>
+    </div>
+
 
     <div class="section" id="lead-in">
       <div class="container">
@@ -48,7 +59,7 @@
       </div>
     </div>
 
-    <div class="section section-a">
+    <div class="section section-a" id="g-on-the-web">
       <div class="container content">
         <h1>Run G on the Web</h1>
         <div>
@@ -61,13 +72,12 @@
             <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' value='0' min='0' max='9' input-format='floatingPoint' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' orientation='horizontal'></jqx-slider>
             <jqx-slider data-ni-base-style="uninitialized" ni-control-id='31' binding-info='{"prop":"value","dco":1,"dataItem":"dataItem_Slider_2","unplacedOrDisabled":false,"sync":false}' label-id='32' value='0' min='0' max='1' input-format='floatingPoint' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' orientation='horizontal'></jqx-slider>
             <jqx-tank data-ni-base-style="uninitialized" ni-control-id='38' binding-info='{"prop":"value","dco":2,"dataItem":"dataItem_Tank","unplacedOrDisabled":false,"sync":false}' label-id='39' readonly='true' value='0' min='0' max='10' input-format='floatingPoint' interval='1' scale-position='near' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='2' read-only='true' orientation='vertical'></jqx-tank>
-
-            </section>
         </div>
       </div>
     </div>
 
-    <div class="section section-b" id="graph-demo">
+
+    <div class="section section-b" id="engineering-views">
       <div class="container content">
         <ni-cartesian-graph data-ni-base-style="uninitialized" ni-control-id='64' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Graph","unplacedOrDisabled":false,"sync":false}' label-id='75' read-only='true' ni-type='{"name":"Array","rank":1,"subtype":"Double"}' value='[]' plot-area-margin='{"left":0,"top":0,"right":0,"bottom":0}'><ni-cartesian-axis data-ni-base-style="uninitialized" label='Time' show='true' show-label='true' ni-control-id='65' axis-position='bottom' minimum='0' maximum='100' format='LVRelativeSeconds:G6&gt;&gt;0.000E+0' show-tick-labels='all' auto-scale='exact' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
         <ni-cartesian-axis data-ni-base-style="uninitialized" label='Amplitude' show='true' show-label='true' ni-control-id='66' axis-position='left' minimum='0' maximum='100' format='LVRelativeSeconds:G6&gt;&gt;0.000E+0' show-tick-labels='all' auto-scale='none' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
@@ -76,12 +86,27 @@
         </ni-cartesian-graph>
         </div>
       <div class="container content">
-        <h1>High Performance Engineering Plots</h1>
+        <h1>Engineering Views</h1>
       </div>
-
     </div>
 
-    <div class="section section-a">
+    <div class="section section-a" id="iot">
+      <div class="container content">
+        <h1>I/O for IoT</h1>
+      </div>
+      <div class="container content content-b">
+      </div>
+    </div>
+
+    <div class="section section-b" id="interoperable">
+      <div class="container content content-a">
+      </div>
+      <div class="container content">
+        <h1>Plays well with others</h1>
+      </div>
+    </div>
+
+    <div class="section section-a" id="vireo">
       <div class="container content">
         <h1>Vireo Runtime</h1>
           <div>Compact, Portable, Open Source</div>
@@ -91,12 +116,11 @@
       </div>
     </div>
 
-    <div class="section section-b">
+    <div class="section section-b" id="whats-next">
       <div class="container content content-b">
-        <div>High Performance Graphs</div>
       </div>
-      <div class="container content content-a">
-        <div>GRAPH WITH LOTS OF DATA HERE</div>
+      <div class="container content">
+        <h1>We're just getting started</h1>
       </div>
     </div>
 
