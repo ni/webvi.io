@@ -10,10 +10,12 @@ body {
   background-color: #065FA3;
   color: #E0E0E0;
   height: 350px;
+  font-size: 28px;
+  justify-content: center;
 }
 
 #lead-in h1 {
-  font-size: 76px;
+  font-size: 125px;
   margin: auto;
 }
 
@@ -29,14 +31,20 @@ body {
   overflow: hidden;
 }
 
+#fat-footer {
+  background-color: #2B3033;
+  height: 320px;
+}
+
 #footer {
   background-color: #E0E0E0;
   height: 150px;
+  font-size: 11px
 }
 
 .section {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-bottom: 5px;
 }
 
@@ -46,15 +54,25 @@ body {
 }
 
 .section-b {
-  background-color: #C1D7E8;
+  background-color: #065FA3;
   flex-wrap: wrap-reverse;
+  color: #E0E0E0;
 }
 
-.container{
+.container {
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .content-item{
@@ -124,6 +142,19 @@ a:active {
     text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+  #lead-in .right-content {
+    /*justify-content: flex-start;*/
+  }
+  #lead-in h1 {
+    font-size: 76px;
+  }
+  #lead-in {
+    font-size: 18px;
+  }
+}
+
+
 @media (max-width: 500px) {
   #lead-in .right-content {
     /*justify-content: flex-start;*/
@@ -132,7 +163,7 @@ a:active {
     font-size: 48px;
   }
   #lead-in {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 
