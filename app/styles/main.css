@@ -1,6 +1,6 @@
 body {
   padding: 0px;
-  font-family: Lato;
+  font-family: Roboto Condensed;
   margin: 0px;
   color: #4487BA;
   min-width: 375px;
@@ -186,7 +186,7 @@ jqx-slider[ni-control-id='28'] {
   width: 250px;
   height: 62px;
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -198,7 +198,7 @@ jqx-slider[ni-control-id='31'] {
   width: 250px;
   height: 62px;
   font-size: 12px;
-  font-family: Lato,
+  font-family: Roboto Condensed,
   sans-serif; font-style:
   normal;
   font-weight: normal;
@@ -211,7 +211,7 @@ jqx-tank[ni-control-id='38'] {
   width: 75px;
   height: 152px;
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -221,28 +221,28 @@ ni-cartesian-graph[ni-control-id='64'] {
   width: 375px;
   height: 260px;
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal; font-weight: normal;
   text-decoration: none;
   color: rgba(43,48,51,1);
 }
 ni-cartesian-axis[ni-control-id='65'] {
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
 }
 ni-cartesian-axis[ni-control-id='66'] {
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
 }
 ni-cartesian-plot[ni-control-id='67'] {
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
