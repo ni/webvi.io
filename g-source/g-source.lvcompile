@@ -13,7 +13,7 @@
     <Name>WebApp</Name>
     <BuildName>WebApp(Configuration1)</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:00</LastTotalTime>
+    <LastTotalTime>00:00:01</LastTotalTime>
     <HasChild>False</HasChild>
   </Job>
 </JobList>
