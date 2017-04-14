@@ -156,14 +156,10 @@ a:active {
   #lead-in {
     font-size: 18px;
   }
-
-  .content-item {
-    height: inherit;
-  }
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   #lead-in .right-content {
     /*justify-content: flex-start;*/
   }
@@ -175,6 +171,9 @@ a:active {
   }
   #fat-footer {
     font-size: 11px;
+  }
+  .content-item {
+    height: inherit;
   }
 }
 
