@@ -1,4 +1,5 @@
 {
   "name": "webvi-squeeze-page",
-    "jshint-stylish": "^0.4.0"
+  "jshint-stylish": "^0.4.0",
+  "version": "0.1.0"
 }
