@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed"/>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <style>
 
@@ -36,72 +36,140 @@
     <ni-web-application engine="VIREO" location="BROWSER" vireo-source="../g-source/Builds/Web%20Server/Configuration1/WebApp/Main.via.txt"><ni-virtual-instrument vi-name="Main.gviweb"></ni-virtual-instrument></ni-web-application>
         <div id="ni-outdated-browser-message" style="display:none">This browser is reporting compatibility with older browser technologies that may perform poorly if it all.</div>
 
+    <div class="nav-bar">
+      <h1 id="logo"><a href="http://www.ni.com">NI</a></h1>
+      <ul class="nav-links">
+        <li><a href="#g-on-the-web">G on the Web</a></li>
+        <li><a href="#engineering-views">Engineering Views</a></li>
+        <li><a href="#iot">IoT</a></li>
+        <li><a href="#vireo">Vireo</a></li>
+        <li><a href="#whats-next">What's Next?</a></li>
+      </ul>
+    </div>
+
 
     <div class="section" id="lead-in">
       <div class="container">
         <h1>Web VI</h1>
       </div>
-      <div class="container">
+      <div class="right-content container">
         <div>Run G diagrams with no plugins</div>
         <div>HTML5 Engineering Widgets</div>
         <div>Vireo Runtime</div>
       </div>
     </div>
 
-    <div class="section section-a">
-      <div class="container content">
+    <div class="section section-a" id="g-on-the-web">
+      <div class="container content-item">
         <h1>Run G on the Web</h1>
         <div>
         <img src="styles/demo-1-snippet.png">
         </div>
       </div>
-      <div class="container content">
+      <div class="container content-item">
         <div>
           <section id="FrontPanelCanvas">
             <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' value='0' min='0' max='9' input-format='floatingPoint' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' orientation='horizontal'></jqx-slider>
             <jqx-slider data-ni-base-style="uninitialized" ni-control-id='31' binding-info='{"prop":"value","dco":1,"dataItem":"dataItem_Slider_2","unplacedOrDisabled":false,"sync":false}' label-id='32' value='0' min='0' max='1' input-format='floatingPoint' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' orientation='horizontal'></jqx-slider>
             <jqx-tank data-ni-base-style="uninitialized" ni-control-id='38' binding-info='{"prop":"value","dco":2,"dataItem":"dataItem_Tank","unplacedOrDisabled":false,"sync":false}' label-id='39' readonly='true' value='0' min='0' max='10' input-format='floatingPoint' interval='1' scale-position='near' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='2' read-only='true' orientation='vertical'></jqx-tank>
-
-            </section>
         </div>
       </div>
     </div>
 
-    <div class="section section-b" id="graph-demo">
-      <div class="container content">
+
+    <div class="section section-b" id="engineering-views">
+      <div class="container content-item">
         <ni-cartesian-graph data-ni-base-style="uninitialized" ni-control-id='64' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Graph","unplacedOrDisabled":false,"sync":false}' label-id='75' read-only='true' ni-type='{"name":"Array","rank":1,"subtype":"Double"}' value='[]' plot-area-margin='{"left":0,"top":0,"right":0,"bottom":0}'><ni-cartesian-axis data-ni-base-style="uninitialized" label='Time' show='true' show-label='true' ni-control-id='65' axis-position='bottom' minimum='0' maximum='100' format='LVRelativeSeconds:G6&gt;&gt;0.000E+0' show-tick-labels='all' auto-scale='exact' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
         <ni-cartesian-axis data-ni-base-style="uninitialized" label='Amplitude' show='true' show-label='true' ni-control-id='66' axis-position='left' minimum='0' maximum='100' format='LVRelativeSeconds:G6&gt;&gt;0.000E+0' show-tick-labels='all' auto-scale='none' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
         <ni-cartesian-plot data-ni-base-style="uninitialized" label='Plot' show='true' show-label='true' ni-control-id='67' xaxis='65' yaxis='66' hover-format='{0}, {1}'><ni-cartesian-plot-renderer data-ni-base-style="uninitialized" ni-control-id='70' line-width='1' line-stroke='rgba(130,163,209,1)' line-style='solid' point-color='' area-fill='' area-base-line='negativeinfinity' bar-fill='' point-size='7.0710678118654755' point-shape='ellipse'></ni-cartesian-plot-renderer>
         </ni-cartesian-plot>
         </ni-cartesian-graph>
         </div>
-      <div class="container content">
-        <h1>High Performance Engineering Plots</h1>
+      <div class="container content-text">
+        <h1>Engineering Views</h1>
       </div>
-
     </div>
 
-    <div class="section section-a">
-      <div class="container content">
+    <div class="section section-a" id="iot">
+      <div class="container content-text">
+        <h1>I/O for IoT</h1>
+      </div>
+      <div class="container content-item placeholder-b">
+      </div>
+    </div>
+
+    <div class="section section-b" id="interoperable">
+      <div class="container content-item placeholder-a">
+      </div>
+      <div class="container content-text">
+        <h1>Plays well with others</h1>
+      </div>
+    </div>
+
+    <div class="section section-a" id="vireo">
+      <div class="container content-text">
         <h1>Vireo Runtime</h1>
           <div>Compact, Portable, Open Source</div>
       </div>
-      <div class="container content">
+      <div class="container content-item">
         <img src="styles/red-eyed-vireo.jpg">
       </div>
     </div>
 
-    <div class="section section-b">
-      <div class="container content content-b">
-        <div>High Performance Graphs</div>
+    <div class="section section-b" id="whats-next">
+      <div class="container content-item placeholder-b">
       </div>
-      <div class="container content content-a">
-        <div>GRAPH WITH LOTS OF DATA HERE</div>
+      <div class="container content-text">
+        <h1>We're just getting started</h1>
       </div>
     </div>
 
+    <div class="section" id="fat-footer">
+      <div class="footer-container">
+        <h1>LVjs</h1>
+        <div>Jesse Attas</div>
+        <div>Malcolm Smith</div>
+        <div>Carlos Gonzalez</div>
+        <div>Sankara Muthukrishnan</div>
+        <div>Craig Smith</div>
+        <div>Guillermo Leon</div>
+        <div>Milan Raj</div>
+        <div>Brian Henry</div>
+        <div>Danny Funk</div>
+        <div>Brandon Vaughan</div>
+
+      </div>
+      <div class="footer-container">
+        <h1>WebCharts</h1>
+        <div>Cipix Ceteres</div>
+        <div>Cristi Ingineru</div>
+        <div>Octavian Craciun</div>
+        <div>Raluca Portase</div>
+        <div>Cladiu Chirap</div>
+      </div>
+      <div class="footer-container">
+        <h1>Skyline</h1>
+        <div>Daren Wilson</div>
+        <div>Josh Glendenning</div>
+        <div>Joshua Prewitt</div>
+        <div>Justin Ewasko</div>
+        <div>Keenan Forbes</div>
+        <div>Matthew Vaterlaus</div>
+        <div>Max Brown</div>
+        <div>Michael Watson</div>
+        <div>Molly Kreis</div>
+        <div>Paul Spangler</div>
+        <div>Perry Zipoy</div>
+        <div>Phil Vallone</div>
+        <div>Sergey Kizunov</div>
+        <div>Shawn Edwards</div>
+        <div>Trevor Karjanis</div>
+      </div>
+    </div>
+
+
   <div class="section" id="footer">
-    <div class="container">
+    <div class="footer-container">
       <div>C National Instruments</div>
       <div>LabVIEW NXG 2.0 Beta</div>
       <div>hay</div>

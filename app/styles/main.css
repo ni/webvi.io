@@ -1,6 +1,6 @@
 body {
   padding: 0px;
-  font-family: Lato;
+  font-family: Roboto Condensed;
   margin: 0px;
   color: #4487BA;
   min-width: 375px;
@@ -10,10 +10,12 @@ body {
   background-color: #065FA3;
   color: #E0E0E0;
   height: 350px;
+  font-size: 28px;
+  justify-content: center;
 }
 
 #lead-in h1 {
-  font-size: 76px;
+  font-size: 125px;
   margin: auto;
 }
 
@@ -29,14 +31,25 @@ body {
   overflow: hidden;
 }
 
+#fat-footer {
+  background-color: #2B3033;
+  align-items: baseline;
+}
+
+#fat-footer h1 {
+  margin: 0px;
+}
+
 #footer {
   background-color: #E0E0E0;
-  height: 150px;
+  font-size: 9px;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .section {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-bottom: 5px;
 }
 
@@ -46,36 +59,105 @@ body {
 }
 
 .section-b {
-  background-color: #C1D7E8;
+  background-color: #065FA3;
   flex-wrap: wrap-reverse;
+  color: #E0E0E0;
 }
 
-.container{
+.container {
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
 }
 
-.content{
+.footer-container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.content-item{
   width: 375px;
-  height: 275px;
+  height: 667px;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.content img {
+.content-text{
+  width: 375px;
+  height: 100px;
+  margin: auto;
+}
+
+img {
   width: 100%;
 }
 
-.content-a{
+.placeholder-a{
   background-color: pink;
 }
 
-.content-b {
+.placeholder-b {
   background-color: green;
 }
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar #logo {
+  margin-left: 5px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-links {
+  margin-left: auto;
+  margin-right: 5px;
+
+}
+
+.nav-links li {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #4487BA;
+}
+
+ a:visited {
+    text-decoration: none;
+    color: #4487BA;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  #lead-in .right-content {
+    /*justify-content: flex-start;*/
+  }
+  #lead-in h1 {
+    font-size: 76px;
+  }
+  #lead-in {
+    font-size: 18px;
+  }
+}
+
 
 @media (max-width: 500px) {
   #lead-in .right-content {
@@ -85,7 +167,10 @@ body {
     font-size: 48px;
   }
   #lead-in {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  #fat-footer {
+    font-size: 11px;
   }
 }
 
@@ -101,7 +186,7 @@ jqx-slider[ni-control-id='28'] {
   width: 250px;
   height: 62px;
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -113,7 +198,7 @@ jqx-slider[ni-control-id='31'] {
   width: 250px;
   height: 62px;
   font-size: 12px;
-  font-family: Lato,
+  font-family: Roboto Condensed,
   sans-serif; font-style:
   normal;
   font-weight: normal;
@@ -126,7 +211,7 @@ jqx-tank[ni-control-id='38'] {
   width: 75px;
   height: 152px;
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -136,28 +221,28 @@ ni-cartesian-graph[ni-control-id='64'] {
   width: 375px;
   height: 260px;
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal; font-weight: normal;
   text-decoration: none;
   color: rgba(43,48,51,1);
 }
 ni-cartesian-axis[ni-control-id='65'] {
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
 }
 ni-cartesian-axis[ni-control-id='66'] {
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
 }
 ni-cartesian-plot[ni-control-id='67'] {
   font-size: 12px;
-  font-family: Lato, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
