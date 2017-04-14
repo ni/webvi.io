@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F07B8CBADBD3A8D285914B00F49E524E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4CCD5B3702B7E1A2459C14CB535EC844" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.1" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.12" Version="5.0.0.12" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.0" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/MetaDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.0" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.1" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.0" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.0" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2250" FeatureSetName="Web Server Compiler" Name="http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.1.49152" />
-		<ApplicationVersionInfo Build="5.0.1.2250" Name="LabVIEW NXG" Version="1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="Html VI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.12" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="HTML VI SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/HTMLVi" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/MetaDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2460" FeatureSetName="Web Server Compiler" Name="http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.1.49152" />
+		<ApplicationVersionInfo Build="5.0.1.2460" Name="LabVIEW NXG" Version="1.0.0" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
 		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
@@ -27,9 +29,13 @@
 						<Instance Id="499" Source="{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent">
 							<Symbols p8:Path="[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent]Process.ApplicationComponent" p9:ShowInDiagram="True" p10:Process.AliasName="WebApp.gcomp" p10:Process.AssociatedIdentifier="498" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
+						<Instance Id="690" Source="{http://www.ni.com/SystemDesigner/HTMLVi}TopLevelHTMLViCatalogItem">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/HTMLVi}TopLevelHTMLViCatalogItem]TopLevelHTMLViCatalogItem" p9:ShowInDiagram="False" p10:Process.AliasName="Function.gviweb" p10:Process.AssociatedIdentifier="688" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
 						<Superimposition Id="7" Name="Root Superimposition">
 							<Superimpose Source="266">
 								<Superimpose Parent="{:/266}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="499" />
+								<Superimpose Parent="{:/266}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="690" />
 							</Superimpose>
 						</Superimposition>
 					</MappingManager>
@@ -148,6 +154,7 @@
 						<SparseEnvoyManager Id="354">
 							<SparseEnvoyManagerDependencySource Id="355" Target=":NullTarget:Default\ Component" />
 						</SparseEnvoyManager>
+						<SourceFileReference Bindings="{http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI}HtmlVICompilerService,NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument,Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/HTMLVi}Process.HTMLVi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="688" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function.gviweb" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference,RcxRepositoryManagerDefinition" Id="365" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
 						<RepositoryManagerDefinition Location="" />
@@ -200,6 +207,7 @@
 						<CompilerSymbolTable Id="22" xmlns="http://www.ni.com/PlatformFramework" />
 					</ComponentConfiguration>
 				</ComponentDefinition>
+				<SourceFileReference Bindings="{http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI}HtmlVICompilerService,NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument,Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference" Id="689" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function.gviweb" />
 			</EmbeddedDefinitionReference>
 			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference,{http://www.ni.com/PlatformFramework}ByReferenceRoot" Id="23" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 				<PackageReferencesDefinition>
