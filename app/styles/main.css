@@ -156,6 +156,10 @@ a:active {
   #lead-in {
     font-size: 18px;
   }
+
+  .content-item {
+    height: inherit;
+  }
 }
 
 
