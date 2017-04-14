@@ -152,10 +152,15 @@ img {
     width: 375px;
     height: 667px;
     position: relative;
-    overflow: show;
     font-family: inherit;
+    text-align: inherit;
 }
 
+.plot-legends {
+  height: auto;
+  justify-content: flex-start;
+  text-align: left;
+}
 
 
 @media (max-width: 900px) {
@@ -235,7 +240,7 @@ jqx-tank[ni-control-id='38'] {
   text-decoration: none;
 }
 
-ni-cartesian-graph[ni-control-id='64'] {
+/*ni-cartesian-graph[ni-control-id='64'] {
   width: 375px;
   height: 260px;
   font-size: 12px;
@@ -264,6 +269,41 @@ ni-cartesian-plot[ni-control-id='67'] {
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
+}*/
+
+ni-cartesian-graph[ni-control-id='64'] {
+  left: 0px; top: 0px; width: 375px; height: 667px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1);
+}
+ni-cartesian-axis[ni-control-id='65'] {
+  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-cartesian-axis[ni-control-id='66'] {
+  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-cartesian-plot[ni-control-id='67'] {
+  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-cartesian-plot[ni-control-id='213'] {
+  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-cursor[ni-control-id='211'] {
+  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-cursor[ni-control-id='212'] {
+  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-scale-legend[ni-control-id='71'] {
+  left: 0px; top: 0px; width: 150px; height: 60px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-plot-legend[ni-control-id='72'] {
+  left: 0px; top: 0px; width: 150px; height: 52px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-cursor-legend[ni-control-id='73'] {
+  left: 0px; top: 0px; width: 375px; height: 120px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+}
+ni-graph-tools[ni-control-id='74'] {
+  left: 0px; top: 0px; width: 152px; height: 30px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+  background-color: white;
 }
 
 /*Fix progress bar position */
