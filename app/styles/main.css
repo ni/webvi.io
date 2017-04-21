@@ -357,3 +357,11 @@ jqx-tank .jqx-value {
     fill: transparent;
     stroke: #D1D1D1;
 }*/
+
+
+jqx-numeric-text-box input.jqx-numeric-text-box-component {
+    /*background-color: red;*/
+    /*-webkit-appearance:none;*/
+    border-radius: 0px;
+
+}
