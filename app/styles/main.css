@@ -357,3 +357,22 @@ jqx-tank .jqx-value {
     fill: transparent;
     stroke: #D1D1D1;
 }*/
+
+/*Fix text input styling on iOS*/
+jqx-numeric-text-box input.jqx-numeric-text-box-component {
+    -webkit-appearance:none;
+    border-radius: 0px;
+
+}
+
+.example-widgets {
+  position: relative;
+}
+
+.wide-example-widgets {
+  width: 100%;
+}
+
+#example-numeric {
+  height: 40px;
+}
