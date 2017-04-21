@@ -60,7 +60,7 @@ a:active {
 
 #footer {
   background-color: #E0E0E0;
-  font-size: 9px;
+  font-size: 12px;
   justify-content: flex-start;
   text-align: left;
 }
@@ -107,7 +107,6 @@ a:active {
 
 .content-text{
   width: 375px;
-  height: 100px;
   margin: auto;
 }
 
@@ -316,7 +315,7 @@ ni-gauge[ni-control-id='90'] {
 }
 
 jqx-circular-progress-bar[ni-control-id='95'] {
-  left: 31px; top: 39px; width: 290px; height: 290px;
+  left: 31px; top: 39px; width: 250px; height: 250px;
 }
 
 jqx-numeric-text-box[ni-control-id='100'] {
@@ -338,9 +337,23 @@ jqx-led[ni-control-id='149'] {
 }
 
 jqx-slider[ni-control-id='129'] {
-  left: 329px; top: 36px; width: 56px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+  left: 300px; top: 36px; width: 56px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
 
 jqx-slider[ni-control-id='132'] {
-  left: 321px; top: 36px; width: 64px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+  left: 300px; top: 36px; width: 64px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
+
+
+/*JQX Overrides*/
+jqx-tank .jqx-value {
+    background-color: #4487BA;
+}
+
+/*This should work but doesn't: https://github.com/ni-kismet/jqx/issues/423*/
+/*jqx-circular-progress-bar .jqx-value, jqx-circular-progress-bar .jqx-value-path {
+    stroke-width: 20%;
+    stroke-dasharray: 314.159;
+    fill: transparent;
+    stroke: #D1D1D1;
+}*/
