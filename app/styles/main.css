@@ -30,6 +30,13 @@ img {
 }
 
 /*ID Styles*/
+#logo {
+  margin-left: 5px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 #hero {
   background-color: #065FA3;
   color: #E0E0E0;
@@ -45,14 +52,6 @@ img {
 
 #hero .right-content  {
  text-align: left;
-}
-
-#FrontPanelCanvas {
-  display: inline-block;
-  width: 375px;
-  height: 250px;
-  position: relative;
-  overflow: hidden;
 }
 
 #fat-footer {
@@ -99,8 +98,6 @@ img {
 .footer-container {
   display: flex;
   text-align: left;
-  flex-direction: column;
-  justify-content: center;
   padding: 10px;
 }
 
@@ -130,13 +127,6 @@ img {
   align-items: center;
 }
 
-.nav-bar #logo {
-  margin-left: 5px;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .nav-links {
   margin-left: auto;
   margin-right: 5px;
@@ -148,7 +138,6 @@ img {
   padding-left: 5px;
 }
 
-
 .front-panel {
     display: inline-block;
     width: 375px;
@@ -156,12 +145,6 @@ img {
     position: relative;
     font-family: inherit;
     text-align: inherit;
-}
-
-.plot-legends {
-  height: auto;
-  justify-content: flex-start;
-  text-align: left;
 }
 
 /*Overrides for small viewports */
