@@ -1,3 +1,4 @@
+/*Element Styles*/
 body {
   padding: 0px;
   font-family: Roboto Condensed;
@@ -24,7 +25,19 @@ a:active {
     text-decoration: underline;
 }
 
-#lead-in {
+img {
+  width: 100%;
+}
+
+/*ID Styles*/
+#logo {
+  margin-left: 5px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#hero {
   background-color: #065FA3;
   color: #E0E0E0;
   height: 350px;
@@ -32,21 +45,13 @@ a:active {
   justify-content: center;
 }
 
-#lead-in h1 {
+#hero h1 {
   font-size: 125px;
   margin: auto;
 }
 
-#lead-in .right-content  {
+#hero .right-content  {
  text-align: left;
-}
-
-#FrontPanelCanvas {
-  display: inline-block;
-  width: 375px;
-  height: 250px;
-  position: relative;
-  overflow: hidden;
 }
 
 #fat-footer {
@@ -65,6 +70,7 @@ a:active {
   text-align: left;
 }
 
+/*Class Styles*/
 .section {
   display: flex;
   justify-content: space-around;
@@ -92,8 +98,6 @@ a:active {
 .footer-container {
   display: flex;
   text-align: left;
-  flex-direction: column;
-  justify-content: center;
   padding: 10px;
 }
 
@@ -110,10 +114,6 @@ a:active {
   margin: auto;
 }
 
-img {
-  width: 100%;
-}
-
 .placeholder-a{
   background-color: pink;
 }
@@ -127,13 +127,6 @@ img {
   align-items: center;
 }
 
-.nav-bar #logo {
-  margin-left: 5px;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .nav-links {
   margin-left: auto;
   margin-right: 5px;
@@ -145,7 +138,6 @@ img {
   padding-left: 5px;
 }
 
-
 .front-panel {
     display: inline-block;
     width: 375px;
@@ -155,34 +147,23 @@ img {
     text-align: inherit;
 }
 
-.plot-legends {
-  height: auto;
-  justify-content: flex-start;
-  text-align: left;
-}
-
-
+/*Overrides for small viewports */
 @media (max-width: 900px) {
-  #lead-in .right-content {
-    /*justify-content: flex-start;*/
-  }
-  #lead-in h1 {
+  #hero h1 {
     font-size: 76px;
   }
-  #lead-in {
+  #hero {
     font-size: 18px;
   }
 }
 
-
 @media (max-width: 750px) {
-  #lead-in .right-content {
-    /*justify-content: flex-start;*/
+  #hero .right-content {
   }
-  #lead-in h1 {
+  #hero h1 {
     font-size: 48px;
   }
-  #lead-in {
+  #hero {
     font-size: 11px;
   }
   #fat-footer {
@@ -196,8 +177,7 @@ img {
   }
 }
 
-
-/*From Web VI */
+/*Styles From Web VI */
 [data-ni-base-style] {
   position: relative;
 }
@@ -239,37 +219,6 @@ jqx-tank[ni-control-id='38'] {
   text-decoration: none;
 }
 
-/*ni-cartesian-graph[ni-control-id='64'] {
-  width: 375px;
-  height: 260px;
-  font-size: 12px;
-  font-family: Roboto Condensed, sans-serif;
-  font-style: normal; font-weight: normal;
-  text-decoration: none;
-  color: rgba(43,48,51,1);
-}
-ni-cartesian-axis[ni-control-id='65'] {
-  font-size: 12px;
-  font-family: Roboto Condensed, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-}
-ni-cartesian-axis[ni-control-id='66'] {
-  font-size: 12px;
-  font-family: Roboto Condensed, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-}
-ni-cartesian-plot[ni-control-id='67'] {
-  font-size: 12px;
-  font-family: Roboto Condensed, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-}*/
-
 ni-cartesian-graph[ni-control-id='64'] {
   left: 0px; top: 0px; width: 375px; height: 667px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1);
 }
@@ -305,11 +254,6 @@ ni-graph-tools[ni-control-id='74'] {
   background-color: white;
 }
 
-/*Fix progress bar position */
-jqx-circular-progress-bar svg:first-of-type {
-    position: relative;
-  }
-
 ni-gauge[ni-control-id='90'] {
   left: 0px; top: 36px; width: 290px; height: 290px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
@@ -344,35 +288,23 @@ jqx-slider[ni-control-id='132'] {
   left: 300px; top: 36px; width: 64px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
 
-
 /*JQX Overrides*/
+/*Fix progress bar position */
+jqx-circular-progress-bar svg:first-of-type {
+    position: relative;
+  }
+
+/*Change tank fill color*/
 jqx-tank .jqx-value {
     background-color: #4487BA;
 }
 
-/*This should work but doesn't: https://github.com/ni-kismet/jqx/issues/423*/
-/*jqx-circular-progress-bar .jqx-value, jqx-circular-progress-bar .jqx-value-path {
-    stroke-width: 20%;
-    stroke-dasharray: 314.159;
-    fill: transparent;
-    stroke: #D1D1D1;
-}*/
+jqx-circular-progress-bar .jqx-value {
+    stroke: #4487BA;
+}
 
 /*Fix text input styling on iOS*/
 jqx-numeric-text-box input.jqx-numeric-text-box-component {
     -webkit-appearance:none;
     border-radius: 0px;
-
-}
-
-.example-widgets {
-  position: relative;
-}
-
-.wide-example-widgets {
-  width: 100%;
-}
-
-#example-numeric {
-  height: 40px;
 }
