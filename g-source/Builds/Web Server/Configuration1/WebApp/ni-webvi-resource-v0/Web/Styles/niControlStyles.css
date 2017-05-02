@@ -89,22 +89,22 @@ ni-array-viewer {
 * Boolean Button
 **************************************/
 
-jqx-button {
+jqx-toggle-button {
     position: absolute;
 }
 
-jqx-button .ni-glyph {
+jqx-toggle-button .ni-glyph {
     display: inline;
     font: normal normal normal normal 1em "NILVJSFontAwesome";
     text-decoration: none;
     margin-right: 10px;
 }
 
-jqx-button .ni-hidden {
+jqx-toggle-button .ni-hidden {
     display: none;
 }
 
-jqx-button .ni-text {
+jqx-toggle-button .ni-text {
     display: inline;
     text-align: left;
     white-space: pre;
@@ -121,6 +121,10 @@ jqx-led {
 }
 
 jqx-led .ni-hidden {
+    display: none;
+}
+
+jqx-led[checked] .ni-hidden {
     display: none;
 }
 
@@ -151,6 +155,13 @@ jqx-power-button .jqx-input:after {
     background-color: #ebebeb;
 }
 
+jqx-power-button[checked] .jqx-input {
+    background-color: #82a3d1;
+}
+
+jqx-power-button .jqx-input:after {
+    background-color: transparent;
+}
 /**************************************
 * Boolean Switch (shape slider)
 **************************************/
