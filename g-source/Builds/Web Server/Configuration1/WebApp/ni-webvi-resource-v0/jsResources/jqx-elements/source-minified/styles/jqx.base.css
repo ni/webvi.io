@@ -235,7 +235,6 @@ jqx-repeat-button {
         jqx-button button.active,
         jqx-toggle-button button:active,
         jqx-toggle-button button.active,
-        jqx-toggle-button[checked] button,
         jqx-repeat-button button:active,
         jqx-repeat-button button.active {
             color: #111;
@@ -243,6 +242,37 @@ jqx-repeat-button {
             background-color: #BDBDBD;
             -webkit-transition: background-color 100ms linear;
             transition: background-color 100ms linear;
+        }
+
+    jqx-button[readonly] button,
+     jqx-toggle-button[readonly] button,
+     jqx-repeat-button[readonly] button {
+         cursor: default;
+     }
+ 
+         jqx-button[readonly] button:active,
+         jqx-button[readonly] button.active,
+         jqx-toggle-button[readonly] button:active,
+         jqx-toggle-button[readonly] button.active,
+         jqx-repeat-button[readonly] button:active,
+         jqx-repeat-button[readonly] button.active {
+             color: #555;
+             border: 1px solid #A9A9A9;
+             background: transparent;
+             transition: none;
+         }
+ 
+    jqx-power-button[readonly]:active .jqx-input,
+     jqx-power-button[readonly].active .jqx-input,
+     jqx-power-button[readonly]:hover .jqx-input {
+         color: initial;
+         border: 1px solid #A9A9A9;
+         background: transparent;
+         transition: none;
+     }
+    
+             jqx-toggle-button[checked] button {
+            background-color: #999;
         }
 
     jqx-button[disabled] button,
@@ -1581,7 +1611,6 @@ jqx-circular-progress-bar[value="null"] svg:first-of-type {
                 transform-origin: right;
     }
 }
-
 @keyframes indeterminate-inverted {
     0% {
         right: -100%;
