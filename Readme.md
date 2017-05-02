@@ -33,18 +33,35 @@ This CSS for the .section class defines the flexbox container used throughout th
 
 The content within a `.container` does not reflow as the page resizes. Together with the `content-item` or `content-text` classes each container is a constant 375px width. This width was chosen because its the portrait width of the iPhone 5.
 
+```
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+...
+.content-item{
+  width: 375px;
+  height: 667px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+
 # Authoring the Web VI
 Creating the Web VI is the quickest part of the process. This example leverages LabVIEW's absolute layout system for the layout of the controls and indicators and places these within a `.container` that is laid out relative to the rest of the page content. This is not strictly necessary since the Web VI custom elements can be incorporated into a page without any absolute layout.
 
 ## Approximating Relative Layout
-To provide feedback to the 375px bounds of `.content-item`, CSS has been added to the Web VI with the *HTML* aspect of the Web VI.
+To provide feedback to the 375px bounds of `.content-item`, CSS has been added to the Web VI with the **HTML** aspect of the Web VI.
 ```
 ADD SNIPET OF CSS IN LabVIEW
 ```
 Once the content is placed within this box and the WebVI is build we have the correct CSS needed to achieve the same layout within a `.container`.
 
 ## Build Process
-Building the WebVI is simple. Open `WebApp.gcomp` go to the *Document* tab and click *Build*. This produces the HTML with all the custom elements, the CSS defining absolute layout, and the compiled WebVI block diagram (Main.via.txt).
+Building the WebVI is simple. Open `WebApp.gcomp` go to the **Document** tab and click **Build**. This produces the HTML with all the custom elements, the CSS defining absolute layout, and the compiled WebVI block diagram (Main.via.txt).
 
 # Coping HTML Custom Elements, Styles, and References
 This is the most brittle part of the process. Upon completion block diagram changes can quickly be taken up by the final page. If a controls is removed, added, or replaced this copy/paste process must occur again to incorporate them into the final page. In future revisions of LabVIEW and this example this process could be better automated.
@@ -82,11 +99,11 @@ The `ni-virtual-instrument` custom element needs no modification after it has be
 ```
 
 # Important Directories
-- *`g-source`*: Everything within this directory is either the source code of the WebVI of the build output from LabVIEW. Most of the path and filenames are defaults obtained by using the *Web Application* template in LabVIEW NXG 2.0.
- - *`g-source/Builds/Web Server/Configuration1/WebApp`*: This is the important bits of the emitted by LabVIEW when the Web Application is built.
-- *`app`*: This directory contains all the hand maintained HTML and CSS files of the static page. This example requires no additional JavaScript.
+- **`g-source`**: Everything within this directory is either the source code of the WebVI of the build output from LabVIEW. Most of the path and filenames are defaults obtained by using the **Web Application** template in LabVIEW NXG 2.0.
+ - **`g-source/Builds/Web Server/Configuration1/WebApp`**: This is the important bits of the emitted by LabVIEW when the Web Application is built.
+- **`app`**: This directory contains all the hand maintained HTML and CSS files of the static page. This example requires no additional JavaScript.
 
-## Publishing
+# Publishing
 ```
 npm version major|minor|patch
 git push --follow-tags
