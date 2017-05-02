@@ -4,4 +4,4 @@
 bower_components
 g-source/.cache
 npm-debug.log
-.DS_Store
+**/.DS_Store
