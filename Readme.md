@@ -1,5 +1,5 @@
 # webvi-squeeze-page
-This example demonstrates embedding a Web VI into an entirely different static Web page. WebVIs are composed of three basic parts: HTML5 Custom Elements that compose the view of the page, the WebVI block diagram (.via.txt) that provides the client side logic, and the JavaScript and CSS files that make the Web application run. Because these are the same basic building blocks (san via.txt) of all other Web pages you can pull the Web VI apart and embed it with any Web content.
+This example demonstrates embedding a Web VI built using LabVIEW NXG 2.0 Beta into an entirely different static Web page. WebVIs are composed of three basic parts: HTML5 Custom Elements that compose the view of the page, the WebVI block diagram (.via.txt) that provides the client side logic, and the JavaScript and CSS files that make the Web application run. Because these are the same basic building blocks (san via.txt) of all other Web pages you can pull the Web VI apart and embed it with any Web content.
 
 # The Basic Structure of the Static Page
 This page is design like many common marketing pages.
@@ -81,4 +81,13 @@ The `ni-virtual-instrument` custom element needs no modification after it has be
 
 ```
 
-# Applying Custom Styles
+# Important Directories
+- *`g-source`*: Everything within this directory is either the source code of the WebVI of the build output from LabVIEW. Most of the path and filenames are defaults obtained by using the *Web Application* template in LabVIEW NXG 2.0.
+ - *`g-source/Builds/Web Server/Configuration1/WebApp`*: This is the important bits of the emitted by LabVIEW when the Web Application is built.
+- *`app`*: This directory contains all the hand maintained HTML and CSS files of the static page. This example requires no additional JavaScript.
+
+## Publishing
+```
+npm version major|minor|patch
+git push --follow-tags
+```
