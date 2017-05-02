@@ -24,7 +24,7 @@ a:active {
     text-decoration: underline;
 }
 
-#lead-in {
+#hero {
   background-color: #065FA3;
   color: #E0E0E0;
   height: 350px;
@@ -32,12 +32,12 @@ a:active {
   justify-content: center;
 }
 
-#lead-in h1 {
+#hero h1 {
   font-size: 125px;
   margin: auto;
 }
 
-#lead-in .right-content  {
+#hero .right-content  {
  text-align: left;
 }
 
@@ -163,26 +163,22 @@ img {
 
 
 @media (max-width: 900px) {
-  #lead-in .right-content {
-    /*justify-content: flex-start;*/
-  }
-  #lead-in h1 {
+  #hero h1 {
     font-size: 76px;
   }
-  #lead-in {
+  #hero {
     font-size: 18px;
   }
 }
 
 
 @media (max-width: 750px) {
-  #lead-in .right-content {
-    /*justify-content: flex-start;*/
+  #hero .right-content {
   }
-  #lead-in h1 {
+  #hero h1 {
     font-size: 48px;
   }
-  #lead-in {
+  #hero {
     font-size: 11px;
   }
   #fat-footer {
