@@ -38,9 +38,9 @@ img {
 }
 
 #hero {
-  background-color: #065FA3;
+  /*background-color: #065FA3;*/
   color: #E0E0E0;
-  height: 350px;
+  /*height: 350px;*/
   font-size: 28px;
   justify-content: center;
 }
@@ -71,21 +71,27 @@ img {
 }
 
 /*Class Styles*/
+.primary-content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .section {
   display: flex;
   justify-content: space-around;
   padding-bottom: 5px;
+  border-bottom: 10px solid red;
 }
 
 .section-a {
-  background-color: white;
   flex-wrap: wrap;
+  border-right: 10px solid red;
+
 }
 
 .section-b {
-  background-color: #065FA3;
   flex-wrap: wrap-reverse;
-  color: #E0E0E0;
+  border-left: 10px solid red;
 }
 
 .container {
