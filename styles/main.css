@@ -66,11 +66,30 @@ h2 {
   align-items: baseline;
   color: #02B09E;
   border: none;
+  font-size: 24px;
 }
 
-#fat-footer h1 {
+#fat-footer h2 {
   margin: 0px;
+  font-size: 36px;
+}
 
+#fat-footer  a {
+  text-decoration: none;
+  color: #02B09E;
+}
+
+#fat-footer  a:visited {
+    text-decoration: none;
+    color: #02B09E;
+}
+
+#fat-footer a:hover {
+    text-decoration: underline;
+}
+
+#fat-footer  a:active {
+    text-decoration: underline;
 }
 
 #footer {
@@ -82,10 +101,15 @@ h2 {
   border: none;
 }
 
+
+
 /*Class Styles*/
 .primary-content {
   padding-left: 25px;
   padding-right: 25px;
+  background-image: url(background-grid.png);
+  background-repeat: repeat;
+
 }
 
 .section {
@@ -330,11 +354,11 @@ ni-graph-tools[ni-control-id='74'] {
 }
 
 ni-gauge[ni-control-id='90'] {
-  left: 0px; top: 36px; width: 290px; height: 290px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+  left: -75px; top: 0px; width: 290px; height: 290px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
 
 jqx-circular-progress-bar[ni-control-id='95'] {
-  left: 31px; top: 39px; width: 250px; height: 250px;
+  left: 31px; top: 0px; width: 250px; height: 250px;
 }
 
 jqx-numeric-text-box[ni-control-id='100'] {
@@ -356,11 +380,11 @@ jqx-led[ni-control-id='149'] {
 }
 
 jqx-slider[ni-control-id='129'] {
-  left: 300px; top: 36px; width: 56px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+  left: 300px; top: 0px; width: 56px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
 
 jqx-slider[ni-control-id='132'] {
-  left: 300px; top: 36px; width: 64px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+  left: 300px; top: 0px; width: 64px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
 
 /*JQX Overrides*/
