@@ -5,7 +5,8 @@
     <title>webvi squeeze page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed"/>
+    <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed"/> -->
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Lato' type='text/css' />
     <link rel="stylesheet" type="text/css" href="g-source/Builds/Web Server/Configuration1/WebApp/ni-webvi-resource-v0/jsResources/jqx-elements/source-minified/styles/font/jqxicons.woff"/>
     <link rel="stylesheet" type="text/css" href="g-source/Builds/Web Server/Configuration1/WebApp/ni-webvi-resource-v0/jsResources/jqx-elements/source-minified/styles/font/jqxicons.ttf"/>
     <link href="g-source/Builds/Web Server/Configuration1/WebApp/ni-webvi-resource-v0/favicon.ico" type="image/x-icon" rel="icon">
@@ -60,7 +61,7 @@
     <div class="primary-content">
       <div class="section section-b" id="hero">
         <div class="container">
-          <h1>Web VI</h1>
+          <h1>WebVI</h1>
         </div>
         <div class="right-content container">
           <div>LabVIEW on the Web</div>
@@ -70,15 +71,7 @@
       </div>
 
       <div class="section section-a" id="g-on-the-web">
-        <div class="container content-text">
-          <h1>Run LabVIEW in a Web Browser</h1>
-          <p>WYSIWYG HTML5 Front Panels</p>
-          <p>Client Side Logic in G</p>
-          <p>No Plugins Required</p>
-          <div>
-          <img src="styles/demo-1-snippet.png">
-          </div>
-        </div>
+
         <div class="container content-item front-panel">
           <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' value='0' min='0' max='9' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
           <jqx-slider data-ni-base-style="uninitialized" ni-control-id='31' binding-info='{"prop":"value","dco":1,"dataItem":"dataItem_Slider_2","unplacedOrDisabled":false,"sync":false}' label-id='32' value='0' min='0' max='1' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
@@ -99,9 +92,23 @@
           </ni-data-grid>
           <jqx-slider data-ni-base-style="uninitialized" ni-control-id='132' binding-info='{"prop":"value","dco":10,"dataItem":"dataItem_Slider_4","unplacedOrDisabled":false,"sync":false}' label-id='133' coerce='true' value='0' min='0' max='100' interval='5' scale-position='near' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-type='floatingPoint' orientation='vertical'></jqx-slider>
         </div>
+        <div class="container content-text">
+          <h2>Run LabVIEW in a Web Browser</h2>
+          <div>WYSIWYG HTML5 Front Panels</div>
+          <div>Client Side Logic in G</div>
+          <div>No Plugins Required</div>
+          <div>
+          <img src="styles/demo-1-snippet.png">
+          </div>
+        </div>
       </div>
 
       <div class="section section-b" id="engineering-views">
+        <div class="container content-text">
+          <h2>Engineering Views</h2>
+          <div>Best in class graph performance</div>
+          <div>Measurement ready widgets</div>
+        </div>
         <div class="container content-item front-panel">
           <ni-cartesian-graph data-ni-base-style="uninitialized" ni-control-id='64' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Graph","unplacedOrDisabled":false,"sync":false}' label-id='75' read-only='true' ni-type='{"name":"Array","rank":2,"subtype":"Double"}' value='[]' plot-area-margin='{"left":0,"top":0,"right":0,"bottom":0}'><ni-cartesian-axis data-ni-base-style="uninitialized" label='Time' show='true' ni-control-id='65' axis-position='bottom' minimum='0' maximum='100' format='LVRelativeSeconds:N0' show-tick-labels='all' auto-scale='exact' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
           <ni-cartesian-axis data-ni-base-style="uninitialized" label='Amplitude' show='true' ni-control-id='66' axis-position='left' minimum='-1.5' maximum='2.5' format='LVRelativeSeconds:G6&gt;&gt;0.000E+0' show-tick-labels='all' auto-scale='none' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
@@ -113,73 +120,68 @@
           <ni-cursor data-ni-base-style="uninitialized" label='Cursor 2' show='true' ni-control-id='212' show-value='true' cursor-color='rgba(0,0,0,1)' target-shape='rectangle' crosshair-style='both'></ni-cursor>
           </ni-cartesian-graph>
         </div>
-        <div class="container content-item placeholder-b">
-        </div>
-        <div class="container content-text">
-          <h1>Engineering Views</h1>
-          <p>Best in class graph performance</p>
-          <p>Measurement ready widgets</p>
-        </div>
       </div>
 
       <div class="section section-a" id="iot">
-        <div class="container content-text">
-          <h1>I/O for IoT</h1>
-          <p><a href="">Skyline Data Services<a/></p>
-          <p><a href="">LabVIEW HTTP Client</a></p>
-          <p>JSON</p>
-        </div>
         <div class="container content-item">
           <img src="styles/iot-diagram.png">
+        </div>
+        <div class="container content-text">
+          <h2>I/O for IoT</h2>
+          <div><a href="">Skyline Data Services<a/></div>
+          <div><a href="">LabVIEW HTTP Client</a></div>
+          <div>JSON</div>
         </div>
       </div>
 
       <div class="section section-b" id="vireo">
+        <div class="container content-text">
+          <h2>Vireo Runtime</h2>
+            <div>Compact, Portable, Open Source</div>
+            <div><a href="https://github.com/ni/VireoSDK">Fork the VireoSDK!</a></div>
+        </div>
         <div class="container content-item">
           <img src="styles/red-eyed-vireo.jpg">
-        </div>
-        <div class="container content-text">
-          <h1>Vireo Runtime</h1>
-            <p>Compact, Portable, Open Source</p>
-            <p><a href="https://github.com/ni/VireoSDK">Fork the VireoSDK!</a></p>
         </div>
       </div>
 
       <div class="section section-a" id="standards">
-        <div class="container content-text">
-          <h1>Plays well with others</h1>
-          <p><a href="https://www.w3.org/TR/custom-elements/">Custom Elements<a/></p>
-          <p><a href="http://asmjs.org/">ASM.js</a></p>
-          <p><a href="https://github.com/ni/webvi-examples/tree/master/Embed%20WebVI%20into%20Content">See how this page was made</a></p>
+        <div class="container content-item">
+          <img src="styles/html-snippet.png" />
         </div>
         <div class="container content-item">
           <img src="styles/standards-logos.png"/>
         </div>
-        <div class="container content-item">
-          <img src="styles/html-snippet.png" />
+        <div class="container content-text">
+          <h2>Plays well with others</h2>
+          <div><a href="https://www.w3.org/TR/custom-elements/">Custom Elements<a/></div>
+          <div><a href="http://asmjs.org/">ASM.js</a></div>
+          <div><a href="https://github.com/ni/webvi-examples/tree/master/Embed%20WebVI%20into%20Content">See how this page was made</a></div>
         </div>
       </div>
 
       <div class="section section-b" id="whats-next">
+        <div class="container content-text">
+          <h2>We're just getting started</h2>
+          <div>Just-in-time Web Dashboards</div>
+          <div>Multi Device Layouts</div>
+          <div>Serverless Compute</div>
+        </div>
         <div class="container content-item placeholder-b">
         </div>
-        <div class="container content-text">
-          <h1>We're just getting started</h1>
-          <p>Just-in-time Web Dashboards</p>
-          <p>Multi Device Layouts</p>
-          <p>Serverless Compute</p>
-        </div>
+      </div>
+      <div class="section section-a spacer">
       </div>
     </div>
     <div class="section" id="fat-footer">
       <div class="container footer-container">
-        <h1>Products</h1>
+        <h2>Products</h2>
         <div><a href="http://www.ni.com/en-us/support/software-technology-preview.html">LabVIEW NXG 2.0 Beta</a></div>
         <div><a href="">NI System Link</a></div>
         <div><a href="https://github.com/ni/VireoSDK">VireoSDK on Github</a></div>
       </div>
       <div class="container footer-container">
-        <h1>Examples</h1>
+        <h2>Examples</h2>
         <div><a href="">Using Skyline Data Services</a></div>
         <div><a href="https://github.com/ni/webvi-examples/tree/master/Call%20LabVIEW%20Web%20Service">Call LabVIEW Web Service</a></div>
         <div><a href="https://github.com/ni/webvi-examples/tree/master/Call%203rd%20Party%20Web%20Service">Call 3rd Party Web Service</a></div>
@@ -190,7 +192,7 @@
         <div><a href="">Multiple Top Level WebVIs</a></div>
       </div>
       <div class="container footer-container">
-        <h1><a href="http://www.ni.com">NI</a></h1>
+        <h2><a href="http://www.ni.com">NI</a></h2>
         <div><a href="http://www.ni.com/company/">About</a></div>
         <div><a href="http://www.ni.com/careers/">Careers</a></div>
         <div><a href="http://www.ni.com/contact-us/">Contact Us</a></div>
