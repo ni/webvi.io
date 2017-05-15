@@ -222,76 +222,7 @@ h2 {
   border-bottom: none;
 }
 
-/*Overrides for small viewports */
-@media (max-width: 1665px) {
-  #hero {
-    font-size: 28px;
-    justify-content: center;
-  }
 
-  #hero h1 {
-    font-size: 121px;
-    font-weight: bold;
-    margin: auto;
-  }
-  /*#hero {
-    /*background-color: #065FA3;*/
-    /*color: #E0E0E0;
-    /*height: 350px;
-    font-size: 46px;
-    justify-content: center;
-  }
-
-  #hero h1 {
-    font-size: 210px;
-    font-weight: bold;
-    margin: auto;
-  }*/
-}
-
-@media (max-width: 900px) {
-  #hero h1 {
-    font-size: 76px;
-  }
-  #hero {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 750px) {
-  h2 {
-    font-size: 48px;
-  }
-
-  #hero .right-content {
-  }
-  #hero h1 {
-    font-size: 42px;
-  }
-  #hero {
-    font-size: 11px;
-  }
-  #fat-footer {
-    font-size: 11px;
-    flex-direction: column;
-  }
-  .content-item {
-    height: inherit;
-  }
-  .front-panel {
-    height: 667px;
-  }
-  .primary-content {
-    padding-left: 5px;
-    padding-right: 5px;
-    /*margin-left: 5px;
-    margin-right: 5px;*/
-  }
-  .section {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
 
 /*Styles From Web VI */
 [data-ni-base-style] {
@@ -437,4 +368,112 @@ jqx-circular-progress-bar .jqx-value {
 jqx-numeric-text-box input.jqx-numeric-text-box-component {
     -webkit-appearance:none;
     border-radius: 0px;
+}
+
+/*Overrides for small viewports */
+@media (max-width: 1665px) {
+  #hero {
+    font-size: 28px;
+    justify-content: center;
+  }
+
+  #hero h1 {
+    font-size: 121px;
+    font-weight: bold;
+    margin: auto;
+  }
+  /*#hero {
+    /*background-color: #065FA3;*/
+    /*color: #E0E0E0;
+    /*height: 350px;
+    font-size: 46px;
+    justify-content: center;
+  }
+
+  #hero h1 {
+    font-size: 210px;
+    font-weight: bold;
+    margin: auto;
+  }*/
+}
+
+@media (max-width: 900px) {
+  #hero h1 {
+    font-size: 76px;
+  }
+  #hero {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+
+  #hero .right-content {
+    text-align: center;
+  }
+  #hero h1 {
+    font-size: 48px;
+  }
+  #hero {
+    /*font-size: 11px;*/
+  }
+  #fat-footer {
+    font-size: 11px;
+    flex-direction: column;
+  }
+  .content-item {
+    height: inherit;
+  }
+  .front-panel {
+    height: 667px;
+  }
+  .primary-content {
+    padding-left: 5px;
+    padding-right: 5px;
+    /*margin-left: 5px;
+    margin-right: 5px;*/
+  }
+  .section {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  jqx-slider[ni-control-id='28'] {
+    width: 200px;
+  }
+  jqx-slider[ni-control-id='31'] {
+    width: 200px;
+  }
+  jqx-tank[ni-control-id='38'] {
+    left: 215px;
+  }
+  jqx-numeric-text-box[ni-control-id='100'] {
+    width: 125px;
+  }
+
+  jqx-numeric-text-box[ni-control-id='103'] {
+    width: 125px;
+    left: 150px;
+  }
+  ni-gauge[ni-control-id='90'] {
+    width: 225px;
+    height: 225px;
+  }
+  jqx-slider[ni-control-id='129'] {
+    left: 240px;
+    height: 235px;
+  }
+  jqx-circular-progress-bar[ni-control-id='95'] {
+    width: 225px;
+    height: 225px;
+  }
+  jqx-slider[ni-control-id='132'] {
+    left: 225px;
+    height: 230px;
+  }
 }
