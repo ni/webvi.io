@@ -266,7 +266,7 @@ h2 {
   #hero .right-content {
   }
   #hero h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
   #hero {
     font-size: 11px;
@@ -386,9 +386,23 @@ jqx-numeric-text-box[ni-control-id='103'] {
   left: 170px; top: 359px; width: 150px; height: 40px; font-size: 24px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
 
-ni-data-grid[ni-control-id='112'] {
+/*ni-data-grid[ni-control-id='112'] {
   left: 0px; top: 410px; width: 350px; height: 232px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
-}
+}*/
+
+ni-data-grid[ni-control-id='112'] {
+              left: -10px;
+              top: 350px;
+              width: 300px;
+              height: 253px;
+              font-size: 12px;
+              font-family: Segoe UI, sans-serif;
+              font-style: normal;
+              font-weight: normal;
+              text-decoration: none;
+          }
+
+
 ni-string-control[ni-control-id='114'] {
   font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
