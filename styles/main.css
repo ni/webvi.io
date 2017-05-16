@@ -28,11 +28,23 @@ a:active {
 
 img {
   width: 100%;
+  padding-top: 10px;
 }
+
+h1 {
+  font-size: 210px;
+  font-weight: bold;
+  margin: auto;
+}
+
 
 h2 {
   font-size: 63px;
   font-weight: bold;
+}
+
+h3 {
+  font-size: 36px;
 }
 
 /*ID Styles*/
@@ -51,11 +63,6 @@ h2 {
   justify-content: center;
 }
 
-#hero h1 {
-  font-size: 210px;
-  font-weight: bold;
-  margin: auto;
-}
 
 #hero .right-content  {
  text-align: left;
@@ -172,9 +179,34 @@ h2 {
   margin-right: auto;
 }
 
-.content-text{
+
+/*.content-text{
   width: 320px;
   margin: auto;
+  padding-right: 25px;
+}*/
+
+.content-img{
+  width: 320px;
+  margin: auto;
+}
+
+.content-text-a {
+    width: 320px;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 25px;
+}
+
+.content-text-b {
+    width: 320px;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 25px;
 }
 
 .placeholder-a{
@@ -192,9 +224,7 @@ h2 {
   font-size: 18px;
 }
 
-.nav-bar h1 {
-  font-size: 36px;
-}
+
 
 .nav-links {
   margin-left: auto;
@@ -302,11 +332,11 @@ ni-graph-tools[ni-control-id='74'] {
 }
 
 ni-gauge[ni-control-id='90'] {
-  left: -45px; top: 0px; width: 275px; height: 275px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+  left: 0px; top: 25px; width: 250px; height: 250px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
 
 jqx-circular-progress-bar[ni-control-id='95'] {
-  left: 0px; top: 0px; width: 250px; height: 250px;
+  left: 0px; top: 25px; width: 250px; height: 250px;
 }
 
 jqx-numeric-text-box[ni-control-id='100'] {
@@ -322,9 +352,9 @@ jqx-numeric-text-box[ni-control-id='103'] {
 }*/
 
 ni-data-grid[ni-control-id='112'] {
-              left: -10px;
+              left: -20px;
               top: 350px;
-              width: 300px;
+              width: 250px;
               height: 253px;
               font-size: 12px;
               font-family: Segoe UI, sans-serif;
@@ -370,14 +400,18 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
     border-radius: 0px;
 }
 
-/*Overrides for small viewports */
+ni-gauge {
+  display: block;
+}
+
+/*Overrides for viewports */
 @media (max-width: 1665px) {
   #hero {
     font-size: 28px;
     justify-content: center;
   }
 
-  #hero h1 {
+  h1 {
     font-size: 121px;
     font-weight: bold;
     margin: auto;
@@ -397,27 +431,48 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
   }*/
 }
 
-@media (max-width: 900px) {
-  #hero h1 {
-    font-size: 76px;
+/*Tablets*/
+@media (max-width: 1024px) {
+  body {
+    font-size: 24px;
   }
+
+  h1 {
+    font-size: 125px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
   #hero {
     font-size: 20px;
   }
-}
-
-@media (max-width: 750px) {
-  body {
+  #fat-footer {
     font-size: 20px;
   }
+  .content-text {
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 25px;
+  }
+}
+
+/*Phones*/
+@media (max-width: 425px) {
+  body {
+    font-size: 18px;
+  }
   h2 {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   #hero .right-content {
     text-align: center;
   }
-  #hero h1 {
+  h1 {
     font-size: 48px;
   }
   #hero {
@@ -427,9 +482,12 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
     font-size: 11px;
     flex-direction: column;
   }
-  .content-item {
-    height: inherit;
+  #fat-footer h2 {
+    margin: 0px;
+    font-size: 24px;
   }
+
+
   .front-panel {
     height: 667px;
   }
@@ -439,6 +497,10 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
     /*margin-left: 5px;
     margin-right: 5px;*/
   }
+  .content-text {
+    padding-right: 5px;
+  }
+
   .section {
     padding-left: 5px;
     padding-right: 5px;
@@ -461,8 +523,7 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
     left: 150px;
   }
   ni-gauge[ni-control-id='90'] {
-    width: 225px;
-    height: 225px;
+    top: 0px;
   }
   jqx-slider[ni-control-id='129'] {
     left: 240px;
@@ -471,6 +532,7 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
   jqx-circular-progress-bar[ni-control-id='95'] {
     width: 225px;
     height: 225px;
+    top: 0px;
   }
   jqx-slider[ni-control-id='132'] {
     left: 225px;
