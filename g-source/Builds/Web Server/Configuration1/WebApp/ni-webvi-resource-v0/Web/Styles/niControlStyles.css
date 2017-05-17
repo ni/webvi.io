@@ -30,18 +30,6 @@
     webkit-border-radius: 0px;
 }
 
-/* TODO mraj this needs to be moved to the correct sections instead of being shared */
-[data-ni-base-style] .ni-graph-tooltip {
-    position: absolute;
-    display: none;
-    border: 1px solid #fdd;
-    color: #2b3033;
-    padding: 2px;
-    background-color: #ffffff;
-    opacity: 0.80;
-    overflow: hidden;
-}
-
 /*************************************
 * Uninitialized Element Style
 **************************************/
@@ -187,6 +175,7 @@ ni-cartesian-axis {
 * Cartesian Graph
 **************************************/
 ni-cartesian-graph {
+    position: absolute;
     border: 1px solid #C7CCD0;
     background-color: white;
     padding: 30px 20px 20px;
@@ -209,10 +198,22 @@ ni-cartesian-graph ni-grid-div {
     color: inherit;
 }
 
+ni-cartesian-graph .ni-graph-tooltip {
+    position: absolute;
+    display: none;
+    border: 1px solid #fdd;
+    color: #2b3033;
+    padding: 2px;
+    background-color: #ffffff;
+    opacity: 0.80;
+    overflow: hidden;
+}
+
 /*************************************
 * Chart
 **************************************/
 ni-chart {
+    position: absolute;
     border: 1px solid #C7CCD0;
     background-color: white;
     padding: 30px 20px 20px;
@@ -233,6 +234,17 @@ ni-chart ni-grid-div {
     background-color: white;
     /*** **color** - the color of the grid reticles*/
     color: inherit;
+}
+
+ni-chart .ni-graph-tooltip {
+    position: absolute;
+    display: none;
+    border: 1px solid #fdd;
+    color: #2b3033;
+    padding: 2px;
+    background-color: #ffffff;
+    opacity: 0.80;
+    overflow: hidden;
 }
 
 /*************************************
@@ -576,9 +588,10 @@ ni-enum-selector .jqx-widget {
 /*************************************
 * Gauge
 **************************************/
-ni-gauge {
-    display: inline-block;
+jqx-gauge {
+    position: absolute;
 }
+
 
 /*************************************
 * Graph Tools
@@ -630,45 +643,10 @@ ni-hyperlink a {
 }
 
 /*************************************
-* Image
-**************************************/
-ni-image {
-    display: inline-block;
-}
-
-ni-image .ni-image-box {
-    background-image: none;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: padding-box;
-    background-clip: border-box;
-    background-attachment: scroll;
-    background-color: transparent;
-
-    /* stretch behavior of none */
-    background-size: auto auto;
-}
-
-ni-image[source=""] .ni-image-box {
-    outline: 1px solid black;
-}
-
-ni-image .ni-stretch-uniform {
-    background-size: contain;
-}
-
-ni-image .ni-stretch-uniformtofill {
-    background-size: cover;
-}
-
-ni-image .ni-stretch-fill {
-    background-size: 100% 100%;
-}
-
-/*************************************
 * Intensity Graph
 **************************************/
 ni-intensity-graph {
+    position: absolute;
     border: 1px solid #C7CCD0;
     background-color: white;
     padding: 30px 20px 20px;
@@ -689,6 +667,17 @@ ni-intensity-graph ni-grid-div {
     background-color: white;
     /*** **color** - the color of the grid reticles*/
     color: inherit;
+}
+
+ni-intensity-graph .ni-graph-tooltip {
+    position: absolute;
+    display: none;
+    border: 1px solid #fdd;
+    color: #2b3033;
+    padding: 2px;
+    background-color: #ffffff;
+    opacity: 0.80;
+    overflow: hidden;
 }
 
 /*************************************

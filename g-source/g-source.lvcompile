@@ -10,10 +10,9 @@
       <BuildId>C:\Users\markblack\Documents\GitHub\webvi-squeeze-page\g-source\Builds\Web Server\Configuration1\WebApp</BuildId>
     </RootBuildId>
     <OutputPath>Builds\Web Server\Configuration1\WebApp</OutputPath>
-    <Name>WebApp</Name>
-    <BuildName>WebApp(Configuration1)</BuildName>
+    <BuildName>WebApp</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:01</LastTotalTime>
+    <LastTotalTime>00:00:00</LastTotalTime>
     <HasChild>False</HasChild>
   </Job>
 </JobList>
