@@ -111,7 +111,7 @@ h3 {
   border: none;
 }
 
-
+/*TODO consolidate into class*/
 #fp-ctl-a {
     display: flex;
     justify-content: center;
@@ -133,6 +133,9 @@ h3 {
   display: inline-flex;
 }
 
+#graph {
+  min-width: 720px;
+}
 
 /*Class Styles*/
 .primary-content {
@@ -237,7 +240,7 @@ h3 {
     position: relative;
     font-family: inherit;
     text-align: inherit;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .nav-bar {
@@ -317,7 +320,7 @@ jqx-tank[ni-control-id='38'] {
 ni-cartesian-graph[ni-control-id='64'] {
     /*left: 0px;
     top: 0px;*/
-    width: 320px;
+    width: 100%;
     height: 667px;
     font-size: 12px;
     font-family: Segoe UI, sans-serif;
@@ -469,7 +472,7 @@ jqx-slider[ni-control-id='129'] {
     /*left: 270px;
     top: 0px;*/
     width: 56px;
-    height: 240px;
+    height: 300px;
     font-size: 12px;
     font-family: Roboto Condensed, sans-serif;
     font-style: normal;
@@ -589,8 +592,14 @@ jqx-led {
   #hero {
     font-size: 20px;
   }
+
   #fat-footer {
     font-size: 20px;
+  }
+
+  #graph {
+    min-width: 688px;
+    margin-left: 0px;
   }
 }
 
@@ -618,9 +627,14 @@ jqx-led {
     font-size: 11px;
     flex-direction: column;
   }
+
   #fat-footer h2 {
     margin: 0px;
     font-size: 24px;
+  }
+
+  #graph {
+    min-width: 300px;
   }
 
   .primary-content {
@@ -653,7 +667,7 @@ jqx-led {
     border-bottom: none;
   }
 
-  jqx-slider[ni-control-id='28'] {
+  /*jqx-slider[ni-control-id='28'] {
     width: 200px;
   }
 
@@ -677,13 +691,13 @@ jqx-led {
   ni-gauge[ni-control-id='90'] {
     top: 0px;
   }
-
+*/
   jqx-slider[ni-control-id='129'] {
-    left: 240px;
-    height: 235px;
+    /*left: 240px;*/
+    height: 245px;
   }
 
-  jqx-circular-progress-bar[ni-control-id='95'] {
+  /*jqx-circular-progress-bar[ni-control-id='95'] {
     width: 225px;
     height: 225px;
     top: 0px;
@@ -692,5 +706,5 @@ jqx-led {
   jqx-slider[ni-control-id='132'] {
     left: 225px;
     height: 230px;
-  }
+  }*/
 }
