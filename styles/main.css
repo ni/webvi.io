@@ -253,8 +253,8 @@ h3 {
 }
 
 jqx-slider[ni-control-id='28'] {
-  left: 0px;
-  top: 450px;
+  /*left: 0px;
+  top: 450px;*/
   width: 250px;
   height: 62px;
   font-size: 12px;
@@ -265,8 +265,8 @@ jqx-slider[ni-control-id='28'] {
 }
 
 jqx-slider[ni-control-id='31'] {
-  left: 0px;
-  top: 575px;
+  /*left: 0px;
+  top: 575px;*/
   width: 250px;
   height: 62px;
   font-size: 12px;
@@ -278,8 +278,8 @@ jqx-slider[ni-control-id='31'] {
 }
 
 jqx-tank[ni-control-id='38'] {
-  left: 250px;
-  top: 450px;
+  /*left: 250px;
+  top: 450px;*/
   width: 75px;
   height: 200px;
   font-size: 12px;
@@ -290,50 +290,131 @@ jqx-tank[ni-control-id='38'] {
 }
 
 ni-cartesian-graph[ni-control-id='64'] {
-  left: 0px; top: 0px; width: 320px; height: 667px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1);
+    /*left: 0px;
+    top: 0px;*/
+    width: 320px;
+    height: 667px;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgba(43, 48, 51, 1);
 }
 ni-cartesian-axis[ni-control-id='65'] {
-  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 ni-cartesian-axis[ni-control-id='66'] {
-  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 ni-cartesian-plot[ni-control-id='67'] {
-  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 ni-cartesian-plot[ni-control-id='213'] {
-  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 ni-cursor[ni-control-id='211'] {
-  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 ni-cursor[ni-control-id='212'] {
-  font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
-ni-scale-legend[ni-control-id='71'] {
-  left: 0px; top: 0px; width: 150px; height: 60px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+/*ni-scale-legend[ni-control-id='71'] {
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    height: 60px;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 ni-plot-legend[ni-control-id='72'] {
-  left: 0px; top: 0px; width: 150px; height: 52px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    height: 52px;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 ni-cursor-legend[ni-control-id='73'] {
-  left: 0px; top: 0px; width: 375px; height: 120px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    left: 0px;
+    top: 0px;
+    width: 375px;
+    height: 120px;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 ni-graph-tools[ni-control-id='74'] {
-  left: 0px; top: 0px; width: 152px; height: 30px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
-  background-color: white;
-}
-
-ni-gauge[ni-control-id='90'] {
-  left: 0px; top: 25px; width: 250px; height: 250px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
-}
-
-jqx-circular-progress-bar[ni-control-id='95'] {
-  left: 0px; top: 25px; width: 250px; height: 250px;
-}
-
+    left: 0px;
+    top: 0px;
+    width: 152px;
+    height: 30px;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: white;
+}*/
+/*ni-gauge[ni-control-id='90'] {
+    left: 0px;
+    top: 25px;
+    width: 250px;
+    height: 250px;
+    font-size: 12px;
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}*/
+/*jqx-circular-progress-bar[ni-control-id='95'] {
+    left: 0px;
+    top: 25px;
+    width: 250px;
+    height: 250px;
+}*/
 jqx-numeric-text-box[ni-control-id='100'] {
-  left: 0px; top: 359px; width: 150px; height: 40px; font-size: 24px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    /*left: 0px;
+    top: 359px;*/
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 /*jqx-numeric-text-box[ni-control-id='103'] {
@@ -360,17 +441,38 @@ jqx-led[ni-control-id='149'] {
 }*/
 
 jqx-slider[ni-control-id='129'] {
-  left: 270px; top: 0px; width: 56px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+    /*left: 270px;
+    top: 0px;*/
+    width: 56px;
+    height: 296px;
+    font-size: 12px;
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 
-/*jqx-slider[ni-control-id='132'] {
-  left: 260px; top: 0px; width: 64px; height: 296px; font-size: 12px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
-}*/
-jqx-led[ni-control-id='228']{
-  left: 1109px; top: 484px; width: 72px; height: 72px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+jqx-led[ni-control-id='228'] {
+    /*left: 1109px;
+    top: 484px;*/
+    width: 72px;
+    height: 72px;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
-jqx-led[ni-control-id='228'] .jqx-true-content-container{
-  background: rgba(67,134,185,1)
+jqx-gauge[ni-control-id='90'] {
+    /*left: 578px;
+    top: 324px;*/
+    width: 290px;
+    height: 290px;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 /*JQX Overrides*/
@@ -384,6 +486,10 @@ jqx-tank .jqx-value {
     background-color: #4487BA;
 }
 
+jqx-led[ni-control-id='228'] .jqx-true-content-container{
+  background: rgba(67,134,185,1)
+}
+
 /*jqx-circular-progress-bar .jqx-value {
     stroke: #4487BA;
 }*/
@@ -394,9 +500,33 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
     border-radius: 0px;
 }
 
-ni-gauge {
+jqx-gauge {
   display: block;
+  position: relative;
 }
+
+jqx-slider {
+  display: block;
+  position: relative;
+}
+
+jqx-numeric-text-box {
+  display: block;
+  position: relative;
+}
+
+jqx-tank {
+  display: block;
+  position: relative;
+}
+
+jqx-led {
+  display: block;
+  position: relative;
+}
+
+
+
 
 /*Overrides for viewports */
 
