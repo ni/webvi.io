@@ -197,7 +197,7 @@ h3 {
 
 .content {
   min-width: 300px;
-  max-width: 720px;
+  max-width: 420px;
 }
 
 .content-item{
@@ -469,7 +469,7 @@ jqx-slider[ni-control-id='129'] {
     /*left: 270px;
     top: 0px;*/
     width: 56px;
-    height: 300px;
+    height: 240px;
     font-size: 12px;
     font-family: Roboto Condensed, sans-serif;
     font-style: normal;
@@ -493,8 +493,8 @@ jqx-led[ni-control-id='228'] {
 jqx-gauge[ni-control-id='90'] {
     /*left: 578px;
     top: 324px;*/
-    width: 300px;
-    height: 300px;
+    width: 80%;
+    /*height: 300px;*/
     font-size: 12px;
     font-family: Segoe UI, sans-serif;
     font-style: normal;
