@@ -56,9 +56,6 @@ h3 {
 }
 
 #hero {
-  /*background-color: #065FA3;*/
-  /*color: #E0E0E0;
-  /*height: 350px;*/
   font-size: 46px;
   justify-content: center;
 }
@@ -117,12 +114,15 @@ h3 {
   padding-right: 25px;
   background-image: url(background-grid.png);
   background-repeat: repeat;
-
+  max-width: 1440px;
+  margin: auto;
 }
 
 .section {
   display: flex;
   justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 5px;
   border-bottom: 10px solid #02B09E;;
 }
@@ -148,8 +148,7 @@ h3 {
 .section-a {
   flex-wrap: wrap-reverse;
   border-right: 10px solid #02B09E;
-  text-align: right;
-
+  text-align: right;  /*TODO should this be moved to content or container?*/
 }
 
 .section-b {
@@ -160,7 +159,6 @@ h3 {
 
 .container {
   display: flex;
-  /*text-align: center;*/
   flex-direction: column;
   justify-content: center;
 }
@@ -171,42 +169,54 @@ h3 {
   padding: 10px;
 }
 
+.content {
+  min-width: 320px;
+  max-width: 720px;
+  /*height: 667px;*/
+}
+
 .content-item{
-  width: 320px;
-  height: 667px;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-/*.content-text{
-  width: 320px;
-  margin: auto;
-  padding-right: 25px;
-}*/
-
 .content-img{
-  width: 320px;
-  margin: auto;
+  /*margin: auto;*/
+  max-width: 320px;
 }
 
+.content-img-solo {
+  max-width: 500px;
+}
+
+
+
+
+
 .content-text-a {
-    width: 320px;
     margin-left: auto;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-right: 25px;
+    height: auto;
 }
 
 .content-text-b {
-    width: 320px;
     margin-left: 0px;
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 25px;
+    height: auto;
+}
+
+.front-panel {
+    display: inline-block;
+    height: 667px;
+    position: relative;
+    font-family: inherit;
+    text-align: inherit;
+    overflow: hidden;
 }
 
 .placeholder-a{
@@ -237,15 +247,7 @@ h3 {
   padding-left: 5px;
 }
 
-.front-panel {
-    display: inline-block;
-    width: 320px;
-    height: 667px;
-    position: relative;
-    font-family: inherit;
-    text-align: inherit;
-    overflow: hidden;
-}
+
 
 .spacer {
   height: 25px;
@@ -451,14 +453,17 @@ ni-gauge {
   #fat-footer {
     font-size: 20px;
   }
-  .content-text {
+  /*.content-text {
     margin-left: auto;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-right: 25px;
-  }
+  }*/
 }
+/*.content {
+  height: 667px;
+}*/
 
 /*Phones*/
 @media (max-width: 425px) {
@@ -469,9 +474,9 @@ ni-gauge {
     font-size: 24px;
   }
 
-  #hero .right-content {
+  /*#hero .right-content {
     text-align: center;
-  }
+  }*/
   h1 {
     font-size: 48px;
   }
@@ -497,14 +502,36 @@ ni-gauge {
     /*margin-left: 5px;
     margin-right: 5px;*/
   }
-  .content-text {
+  /*.content-text {
     padding-right: 5px;
-  }
+  }*/
+
 
   .section {
+    /*display: flex;*/
     padding-left: 5px;
     padding-right: 5px;
+    /*justify-content: space-around;*/
+    padding-bottom: 5px;
+    border-bottom: 5px solid #02B09E;;
   }
+
+  .section-a {
+    /*flex-wrap: wrap-reverse;*/
+    border-right: 5px solid #02B09E;
+    /*text-align: right;  /*TODO should this be moved to content or container?*/*/
+  }
+
+  .section-b {
+    /*flex-wrap: wrap;*/
+    border-left: 5px solid #02B09E;
+    /*text-align: left;*/
+  }
+
+  /*.content {
+    height: auto;
+  }*/
+
   jqx-slider[ni-control-id='28'] {
     width: 200px;
   }
