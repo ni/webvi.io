@@ -247,7 +247,6 @@ h3 {
   background-color: green;
 }
 
-
 /*Styles From Web VI */
 [data-ni-base-style] {
   position: relative;
@@ -341,8 +340,6 @@ jqx-numeric-text-box[ni-control-id='103'] {
   left: 170px; top: 359px; width: 150px; height: 40px; font-size: 24px; font-family: Roboto Condensed, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
 }
 
-
-
 ni-data-grid[ni-control-id='112'] {
   left: -20px;
   top: 350px;
@@ -404,23 +401,9 @@ ni-gauge {
   }
 
   h1 {
-    /*font-size: 121px;*/
     font-weight: bold;
     margin: auto;
   }
-  /*#hero {
-    /*background-color: #065FA3;*/
-    /*color: #E0E0E0;
-    /*height: 350px;
-    font-size: 46px;
-    justify-content: center;
-  }
-
-  #hero h1 {
-    font-size: 210px;
-    font-weight: bold;
-    margin: auto;
-  }*/
 }
 
 /*Tablets*/
@@ -443,17 +426,7 @@ ni-gauge {
   #fat-footer {
     font-size: 20px;
   }
-  /*.content-text {
-    margin-left: auto;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-right: 25px;
-  }*/
 }
-/*.content {
-  height: 667px;
-}*/
 
 /*Phones*/
 @media (max-width: 425px) {
@@ -464,9 +437,6 @@ ni-gauge {
     font-size: 24px;
   }
 
-  /*#hero .right-content {
-    text-align: center;
-  }*/
   h1 {
     font-size: 48px;
   }
@@ -487,20 +457,10 @@ ni-gauge {
     font-size: 24px;
   }
 
-
-  .front-panel {
-    height: 667px;
-  }
   .primary-content {
     padding-left: 5px;
     padding-right: 5px;
-    /*margin-left: 5px;
-    margin-right: 5px;*/
   }
-  /*.content-text {
-    padding-right: 5px;
-  }*/
-
 
   .section {
     /*display: flex;*/
@@ -525,21 +485,20 @@ ni-gauge {
 
   .spacer {
     border-bottom: none;
-}
-
-  /*.content {
-    height: auto;
-  }*/
+  }
 
   jqx-slider[ni-control-id='28'] {
     width: 200px;
   }
+
   jqx-slider[ni-control-id='31'] {
     width: 200px;
   }
+
   jqx-tank[ni-control-id='38'] {
     left: 215px;
   }
+
   jqx-numeric-text-box[ni-control-id='100'] {
     width: 125px;
   }
@@ -548,18 +507,22 @@ ni-gauge {
     width: 125px;
     left: 150px;
   }
+
   ni-gauge[ni-control-id='90'] {
     top: 0px;
   }
+
   jqx-slider[ni-control-id='129'] {
     left: 240px;
     height: 235px;
   }
+
   jqx-circular-progress-bar[ni-control-id='95'] {
     width: 225px;
     height: 225px;
     top: 0px;
   }
+
   jqx-slider[ni-control-id='132'] {
     left: 225px;
     height: 230px;
