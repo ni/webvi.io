@@ -33,7 +33,15 @@ img {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: block;
+  /*display: block;*/
+}
+
+video {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /*display: block;*/
+  /*background-color: white !important;*/
 }
 
 h1 {
