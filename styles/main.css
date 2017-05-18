@@ -60,7 +60,7 @@ h3 {
 #hero {
   font-size: 46px;
   justify-content: center;
-
+  height: 520px;
 }
 
 #hero .content-text-b {
@@ -470,7 +470,7 @@ jqx-led {
   }
 }
 
-/*Tablets*/
+/*Laptop*/
 @media (max-width: 1024px) {
   body {
     font-size: 26px;
@@ -486,6 +486,7 @@ jqx-led {
 
   #hero {
     font-size: 20px;
+    height: 520px;
   }
 
   #fat-footer {
@@ -497,14 +498,15 @@ jqx-led {
   }
 }
 
-/*Small Tablet*/
-@media (max-width: 1024px) {
+/*Tablet*/
+@media (max-width: 768px) {
   h1 {
       font-size: 105px;
   }
 
   #hero {
     font-size: 22px;
+    height: auto;
   }
 }
 
