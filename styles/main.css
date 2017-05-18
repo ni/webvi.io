@@ -1,7 +1,8 @@
 /*Element Styles*/
 body {
   padding: 0px;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  /*font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
+  font-family: 'Questrial', sans-serif;
   margin: 0px;
   color: #065FA3;
   min-width: 320px;
