@@ -196,7 +196,7 @@ h3 {
 }
 
 .content-duo {
-    min-width: 640px;
+    min-width: 600px;
 }
 
 .content-trio {
@@ -492,7 +492,7 @@ jqx-led {
   }
 
   .content-duo {
-    min-width: 690px;
+    min-width: 480px;
   }
 }
 
