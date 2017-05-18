@@ -197,7 +197,9 @@ h3 {
 }
 
 .content-duo {
-    min-width: 600px;
+    /*min-width: 600px;*/
+    /*min-width: 100%;*/
+    width: 50%;
 }
 
 .content-trio {
@@ -354,6 +356,19 @@ ni-cartesian-plot[ni-control-id='213'] {
     text-decoration: none;
 }
 
+ni-graph-tools[ni-control-id='74'] {
+    /*left: 580px;
+    top: 870px;*/
+    position: relative;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
 ni-cursor[ni-control-id='211'] {
     font-size: 12px;
     font-family: Segoe UI, sans-serif;
@@ -494,7 +509,9 @@ jqx-led {
   }
 
   .content-duo {
-    min-width: 480px;
+    /*min-width: 480px;*/
+    /*min-width: 100%;*/
+    width: 100%;
   }
 }
 
@@ -563,8 +580,10 @@ jqx-led {
   }
 
   .content-duo {
-    min-width: 300px;
+    /*min-width: 300px;*/
     max-width: 680px;
+    /*min-width: 100%;*/
+    width: 100%
   }
 
   .spacer {
