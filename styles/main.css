@@ -153,7 +153,7 @@ h3 {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
-  border-bottom: 10px solid #02B09E;;
+  border-bottom: 10px solid #02B09E;
 }
 
 .section a {
@@ -425,7 +425,7 @@ jqx-led[ni-control-id='228'] {
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
-    margin-left: 55px;
+    margin-left: 65px;
     margin-right: auto;
 }
 jqx-gauge[ni-control-id='90'] {
@@ -441,11 +441,57 @@ jqx-gauge[ni-control-id='90'] {
 
 /*Change tank fill color*/
 jqx-tank .jqx-value {
-    background-color: #4487BA;
+    background-color: #02B09E;
 }
 
+jqx-tank .jqx-track:hover {
+    outline-color: #02B09E;
+}
+
+jqx-slider .jqx-value {
+    background-color: #02B09E;
+}
+
+jqx-slider .jqx-thumb {
+  background-color: #1B1C3D;
+}
+
+jqx-slider .jqx-track:hover {
+  outline-color: #02B09E;
+}
+
+jqx-gauge .jqx-value {
+    fill: #02B09E;
+}
+
+jqx-numeric-text-box .jqx-spin-button:active {
+    background-color: #1B1C3D;
+}
+
+jqx-numeric-text-box input.jqx-numeric-text-box-component:hover {
+    border-color: #02B09E;
+}
+
+
+jqx-numeric-text-box .jqx-arrow-up:hover:after, jqx-numeric-text-box .jqx-arrow-down:hover:after {
+    color: #02B09E;
+}
+
+
+/*.jqx-numeric-text-box-pressed-component, jqx-numeric-text-box .jqx-spin-button.jqx-numeric-text-box-pressed-component, jqx-numeric-text-box .jqx-numeric-text-box-radix-display.jqx-numeric-text-box-pressed-component {
+  background-color: none;
+}*/
+
+/*jqx-numeric-text-box .jqx-spin-button:active {
+  background-color: #02B09E;
+}*/
+
 jqx-led[ni-control-id='228'] .jqx-true-content-container{
-  background: rgba(67,134,185,1)
+    background: #02B09E;
+}
+
+jqx-led:hover {
+    border-color: #02B09E;
 }
 
 /*Fix text input styling on iOS*/
@@ -475,6 +521,17 @@ jqx-numeric-text-box {
 jqx-tank {
   display: block;
   position: relative;
+}
+/*
+jqx-tank .jqx-track {
+    width: calc(100% - 55px - 4px);
+    height: 100%;
+}*/
+
+jqx-tank[orientation="vertical"] .jqx-track {
+    /*width: calc(100% - 105px - 50px);*/
+    width: 79px;
+    height: 100%;
 }
 
 jqx-led {
