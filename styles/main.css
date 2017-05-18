@@ -313,7 +313,8 @@ jqx-tank[ni-control-id='38'] {
 
 ni-cartesian-graph[ni-control-id='64'] {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
+    height: 520px;
     font-size: 12px;
     font-family: Segoe UI, sans-serif;
     font-style: normal;
