@@ -55,7 +55,7 @@
 			left: 1061px; top: 304px; width: 30px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
 		jqx-tank[ni-control-id='38']{
-			left: 1255px; top: 324px; width: 166px; height: 248px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+			left: 1255px; top: 324px; width: 168px; height: 248px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
 		ni-label[ni-control-id='39']{
 			left: 1255px; top: 304px; width: 24px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
@@ -102,17 +102,41 @@
 		ni-label[ni-control-id='91']{
 			left: 578px; top: 304px; width: 35px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
+		jqx-circular-progress-bar[ni-control-id='95']{
+			left: 32px; top: 36px; width: 290px; height: 290px; 
+		}
+		ni-label[ni-control-id='96']{
+			left: 32px; top: 16px; width: 102px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+		}
 		jqx-numeric-text-box[ni-control-id='100']{
 			left: 1076px; top: 419px; width: 136px; height: 40px; font-size: 24px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
 		ni-label[ni-control-id='101']{
 			left: 1076px; top: 399px; width: 46px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
+		ni-data-grid[ni-control-id='112']{
+			left: 20px; top: 372px; width: 350px; height: 232px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+		}
+		ni-string-control[ni-control-id='114']{
+			font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+		}
+		jqx-led[ni-control-id='149']{
+			font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+		}
+		ni-label[ni-control-id='115']{
+			left: 20px; top: 352px; width: 51px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+		}
 		jqx-slider[ni-control-id='129']{
 			left: 882px; top: 324px; width: 56px; height: 248px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
 		ni-label[ni-control-id='130']{
 			left: 882px; top: 304px; width: 42px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+		}
+		jqx-slider[ni-control-id='132']{
+			left: 320px; top: 33px; width: 64px; height: 296px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+		}
+		ni-label[ni-control-id='133']{
+			left: 320px; top: 13px; width: 42px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
 		ni-url-image[ni-control-id='217']{
 			left: 578px; top: 72px; width: 360px; height: 219px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
@@ -211,7 +235,7 @@
 
             
 
-        <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' coerce='true' value='0' min='0' max='100000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='far' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
+        <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' value='0' min='0' max='100000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='far' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='29' binding-info='{}' label-id='' text='Slider'></ni-label>
 
@@ -235,31 +259,49 @@
 
 <ni-cursor-legend data-ni-base-style="uninitialized" ni-control-id='73' binding-info='{"prop":"value","sync":false}' label-id='' class='ni-hidden' graph-name='64'></ni-cursor-legend>
 
-<ni-graph-tools data-ni-base-style="uninitialized" ni-control-id='74' binding-info='{"prop":"value","sync":false}' label-id='' class='ni-hidden' graph-name='64'></ni-graph-tools>
+<ni-graph-tools data-ni-base-style="uninitialized" ni-control-id='74' binding-info='{"prop":"value","sync":false}' label-id='' graph-name='64'></ni-graph-tools>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='75' binding-info='{}' label-id='' text='Graph'></ni-label>
 
-<jqx-gauge data-ni-base-style="uninitialized" ni-control-id='90' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Gauge","unplacedOrDisabled":false,"sync":false}' label-id='91' readonly='true' digital-display='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' significant-digits='4' read-only='true' scale-position='inside' start-angle='-36' end-angle='216' ni-type='floatingPoint' analog-display-type='fill' digital-display='true' digital-display-position='bottom'></jqx-gauge>
+<jqx-gauge data-ni-base-style="uninitialized" ni-control-id='90' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Gauge","unplacedOrDisabled":false,"sync":false}' label-id='91' readonly='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' significant-digits='4' read-only='true' scale-position='inside' start-angle='-36' end-angle='216' ni-type='floatingPoint' analog-display-type='fill' digital-display='true' digital-display-position='bottom'></jqx-gauge>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='91' binding-info='{}' label-id='' text='Gauge'></ni-label>
 
-<jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='100' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_Numeric","unplacedOrDisabled":false,"sync":false}' label-id='101' value='300000' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='2' spin-buttons-step='10000' spin-buttons='true'></jqx-numeric-text-box>
+<jqx-circular-progress-bar data-ni-base-style="uninitialized" ni-control-id='95' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_RadialProgressBar","unplacedOrDisabled":false,"sync":false}' label-id='96' read-only='true' value='0' min='0' max='100'></jqx-circular-progress-bar>
+
+<ni-label data-ni-base-style="uninitialized" ni-control-id='96' binding-info='{}' label-id='' text='Radial Progress Bar'></ni-label>
+
+<jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='100' binding-info='{"prop":"value","dco":5,"dataItem":"dataItem_Numeric","unplacedOrDisabled":false,"sync":false}' label-id='101' value='300000' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='2' spin-buttons-step='10000' spin-buttons='true'></jqx-numeric-text-box>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='101' binding-info='{}' label-id='' text='Numeric'></ni-label>
 
-<jqx-slider data-ni-base-style="uninitialized" ni-control-id='129' binding-info='{"prop":"value","dco":5,"dataItem":"dataItem_Slider_3","unplacedOrDisabled":false,"sync":false}' label-id='130' coerce='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='near' scale-type='floatingPoint' orientation='vertical'></jqx-slider>
+<ni-data-grid data-ni-base-style="uninitialized" ni-control-id='112' binding-info='{"prop":"value","dco":6,"dataItem":"dataItem_DataGrid","unplacedOrDisabled":false,"sync":false}' label-id='115' read-only='true' value='[{"Testers":"e-DUT-13A","Test Progress":96,"Test Status":true},{"Testers":"f-DUT-46C","Test Progress":33,"Test Status":false},{"Testers":"g-DUT-55k","Test Progress":75,"Test Status":true},{"Testers":"g-DUT-87H","Test Progress":5,"Test Status":true},{"Testers":"g-DUT-MAB","Test Progress":100,"Test Status":false}]' ni-type='{"name":"Array","rank":1,"subtype":{"name":"Cluster","fields":["Testers","Test Progress","Test Status"],"subtype":["String","Double","Boolean"]}}' column-header-visible='true' row-header-visible='true' row-height='40' alt-row-start='1' alt-row-step='1'><ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='113' index='0' header='Testers' width='100' field-name='Testers' aggregates='{}'><ni-string-control data-ni-base-style="uninitialized" ni-control-id='114' read-only='true' binding-info='{"prop":"text","sync":false}' text=''></ni-string-control>
+</ni-data-grid-column>
+<ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='120' index='1' header='Test Progress' width='100' field-name='Test Progress' aggregates='{}'><jqx-progress-bar data-ni-base-style="uninitialized" ni-control-id='126' read-only='true' value='0' min='0' max='100' orientation='horizontal'></jqx-progress-bar>
+</ni-data-grid-column>
+<ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='123' index='2' header='Test Status' width='100' field-name='Test Status' aggregates='{}'><jqx-led data-ni-base-style="uninitialized" ni-control-id='149' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;&lt;/span&gt;' shape='square' highlight='rgba(67,134,185,1)'></jqx-led>
+</ni-data-grid-column>
+</ni-data-grid>
+
+<ni-label data-ni-base-style="uninitialized" ni-control-id='115' binding-info='{}' label-id='' text='Data Grid'></ni-label>
+
+<jqx-slider data-ni-base-style="uninitialized" ni-control-id='129' binding-info='{"prop":"value","dco":7,"dataItem":"dataItem_Slider_3","unplacedOrDisabled":false,"sync":false}' label-id='130' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='near' scale-type='floatingPoint' orientation='vertical'></jqx-slider>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='130' binding-info='{}' label-id='' text='Slider_3'></ni-label>
 
-<ni-url-image data-ni-base-style="uninitialized" ni-control-id='217' binding-info='{"prop":"source","dco":6,"dataItem":"dataItem_URLImage","unplacedOrDisabled":true,"sync":false}' label-id='218' read-only='true' source='http://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg' alternate='' stretch='uniform'></ni-url-image>
+<jqx-slider data-ni-base-style="uninitialized" ni-control-id='132' binding-info='{"prop":"value","dco":8,"dataItem":"dataItem_Slider_4","unplacedOrDisabled":false,"sync":false}' label-id='133' value='0' min='0' max='100' interval='5' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' coerce='true' scale-position='near' scale-type='floatingPoint' orientation='vertical'></jqx-slider>
+
+<ni-label data-ni-base-style="uninitialized" ni-control-id='133' binding-info='{}' label-id='' text='Slider_4'></ni-label>
+
+<ni-url-image data-ni-base-style="uninitialized" ni-control-id='217' binding-info='{"prop":"source","dco":9,"dataItem":"dataItem_URLImage","unplacedOrDisabled":true,"sync":false}' label-id='218' read-only='true' source='http://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg' alternate='' stretch='uniform'></ni-url-image>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='218' binding-info='{}' label-id='' text='URL Image'></ni-label>
 
-<ni-url-image data-ni-base-style="uninitialized" ni-control-id='221' binding-info='{"prop":"source","dco":7,"dataItem":"dataItem_URLImage_2","unplacedOrDisabled":true,"sync":false}' label-id='222' read-only='true' source='http://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg' alternate='' stretch='uniform'></ni-url-image>
+<ni-url-image data-ni-base-style="uninitialized" ni-control-id='221' binding-info='{"prop":"source","dco":10,"dataItem":"dataItem_URLImage_2","unplacedOrDisabled":true,"sync":false}' label-id='222' read-only='true' source='http://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg' alternate='' stretch='uniform'></ni-url-image>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='222' binding-info='{}' label-id='' text='URL Image_2'></ni-label>
 
-<jqx-led data-ni-base-style="uninitialized" ni-control-id='228' binding-info='{"prop":"value","dco":8,"dataItem":"dataItem_LED","unplacedOrDisabled":false,"sync":false}' label-id='229' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;On&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;Off&lt;/span&gt;' shape='round' highlight='rgba(67,134,185,1)'><span class='jqx-true-content ni-hidden'>On</span><span class='jqx-false-content ni-hidden'>Off</span></jqx-led>
+<jqx-led data-ni-base-style="uninitialized" ni-control-id='228' binding-info='{"prop":"value","dco":11,"dataItem":"dataItem_LED","unplacedOrDisabled":false,"sync":false}' label-id='229' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;On&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;Off&lt;/span&gt;' shape='round' highlight='rgba(67,134,185,1)'><span class='jqx-true-content ni-hidden'>On</span><span class='jqx-false-content ni-hidden'>Off</span></jqx-led>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='229' binding-info='{}' label-id='' text='LED'></ni-label>
 
