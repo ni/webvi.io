@@ -117,10 +117,11 @@ h3 {
 }
 
 /*TODO consolidate into class*/
-#fp-ctl-a {
+/*#fp-ctl-a {
     display: flex;
-    justify-content: center;
-}
+    /*justify-content: center;
+    align-items: center;;
+}*/
 
 #fp-ctl-b {
   display: flex;
@@ -188,6 +189,7 @@ h3 {
 .container {
   display: flex;
   flex-direction: column;
+  /*justify-content: center;*/
 }
 
 .footer-container {
@@ -244,6 +246,7 @@ h3 {
     position: relative;
     font-family: inherit;
     text-align: inherit;
+    align-items: center;
 }
 
 .nav-bar {
@@ -367,6 +370,7 @@ ni-graph-tools[ni-control-id='74'] {
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
+    align-self: flex-start;
 }
 
 ni-cursor[ni-control-id='211'] {
@@ -398,8 +402,8 @@ jqx-numeric-text-box[ni-control-id='100'] {
 }
 
 jqx-slider[ni-control-id='129'] {
-    width: 56px;
-    height: 300px;
+    width: 80%;
+    height: 56px;
     font-size: 12px;
     font-family: Roboto Condensed, sans-serif;
     font-style: normal;
@@ -419,7 +423,7 @@ jqx-led[ni-control-id='228'] {
     margin-right: auto;
 }
 jqx-gauge[ni-control-id='90'] {
-    width: 80%;
+    width: 100%;
     font-size: 12px;
     font-family: Segoe UI, sans-serif;
     font-style: normal;
@@ -445,7 +449,8 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
 }
 
 jqx-gauge {
-  display:  inline-block;
+  /*display:  inline-block;*/
+  display: block;
   position: relative;
   /*float: left;*/
   flex: none;
@@ -590,8 +595,9 @@ jqx-led {
     border-bottom: none;
   }
 
-  jqx-slider[ni-control-id='129'] {
-    /*left: 240px;*/
+  /*jqx-slider[ni-control-id='129'] {
+    /*left: 240px;
     height: 245px;
-  }
+    display: block;
+  }*/
 }
