@@ -44,6 +44,7 @@
     <script defer="" src="g-source/Builds/Web Server/Configuration1/WebApp/ni-webvi-resource-v0/node_modules/vireo/source/io/module_httpClient.js" type="text/javascript"></script>
     <script defer="" src="g-source/Builds/Web Server/Configuration1/WebApp/ni-webvi-resource-v0/node_modules/vireo/source/core/vireo.loader.js" type="text/javascript"></script>
     <script defer="" src="g-source/Builds/Web Server/Configuration1/WebApp/ni-webvi-resource-v0/Web/dist/niRegistration.min.js" type="text/javascript"></script>
+    
     <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
   <body>
@@ -64,10 +65,10 @@
 
     <div class="primary-content">
       <div class="section section-b" id="hero">
-        <div class="container content-text content-text-b">
+        <div class="column-container content-text content-text-b">
           <h1>WebVI</h1>
         </div>
-        <div class="right-content container content-text content-text-b">
+        <div class="right-content column-container content-text content-text-b">
           <div>LabVIEW on the Web</div>
           <div>WYSIWYG HTML Panels</div>
           <div>Portable and Embeddable</div>
@@ -75,26 +76,31 @@
       </div>
 
       <div class="section section-a" id="g-on-the-web">
-        <div class="container content-trio content-item front-panel">
+        <div class="column-container content-trio content-item front-panel">
           <img src="styles/bd-2.PNG">
           <!-- <div id="fp-ctl-a"> -->
-          <div class="container" id="fp-ctl-a">
+          <div class="column-container" id="fp-ctl-a">
             <jqx-gauge data-ni-base-style="uninitialized" ni-control-id='90' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Gauge","unplacedOrDisabled":false,"sync":false}' label-id='91' readonly='true' digital-display='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' significant-digits='4' read-only='true' scale-position='inside' start-angle='-36' end-angle='216' ni-type='floatingPoint' analog-display-type='fill' digital-display='true' digital-display-position='bottom'></jqx-gauge>
             <jqx-slider data-ni-base-style="uninitialized" ni-control-id='129' binding-info='{"prop":"value","dco":5,"dataItem":"dataItem_Slider_3","unplacedOrDisabled":false,"sync":false}' label-id='130' coerce='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='near' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
           </div>
         </div>
-        <div class="container content-trio content-item front-panel">
-          <img src="styles/bd-1.PNG">
-          <div id="fp-ctl-b">
-            <div id="fp-ctl-b-left">
-              <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' coerce='true' value='0' min='0' max='100000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='far' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
-              <jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='100' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_Numeric","unplacedOrDisabled":false,"sync":false}' label-id='101' value='300000' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='2' spin-buttons-step='10000' spin-buttons='true'></jqx-numeric-text-box>
-              <jqx-led data-ni-base-style="uninitialized" ni-control-id='228' binding-info='{"prop":"value","dco":8,"dataItem":"dataItem_LED","unplacedOrDisabled":false,"sync":false}' label-id='229' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;On&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;Off&lt;/span&gt;' shape='round' highlight='rgba(67,134,185,1)'><span class='jqx-true-content ni-hidden'>On</span><span class='jqx-false-content ni-hidden'>Off</span></jqx-led>
+        <div class="column-container content-trio content-item front-panel">
+
+            <img src="styles/bd-1.PNG">
+            <div id="collection" class="row-container">
+              <div id="fp-ctl-b" class="column-container">
+              <!-- <div id="fp-ctl-b-left"> -->
+                <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' coerce='true' value='0' min='0' max='100000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='far' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
+                <jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='100' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_Numeric","unplacedOrDisabled":false,"sync":false}' label-id='101' value='300000' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='2' spin-buttons-step='10000' spin-buttons='true'></jqx-numeric-text-box>
+              </div>
+              <div class="column-container">
+                <jqx-led data-ni-base-style="uninitialized" ni-control-id='228' binding-info='{"prop":"value","dco":8,"dataItem":"dataItem_LED","unplacedOrDisabled":false,"sync":false}' label-id='229' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;On&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;Off&lt;/span&gt;' shape='round' highlight='rgba(67,134,185,1)'><span class='jqx-true-content ni-hidden'>On</span><span class='jqx-false-content ni-hidden'>Off</span></jqx-led>
+                <jqx-tank data-ni-base-style="uninitialized" ni-control-id='38' binding-info='{"prop":"value","dco":1,"dataItem":"dataItem_Tank","unplacedOrDisabled":false,"sync":false}' label-id='39' readonly='true' value='0' min='0' max='500000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' scientific-notation='true' read-only='true' scale-position='near' scale-type='floatingPoint' orientation='vertical'></jqx-tank>
+              </div>
             </div>
-              <jqx-tank data-ni-base-style="uninitialized" ni-control-id='38' binding-info='{"prop":"value","dco":1,"dataItem":"dataItem_Tank","unplacedOrDisabled":false,"sync":false}' label-id='39' readonly='true' value='0' min='0' max='500000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' scientific-notation='true' read-only='true' scale-position='near' scale-type='floatingPoint' orientation='vertical'></jqx-tank>
           </div>
-        </div>
-        <div class="container content-trio content-text content-text-a">
+        <!-- </div> -->
+        <div class="column-container content-trio content-text content-text-a">
           <h2>LabVIEW on the Web</h2>
           <div></div>
           <div>Client Side Logic in G</div>
@@ -103,12 +109,12 @@
       </div>
 
       <div class="section section-b" id="engineering-views">
-        <div class="container content-duo content-text content-text-b">
+        <div class="column-container content-duo content-text content-text-b">
           <h2>Scientific Grade Charts</h2>
           <div>Best in class performance</div>
           <div>Measurement ready controls</div>
         </div>
-        <div id="graph" class="container content-duo content-item front-panel">
+        <div id="graph" class="column-container content-duo content-item front-panel">
           <ni-cartesian-graph data-ni-base-style="uninitialized" ni-control-id='64' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Graph","unplacedOrDisabled":false,"sync":false}' label-id='75' read-only='true' ni-type='{"name":"Array","rank":2,"subtype":"Double"}' value='[]' plot-area-margin='{"left":0,"top":0,"right":0,"bottom":0}'><ni-cartesian-axis data-ni-base-style="uninitialized" label='Time' show='true' ni-control-id='65' axis-position='bottom' minimum='0' maximum='100' format='LVRelativeSeconds:N0' show-tick-labels='all' auto-scale='exact' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
           <ni-cartesian-axis data-ni-base-style="uninitialized" label='Amplitude' show='true' ni-control-id='66' axis-position='left' minimum='-1.5' maximum='2.5' format='LVRelativeSeconds:G6&gt;&gt;0.000E+0' show-tick-labels='all' auto-scale='none' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
           <ni-cartesian-plot data-ni-base-style="uninitialized" label='Plot' show='true' show-label='true' ni-control-id='67' xaxis='65' yaxis='66' hover-format='{0}, {1}'><ni-cartesian-plot-renderer data-ni-base-style="uninitialized" ni-control-id='70' line-width='1' line-stroke='rgba(130,163,209,1)' line-style='solid' point-color='' area-fill='' area-base-line='negativeinfinity' bar-fill='' point-size='7.0710678118654755' point-shape='ellipse'></ni-cartesian-plot-renderer>
@@ -123,10 +129,10 @@
       </div>
 
       <div class="section section-a" id="iot">
-        <div class="container content-duo  content-img content-img-solo ">
+        <div class="column-container content-duo  content-img content-img-solo ">
           <img src="styles/iot-diagram.png">
         </div>
-        <div class="container content-duo content-text content-text-a">
+        <div class="column-container content-duo content-text content-text-a">
           <h2>I/O for IoT</h2>
           <div><a href="">Skyline Data Services<a/></div>
           <div><a href="">LabVIEW HTTP Client</a></div>
@@ -134,24 +140,24 @@
       </div>
 
       <div class="section section-b" id="vireo">
-        <div class="container content-duo content-text content-text-b">
+        <div class="column-container content-duo content-text content-text-b">
           <h2>Vireo Runtime</h2>
             <div>Compact, Portable, Open Source</div>
             <div><a href="https://github.com/ni/VireoSDK">Fork the VireoSDK!</a></div>
         </div>
-        <div class="container content-duo  content-img content-img-solo">
+        <div class="column-container content-duo  content-img content-img-solo">
           <img  src="styles/red-eyed-vireo.jpg">
         </div>
       </div>
 
       <div class="section section-a" id="standards">
-        <div class="container content  content-img">
+        <div class="column-container content  content-img">
           <img src="styles/html-snippet.png" />
         </div>
-        <div class="container content-trio content-img">
+        <div class="column-container content-trio content-img">
           <img src="styles/standards-logos.png"/>
         </div>
-        <div class="container content-trio content-text content-text-a">
+        <div class="column-container content-trio content-text content-text-a">
           <h2>Plays well with others</h2>
           <div><a href="https://www.w3.org/TR/custom-elements/">Web Standards<a/></div>
           <div><a href="http://asmjs.org/">ASM.js</a></div>
@@ -160,13 +166,13 @@
       </div>
 
       <div class="section section-b" id="whats-next">
-        <div class="container content-duo content-text content-text-b">
+        <div class="column-container content-duo content-text content-text-b">
           <h2>We're just getting started</h2>
           <div>Just-in-time Web Dashboards</div>
           <div>Multi Device Layouts</div>
           <div>Serverless Compute</div>
         </div>
-        <div class="container content ">
+        <div class="column-container content ">
         </div>
       </div>
       <div class="section section-a spacer">
@@ -174,13 +180,13 @@
     </div>
 
     <div class="section" id="fat-footer">
-      <div class="container footer-container">
+      <div class="column-container footer-container">
         <h2>Products</h2>
         <div><a href="http://www.ni.com/en-us/support/software-technology-preview.html">LabVIEW NXG 2.0 Beta</a></div>
         <!-- <div><a href="">NI System Link</a></div> -->
         <div><a href="https://github.com/ni/VireoSDK">VireoSDK on Github</a></div>
       </div>
-      <div class="container footer-container">
+      <div class="column-container footer-container">
         <h2>Examples</h2>
         <!-- <div><a href="">Using Skyline Data Services</a></div> -->
         <div><a href="https://github.com/ni/webvi-examples/tree/master/Call%20LabVIEW%20Web%20Service">Call LabVIEW Web Service</a></div>
@@ -191,18 +197,18 @@
         <div><a href="https://github.com/ni/webvi-examples/tree/master/Incorporate%20User%20Resources">Incorporate User Resources</a></div>
         <div><a href="">Multiple Top Level WebVIs</a></div>
       </div>
-      <div class="container footer-container">
+      <div class="column-container footer-container">
         <h2><a href="http://www.ni.com">NI</a></h2>
         <div><a href="http://www.ni.com/company/">About</a></div>
         <div><a href="http://www.ni.com/careers/">Careers</a></div>
         <div><a href="http://www.ni.com/contact-us/">Contact Us</a></div>
       </div>
-      <div container class="footer-container">
+      <div class="footer-container">
       </div>
     </div>
 
   <div class="section" id="footer">
-    <div class="container footer-container">
+    <div class="column-container footer-container">
       <div><a href="http://www.ni.com/legal/">Legal</a> | <a href="http://www.ni.com/legal/privacy/unitedstates/us/">Privacy</a> | © 2017 National Instruments. All rights reserved.</div>
     </div>
   </div>
