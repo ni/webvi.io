@@ -9,3 +9,4 @@ g-source/g-source.lvcodedb
 *.lvprojectcache
 g-source/WebApp.gcomp/WebApp.gcompcache
 g-source/WebApp.gcomp/WebApp.gcompcache
+*.lvcompile
