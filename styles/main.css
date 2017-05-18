@@ -70,6 +70,7 @@ h3 {
 
 #hero .right-content  {
  text-align: left;
+ justify-content: center;
 }
 
 #fat-footer {
