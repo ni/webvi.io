@@ -31,7 +31,7 @@ a:active {
 
 img {
   width: 100%;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
   /*display: block;*/
 }
@@ -197,6 +197,7 @@ h3 {
 .column-container {
   display: flex;
   flex-direction: column;
+  /*height: 300px;*/
   /*justify-content: center;*/
 }
 
@@ -437,7 +438,8 @@ jqx-led[ni-control-id='228'] {
     margin-right: auto;
 }
 jqx-gauge[ni-control-id='90'] {
-    width: 100%;
+    /*width: 100%;*/
+    width: 300px;
     font-size: 20px;
     font-family: Segoe UI, sans-serif;
     font-style: normal;
@@ -644,7 +646,7 @@ jqx-led {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
-    border-bottom: 5px solid #02B09E;;
+    border-bottom: 5px solid #02B09E;
   }
 
   .section-a {
