@@ -696,6 +696,27 @@ jqx-led {
     border-bottom: none;
   }
 
+  jqx-led[ni-control-id='228'] {
+      /*margin-left: 60px;*/
+
+      margin-right: auto;
+      margin-left: 10px;
+      /*margin-right: auto;*/
+  }
+
+  jqx-numeric-text-box[ni-control-id='100'] {
+      /*left: 0px;
+      top: 359px;*/
+      /*width: 50%;
+      height: 50px;
+      font-size: 30px;
+      font-family: 'Questrial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: none;*/
+      margin-right: 10px;
+      margin-left: auto;
+  }
   /*jqx-gauge[ni-control-id='90'] {
       /*width: 100%;
       width: 300px;
