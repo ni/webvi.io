@@ -321,8 +321,10 @@ jqx-slider[ni-control-id='31'] {
 }
 
 jqx-tank[ni-control-id='38'] {
-  width: 150px;
-  height: 280px;
+  /*width: 150px;
+  height: 280px;*/
+  width: 280px;
+  height: 100px;
   font-size: 20px;
   font-family: 'Questrial', sans-serif;
   font-style: normal;
@@ -377,6 +379,7 @@ ni-cartesian-plot[ni-control-id='213'] {
 ni-graph-tools[ni-control-id='74'] {
     /*left: 580px;
     top: 870px;*/
+    display: none;
     position: relative;
     width: 120px;
     height: 30px;
@@ -434,7 +437,8 @@ jqx-led[ni-control-id='228'] {
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
-    margin-left: 65px;
+    /*margin-left: 65px;*/
+    margin-left: auto;
     margin-right: auto;
 }
 jqx-gauge[ni-control-id='90'] {
@@ -538,11 +542,11 @@ jqx-tank .jqx-track {
     height: 100%;
 }*/
 
-jqx-tank[orientation="vertical"] .jqx-track {
-    /*width: calc(100% - 105px - 50px);*/
+/*jqx-tank[orientation="vertical"] .jqx-track {
+    /*width: calc(100% - 105px - 50px);
     width: 79px;
     height: 100%;
-}
+}*/
 
 jqx-led {
   display: block;
