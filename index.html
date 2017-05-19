@@ -77,17 +77,25 @@
       </div>
 
       <div class="section section-a" id="g-on-the-web">
-        <div class="column-container content-trio content-item front-panel">
-          <img src="styles/bd-2.PNG">
+        <!-- <div class="column-container content-trio content-item front-panel"> -->
+          <!-- <img src="styles/bd-2.PNG"> -->
           <!-- <div id="fp-ctl-a"> -->
-          <div class="column-container" id="fp-ctl-a">
-            <jqx-gauge data-ni-base-style="uninitialized" ni-control-id='90' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Gauge","unplacedOrDisabled":false,"sync":false}' label-id='91' readonly='true' digital-display='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' significant-digits='4' read-only='true' scale-position='inside' start-angle='-36' end-angle='216' ni-type='floatingPoint' analog-display-type='fill' digital-display='true' digital-display-position='bottom'></jqx-gauge>
-            <jqx-slider data-ni-base-style="uninitialized" ni-control-id='129' binding-info='{"prop":"value","dco":5,"dataItem":"dataItem_Slider_3","unplacedOrDisabled":false,"sync":false}' label-id='130' coerce='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='near' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
+          <div class="column-container content-trio front-panel" id="fp-ctl-a">
+            <!-- <jqx-gauge data-ni-base-style="uninitialized" ni-control-id='90' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Gauge","unplacedOrDisabled":false,"sync":false}' label-id='91' readonly='true' digital-display='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' significant-digits='4' read-only='true' scale-position='inside' start-angle='-36' end-angle='216' ni-type='floatingPoint' analog-display-type='fill' digital-display='true' digital-display-position='bottom'></jqx-gauge> -->
+            <jqx-gauge data-ni-base-style="uninitialized" ni-control-id='90' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Gauge","unplacedOrDisabled":false,"sync":false}' label-id='91' readonly='true' value='0' min='0' max='500000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='3' read-only='true' scale-position='inside' start-angle='-36' end-angle='216' ni-type='floatingPoint' analog-display-type='fill' digital-display='true' digital-display-position='bottom'></jqx-gauge>
+          <div class="row-container">
+            <jqx-led data-ni-base-style="uninitialized" ni-control-id='228' binding-info='{"prop":"value","dco":10,"dataItem":"dataItem_LED","unplacedOrDisabled":false,"sync":false}' label-id='229' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;On&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;Off&lt;/span&gt;' shape='square' highlight='rgba(67,134,185,1)'><span class='jqx-true-content ni-hidden'>On</span><span class='jqx-false-content ni-hidden'>Off</span></jqx-led>
+            <jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='100' binding-info='{"prop":"value","dco":5,"dataItem":"dataItem_Numeric","unplacedOrDisabled":false,"sync":false}' label-id='101' value='300000' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' scientific-notation='true' spin-buttons-step='10000' spin-buttons='true'></jqx-numeric-text-box>
           </div>
-        </div>
-        <div class="column-container content-trio content-item front-panel">
+            <!-- <jqx-slider data-ni-base-style="uninitialized" ni-control-id='129' binding-info='{"prop":"value","dco":5,"dataItem":"dataItem_Slider_3","unplacedOrDisabled":false,"sync":false}' label-id='130' coerce='true' value='0' min='0' max='10' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='near' scale-type='floatingPoint' orientation='horizontal'></jqx-slider> -->
+            <jqx-slider data-ni-base-style="uninitialized" ni-control-id='129' binding-info='{"prop":"value","dco":7,"dataItem":"dataItem_Slider_3","unplacedOrDisabled":false,"sync":false}' label-id='130' value='0' min='0' max='100000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='5' scale-position='far' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
 
-            <img src="styles/bd-1.PNG">
+
+          <!-- </div> -->
+        </div>
+        <div class="column-container content-trio content-item">
+
+            <img src="styles/bd-3.PNG">
             <div id="collection" class="row-container">
               <!-- <div id="fp-ctl-b" class="column-container">
                 <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' coerce='true' value='0' min='0' max='100000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='far' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
@@ -101,12 +109,12 @@
 
               <div id="fp-ctl-b" class="column-container">
               <!-- <div id="fp-ctl-b-left"> -->
-                <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' coerce='true' value='0' min='0' max='100000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='far' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
-                <jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='100' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_Numeric","unplacedOrDisabled":false,"sync":false}' label-id='101' value='300000' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='2' spin-buttons-step='10000' spin-buttons='true'></jqx-numeric-text-box>
+                <!-- <jqx-slider data-ni-base-style="uninitialized" ni-control-id='28' binding-info='{"prop":"value","dco":0,"dataItem":"dataItem_Slider","unplacedOrDisabled":false,"sync":false}' label-id='29' coerce='true' value='0' min='0' max='100000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-position='far' scale-type='floatingPoint' orientation='horizontal'></jqx-slider> -->
+                <!-- <jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='100' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_Numeric","unplacedOrDisabled":false,"sync":false}' label-id='101' value='300000' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='2' spin-buttons-step='10000' spin-buttons='true'></jqx-numeric-text-box> -->
               <!-- </div>
               <div class="column-container"> -->
-                <jqx-led data-ni-base-style="uninitialized" ni-control-id='228' binding-info='{"prop":"value","dco":8,"dataItem":"dataItem_LED","unplacedOrDisabled":false,"sync":false}' label-id='229' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;On&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;Off&lt;/span&gt;' shape='round' highlight='rgba(67,134,185,1)'><span class='jqx-true-content ni-hidden'>On</span><span class='jqx-false-content ni-hidden'>Off</span></jqx-led>
-                <jqx-tank data-ni-base-style="uninitialized" ni-control-id='38' binding-info='{"prop":"value","dco":1,"dataItem":"dataItem_Tank","unplacedOrDisabled":false,"sync":false}' label-id='39' readonly='true' value='0' min='0' max='500000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' scientific-notation='true' read-only='true' scale-position='near' scale-type='floatingPoint' orientation='horizontal'></jqx-tank>
+                <!-- <jqx-led data-ni-base-style="uninitialized" ni-control-id='228' binding-info='{"prop":"value","dco":8,"dataItem":"dataItem_LED","unplacedOrDisabled":false,"sync":false}' label-id='229' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;On&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;Off&lt;/span&gt;' shape='round' highlight='rgba(67,134,185,1)'><span class='jqx-true-content ni-hidden'>On</span><span class='jqx-false-content ni-hidden'>Off</span></jqx-led> -->
+                <!-- <jqx-tank data-ni-base-style="uninitialized" ni-control-id='38' binding-info='{"prop":"value","dco":1,"dataItem":"dataItem_Tank","unplacedOrDisabled":false,"sync":false}' label-id='39' readonly='true' value='0' min='0' max='500000' interval='1' scale-visible='true' ticks-visibility='minor' labels-visibility='all' scientific-notation='true' read-only='true' scale-position='near' scale-type='floatingPoint' orientation='horizontal'></jqx-tank> -->
               </div>
 
 
@@ -135,7 +143,7 @@
           </ni-cartesian-plot>
           <ni-cartesian-plot data-ni-base-style="uninitialized" label='Plot 2' show='true' show-label='true' ni-control-id='213' xaxis='65' yaxis='66' hover-format='{0}, {1}'><ni-cartesian-plot-renderer data-ni-base-style="uninitialized" ni-control-id='214' line-width='1' line-stroke='rgba(123,22,26,1)' line-style='solid' point-color='' area-fill='' area-base-line='negativeinfinity' bar-fill='' point-size='7.0710678118654755' point-shape='ellipse'></ni-cartesian-plot-renderer>
           </ni-cartesian-plot>
-          <ni-cursor data-ni-base-style="uninitialized" label='Cursor 1' show='true' ni-control-id='211' show-value='true' cursor-color='rgba(0,0,0,1)' target-shape='ellipse' snap-to-data='true' crosshair-style='both'></ni-cursor>
+          <!-- <ni-cursor data-ni-base-style="uninitialized" label='Cursor 1' show='true' ni-control-id='211' show-value='true' cursor-color='rgba(0,0,0,1)' target-shape='ellipse' snap-to-data='true' crosshair-style='both'></ni-cursor> -->
           <ni-cursor data-ni-base-style="uninitialized" label='Cursor 2' show='true' ni-control-id='212' show-value='true' cursor-color='rgba(0,0,0,1)' target-shape='rectangle' crosshair-style='both'></ni-cursor>
           </ni-cartesian-graph>
           <ni-graph-tools data-ni-base-style="uninitialized" ni-control-id='74' binding-info='{"prop":"value","sync":false}' label-id='' graph-name='64' mode="locked"></ni-graph-tools>
@@ -145,11 +153,11 @@
       <div class="section section-a" id="iot">
         <div class="column-container content-duo  content-img content-img-solo ">
           <!-- <img src="styles/iot-diagram.png"> -->
-          <video autoplay loop>
+          <video id="iot-video" autoplay loop>
             <source src="styles/iot-animation.mp4" type="video/mp4">
-            <!-- <source src="movie.ogg" type="video/ogg"> -->
             Your browser does not support the video tag.
           </video>
+          <img id="iot-img" src="styles/iot-animation.png"></img>
         </div>
         <div class="column-container content-duo content-text content-text-a">
           <h2>I/O for IoT</h2>
