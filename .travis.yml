@@ -7,8 +7,7 @@ deploy:
   access_key_id: AKIAIG4RX56DXFK63KDA
   secret_access_key:
     secure: X0qpKPnVopg8DnyYsjv8UNy9rvpKqWskpcG8UjsN/zab3aUZol5viY6jq2HRfm4NYpCaCDlfkJ4fjZdFMDNtQssaaYkhgVGGtvqHKeY5PvDxEWrbwv+nq0yxctOQ4tjTbqqD2aNOJzAoOXQiNj8GPHXimYL1Kautj2vrh43KVGABj34OMfUP9sm0LTgIAROwgu+DXMAYqlE6OkE4ASl7xAiAmLR2SV+cQhjUBvM0zbF9Z27KPbN9Zh2vwkKQyjNlJSDHq7K9R6vhR8uuxMuPKuegNkxSEocbOsi7Mbii86OCYS+4XgRKVsTpE0vj9uCVE4QlDHmKsSgaYlrpvdhneHqujlsim7L213Stv/JWVeeavrcZuYfteIMIoGZVnWw8zt/ubGRhkq8I0gx9Gq5yiV7RW74o+ia+en87U3ys3/U8mGrqxjP3klXsRuIBe0ro51XAUWUx4WCGRWwb2N7ldRjEbE6RPoQdkIwj5HzYMMmSIPuUfTSugsJesYLhArplHjZs2LCGHXEJ9m3JLS8J1k8YesM/kx9OovNfqLUKqPWzDxOnUvl/VMTYe6bazBnCX2/Rh7Z6UceGPHCp6oppJuD4urY1p7ZlSMzhZEHIeUZcgcBOtS1W+eo2C0bERQv1zMpBefBwnfEVYMTHCOnFURHg/q7G7nioKKJaOdWG6o8=
-  bucket: webvi-examples
-  upload-dir: squeeze-page
+  bucket: www.webvi.io
   acl: public_read
   on:
     repo: prestwick/webvi-squeeze-page

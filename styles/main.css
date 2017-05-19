@@ -36,6 +36,8 @@ img {
   /*display: block;*/
 }
 
+
+
 video {
   width: 100%;
   padding-top: 60px;
@@ -81,6 +83,14 @@ h3 {
 #hero .right-content  {
  text-align: left;
  justify-content: center;
+}
+
+#iot-img {
+  display: none;
+}
+
+#iot-video {
+  display: block;
 }
 
 #fat-footer {
@@ -197,6 +207,7 @@ h3 {
 .column-container {
   display: flex;
   flex-direction: column;
+  /*align-items: center;*/
   /*height: 300px;*/
   /*justify-content: center;*/
 }
@@ -204,6 +215,7 @@ h3 {
 .row-container {
   display: flex;
   flex-direction: row;
+  /*align-items: flex-end;*/
 }
 
 .footer-container {
@@ -223,11 +235,11 @@ h3 {
   max-width: 420px;
 }
 
-.content-item{
+/*.content-item{
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 .content-img{
   max-width: 300px;
@@ -245,7 +257,7 @@ h3 {
 }
 
 .content-text-a {
-    margin-left: auto;
+    /*margin-left: auto;*/
     margin-right: 0px;
 }
 
@@ -261,6 +273,7 @@ h3 {
     font-family: inherit;
     text-align: inherit;
     align-items: center;
+    /*justify-content: center;*/
 }
 
 .nav-bar {
@@ -321,8 +334,10 @@ jqx-slider[ni-control-id='31'] {
 }
 
 jqx-tank[ni-control-id='38'] {
-  width: 150px;
-  height: 280px;
+  /*width: 150px;
+  height: 280px;*/
+  width: 280px;
+  height: 100px;
   font-size: 20px;
   font-family: 'Questrial', sans-serif;
   font-style: normal;
@@ -377,6 +392,7 @@ ni-cartesian-plot[ni-control-id='213'] {
 ni-graph-tools[ni-control-id='74'] {
     /*left: 580px;
     top: 870px;*/
+    display: none;
     position: relative;
     width: 120px;
     height: 30px;
@@ -407,34 +423,37 @@ ni-cursor[ni-control-id='212'] {
 jqx-numeric-text-box[ni-control-id='100'] {
     /*left: 0px;
     top: 359px;*/
-    width: 80%;
-    height: 40px;
-    font-size: 24px;
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
     font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
+    margin-right: 60px;
 }
 
 jqx-slider[ni-control-id='129'] {
-    width: 100%;
+    width: 300px;;
     height: 56px;
     font-size: 20px;
     font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
+    padding-top: 35px;
 }
 
 jqx-led[ni-control-id='228'] {
-    width: 72px;
-    height: 72px;
+    width: 50px;
+    height: 50px;
     font-size: 20px;
     font-family: Segoe UI, sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
-    margin-left: 65px;
+    margin-left: 60px;
+    /*margin-left: auto;*/
     margin-right: auto;
 }
 jqx-gauge[ni-control-id='90'] {
@@ -445,6 +464,7 @@ jqx-gauge[ni-control-id='90'] {
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
+    margin-top: 30px;
 }
 
 /*JQX Overrides*/
@@ -538,11 +558,11 @@ jqx-tank .jqx-track {
     height: 100%;
 }*/
 
-jqx-tank[orientation="vertical"] .jqx-track {
-    /*width: calc(100% - 105px - 50px);*/
+/*jqx-tank[orientation="vertical"] .jqx-track {
+    /*width: calc(100% - 105px - 50px);
     width: 79px;
     height: 100%;
-}
+}*/
 
 jqx-led {
   display: block;
@@ -579,7 +599,7 @@ jqx-led {
 
   #hero {
     font-size: 20px;
-    height: 520px;
+    height: 300px;
   }
 
   #fat-footer {
@@ -590,6 +610,11 @@ jqx-led {
     /*min-width: 480px;*/
     /*min-width: 100%;*/
     width: 100%;
+  }
+  
+  .content-text-a {
+      margin-left: auto;
+      margin-right: 0px;
   }
 }
 
@@ -602,6 +627,14 @@ jqx-led {
   #hero {
     font-size: 22px;
     height: auto;
+  }
+
+  #iot-img {
+    display: block;
+  }
+
+  #iot-video {
+    display: none;
   }
 }
 
@@ -637,6 +670,10 @@ jqx-led {
     font-size: 24px;
   }
 
+  .nav-links {
+    display: none;
+  }
+
   .primary-content {
     padding-left: 5px;
     padding-right: 5px;
@@ -664,9 +701,38 @@ jqx-led {
     width: 100%
   }
 
+
+
   .spacer {
     border-bottom: none;
   }
+
+  jqx-led[ni-control-id='228'] {
+      /*margin-left: 60px;*/
+
+      margin-right: auto;
+      margin-left: 10px;
+      /*margin-right: auto;*/
+  }
+
+  jqx-numeric-text-box[ni-control-id='100'] {
+      /*left: 0px;
+      top: 359px;*/
+      /*width: 50%;
+      height: 50px;
+      font-size: 30px;
+      font-family: 'Questrial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: none;*/
+      margin-right: 10px;
+      margin-left: auto;
+  }
+  /*jqx-gauge[ni-control-id='90'] {
+      /*width: 100%;
+      width: 300px;
+
+  }*/
 
   /*jqx-slider[ni-control-id='129'] {
     /*left: 240px;
