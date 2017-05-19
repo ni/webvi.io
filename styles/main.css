@@ -257,7 +257,7 @@ h3 {
 }
 
 .content-text-a {
-    margin-left: auto;
+    /*margin-left: auto;*/
     margin-right: 0px;
 }
 
@@ -611,6 +611,11 @@ jqx-led {
     /*min-width: 100%;*/
     width: 100%;
   }
+  
+  .content-text-a {
+      margin-left: auto;
+      margin-right: 0px;
+  }
 }
 
 /*Tablet*/
@@ -665,6 +670,10 @@ jqx-led {
     font-size: 24px;
   }
 
+  .nav-links {
+    display: none;
+  }
+
   .primary-content {
     padding-left: 5px;
     padding-right: 5px;
@@ -691,6 +700,8 @@ jqx-led {
     /*min-width: 100%;*/
     width: 100%
   }
+
+
 
   .spacer {
     border-bottom: none;
