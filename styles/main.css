@@ -43,7 +43,6 @@ video {
 }
 
 h1 {
-  /*font-size: 200px;*/
   font-size: 138px;
   font-weight: bold;
   margin: auto;
@@ -58,6 +57,7 @@ h2 {
 h3 {
   font-size: 36px;
 }
+
 /***********************************/
 /*ID Styles*/
 /***********************************/
@@ -142,12 +142,6 @@ h3 {
   width: 62px;
   height: 122px;
 }
-
-
-
-
-
-
 
 /***********************************/
 /*Class Styles*/
@@ -238,10 +232,6 @@ h3 {
   height: auto;
 }
 
-/*.content-text-a {
-    margin-right: 0px;
-}*/
-
 .content-text-a {
     margin-right: 0px;
     margin-left: auto;
@@ -279,10 +269,6 @@ h3 {
 .spacer {
   height: 25px;
   border-bottom: none;
-}
-
-.mobile-only {
-  display: none;
 }
 
 .pc-display-none {
