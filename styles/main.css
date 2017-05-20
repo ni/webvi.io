@@ -1,7 +1,8 @@
+/***********************************/
 /*Element Styles*/
+/***********************************/
 body {
   padding: 0px;
-  /*font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
   font-family: 'Questrial', sans-serif;
   margin: 0px;
   color: #065FA3;
@@ -33,17 +34,12 @@ img {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 10px;
-  /*display: block;*/
 }
-
-
 
 video {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  /*display: block;*/
-  /*background-color: white !important;*/
 }
 
 h1 {
@@ -60,8 +56,9 @@ h2 {
 h3 {
   font-size: 36px;
 }
-
+/***********************************/
 /*ID Styles*/
+/***********************************/
 #logo {
   margin-left: 5px;
   margin-right: auto;
@@ -79,22 +76,13 @@ h3 {
   margin-right: 0px;
 }
 
-
 #hero .right-content  {
  text-align: left;
  justify-content: center;
 }
 
-#iot-img {
-  display: none;
-}
-
-#iot-video {
-  display: block;
-}
-
 #fat-footer {
-  background-color: #2B3033;
+  background-color: #1B1C3D;
   align-items: baseline;
   color: #02B09E;
   border: none;
@@ -134,30 +122,9 @@ h3 {
   border: none;
 }
 
-/*TODO consolidate into class*/
-/*#fp-ctl-a {
-    display: flex;
-    /*justify-content: center;
-    align-items: center;;
-}*/
-
-#fp-ctl-b {
-  /*display: flex;*/
-  justify-content: space-around;
-}
-
-#fp-ctl-b-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 200px;
-}
-
-#fp-ctl-b-right {
-  display: inline-flex;
-}
-
+/***********************************/
 /*Class Styles*/
+/***********************************/
 .primary-content {
   padding-left: 25px;
   padding-right: 25px;
@@ -207,15 +174,11 @@ h3 {
 .column-container {
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
-  /*height: 300px;*/
-  /*justify-content: center;*/
 }
 
 .row-container {
   display: flex;
   flex-direction: row;
-  /*align-items: flex-end;*/
 }
 
 .footer-container {
@@ -225,8 +188,6 @@ h3 {
 }
 
 .content-duo {
-    /*min-width: 600px;*/
-    /*min-width: 100%;*/
     width: 50%;
 }
 
@@ -234,12 +195,6 @@ h3 {
   min-width: 300px;
   max-width: 420px;
 }
-
-/*.content-item{
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-}*/
 
 .content-img{
   max-width: 300px;
@@ -257,7 +212,6 @@ h3 {
 }
 
 .content-text-a {
-    /*margin-left: auto;*/
     margin-right: 0px;
 }
 
@@ -270,10 +224,7 @@ h3 {
     display: inline-flex;
     height: 600px;
     position: relative;
-    font-family: inherit;
-    text-align: inherit;
     align-items: center;
-    /*justify-content: center;*/
 }
 
 .nav-bar {
@@ -298,15 +249,17 @@ h3 {
   border-bottom: none;
 }
 
-.placeholder-a{
-  background-color: pink;
+.mobile-only {
+  display: none;
 }
 
-.placeholder-b {
-  background-color: green;
+.pc-only {
+  display: block;
 }
 
+/*********************************/
 /*Styles From Web VI */
+/*********************************/
 [data-ni-base-style] {
   position: relative;
 }
@@ -322,35 +275,11 @@ jqx-slider[ni-control-id='28'] {
   display: block;
 }
 
-jqx-slider[ni-control-id='31'] {
-  width: 250px;
-  height: 62px;
-  font-size: 20px;
-  font-family: 'Questrial', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  display: inline-block;
-}
-
-jqx-tank[ni-control-id='38'] {
-  /*width: 150px;
-  height: 280px;*/
-  width: 280px;
-  height: 100px;
-  font-size: 20px;
-  font-family: 'Questrial', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  padding-top: 25px;
-}
-
 ni-cartesian-graph[ni-control-id='64'] {
     width: 100%;
     height: 100%;
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -359,7 +288,7 @@ ni-cartesian-graph[ni-control-id='64'] {
 
 ni-cartesian-axis[ni-control-id='65'] {
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -367,7 +296,7 @@ ni-cartesian-axis[ni-control-id='65'] {
 
 ni-cartesian-axis[ni-control-id='66'] {
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -375,7 +304,7 @@ ni-cartesian-axis[ni-control-id='66'] {
 
 ni-cartesian-plot[ni-control-id='67'] {
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -383,21 +312,19 @@ ni-cartesian-plot[ni-control-id='67'] {
 
 ni-cartesian-plot[ni-control-id='213'] {
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
 }
 
 ni-graph-tools[ni-control-id='74'] {
-    /*left: 580px;
-    top: 870px;*/
     display: none;
     position: relative;
     width: 120px;
     height: 30px;
     font-size: 12px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -406,7 +333,7 @@ ni-graph-tools[ni-control-id='74'] {
 
 ni-cursor[ni-control-id='211'] {
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -414,15 +341,13 @@ ni-cursor[ni-control-id='211'] {
 
 ni-cursor[ni-control-id='212'] {
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
 }
 
 jqx-numeric-text-box[ni-control-id='100'] {
-    /*left: 0px;
-    top: 359px;*/
     width: 50%;
     height: 50px;
     font-size: 30px;
@@ -448,36 +373,25 @@ jqx-led[ni-control-id='228'] {
     width: 50px;
     height: 50px;
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
     margin-left: 60px;
-    /*margin-left: auto;*/
     margin-right: auto;
 }
 jqx-gauge[ni-control-id='90'] {
-    /*width: 100%;*/
     width: 300px;
     font-size: 20px;
-    font-family: Segoe UI, sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
     margin-top: 30px;
 }
-
+/***********************************/
 /*JQX Overrides*/
-
-/*Change tank fill color*/
-jqx-tank .jqx-value {
-    background-color: #02B09E;
-}
-
-jqx-tank .jqx-track:hover {
-    outline-color: #02B09E;
-}
-
+/***********************************/
 jqx-slider .jqx-value {
     background-color: #02B09E;
 }
@@ -494,6 +408,10 @@ jqx-gauge .jqx-value {
     fill: #02B09E;
 }
 
+jqx-numeric-text-box {
+  font-family: 'Questrial', sans-serif;
+}
+
 jqx-numeric-text-box .jqx-spin-button:active {
     background-color: #1B1C3D;
 }
@@ -502,19 +420,9 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component:hover {
     border-color: #02B09E;
 }
 
-
 jqx-numeric-text-box .jqx-arrow-up:hover:after, jqx-numeric-text-box .jqx-arrow-down:hover:after {
     color: #02B09E;
 }
-
-
-/*.jqx-numeric-text-box-pressed-component, jqx-numeric-text-box .jqx-spin-button.jqx-numeric-text-box-pressed-component, jqx-numeric-text-box .jqx-numeric-text-box-radix-display.jqx-numeric-text-box-pressed-component {
-  background-color: none;
-}*/
-
-/*jqx-numeric-text-box .jqx-spin-button:active {
-  background-color: #02B09E;
-}*/
 
 jqx-led[ni-control-id='228'] .jqx-true-content-container{
     background: #02B09E;
@@ -530,48 +438,14 @@ jqx-numeric-text-box input.jqx-numeric-text-box-component {
     border-radius: 0px;
 }
 
-jqx-gauge {
-  /*display:  inline-block;*/
-  display: block;
-  position: relative;
-  /*float: left;*/
-  flex: none;
-}
-
-jqx-slider {
-  display: inline-block;
+/*Set JQX elements to relative position*/
+jqx-gauge, jqx-slider, jqx-numeric-text-box, jqx-led {
   position: relative;
 }
 
-jqx-numeric-text-box {
-  display: block;
-  position: relative;
-}
-
-jqx-tank {
-  display: block;
-  position: relative;
-}
-/*
-jqx-tank .jqx-track {
-    width: calc(100% - 55px - 4px);
-    height: 100%;
-}*/
-
-/*jqx-tank[orientation="vertical"] .jqx-track {
-    /*width: calc(100% - 105px - 50px);
-    width: 79px;
-    height: 100%;
-}*/
-
-jqx-led {
-  display: block;
-  position: relative;
-}
-
-
-/*Overrides for viewports */
-
+/**************************************/
+/*Desktop*/
+/**************************************/
 @media (max-width: 1440px) {
   #hero {
     justify-content: center;
@@ -583,7 +457,9 @@ jqx-led {
   }
 }
 
+/**************************************/
 /*Laptop*/
+/**************************************/
 @media (max-width: 1024px) {
   body {
     font-size: 26px;
@@ -607,18 +483,18 @@ jqx-led {
   }
 
   .content-duo {
-    /*min-width: 480px;*/
-    /*min-width: 100%;*/
     width: 100%;
   }
-  
+
   .content-text-a {
       margin-left: auto;
       margin-right: 0px;
   }
 }
 
+/**************************************/
 /*Tablet*/
+/**************************************/
 @media (max-width: 768px) {
   h1 {
       font-size: 105px;
@@ -629,16 +505,18 @@ jqx-led {
     height: auto;
   }
 
-  #iot-img {
+  .mobile-only {
     display: block;
   }
 
-  #iot-video {
+  .pc-only {
     display: none;
   }
 }
 
-/*Phones*/
+/**************************************/
+/*Phone*/
+/**************************************/
 @media (max-width: 425px) {
   body {
     font-size: 18px;
@@ -670,10 +548,6 @@ jqx-led {
     font-size: 24px;
   }
 
-  .nav-links {
-    display: none;
-  }
-
   .primary-content {
     padding-left: 5px;
     padding-right: 5px;
@@ -695,48 +569,22 @@ jqx-led {
   }
 
   .content-duo {
-    /*min-width: 300px;*/
     max-width: 680px;
-    /*min-width: 100%;*/
     width: 100%
   }
-
-
 
   .spacer {
     border-bottom: none;
   }
 
   jqx-led[ni-control-id='228'] {
-      /*margin-left: 60px;*/
-
       margin-right: auto;
       margin-left: 10px;
-      /*margin-right: auto;*/
   }
 
   jqx-numeric-text-box[ni-control-id='100'] {
-      /*left: 0px;
-      top: 359px;*/
-      /*width: 50%;
-      height: 50px;
-      font-size: 30px;
-      font-family: 'Questrial', sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      text-decoration: none;*/
+
       margin-right: 10px;
       margin-left: auto;
   }
-  /*jqx-gauge[ni-control-id='90'] {
-      /*width: 100%;
-      width: 300px;
-
-  }*/
-
-  /*jqx-slider[ni-control-id='129'] {
-    /*left: 240px;
-    height: 245px;
-    display: block;
-  }*/
 }
