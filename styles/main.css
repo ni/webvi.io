@@ -238,8 +238,13 @@ h3 {
   height: auto;
 }
 
+/*.content-text-a {
+    margin-right: 0px;
+}*/
+
 .content-text-a {
     margin-right: 0px;
+    margin-left: auto;
 }
 
 .content-text-b {
@@ -497,11 +502,12 @@ jqx-gauge, jqx-slider, jqx-numeric-text-box, jqx-led {
   }
 
   h2 {
-    font-size: 42px;
+    font-size: 30px;
   }
 
   #hero {
-    font-size: 26px;
+    /*font-size: 26px;*/
+    font-size: 20px;
     height: 240px;
   }
 
@@ -539,6 +545,8 @@ jqx-gauge, jqx-slider, jqx-numeric-text-box, jqx-led {
 .tablet-display-none {
   display: none;
 }
+
+
 
 /**************************************/
 /*Phone*/
