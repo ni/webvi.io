@@ -272,6 +272,10 @@ h3 {
 }
 
 .pc-display-none {
+  display: none;
+}
+
+.pc-show {
   display: block;
 }
 
@@ -513,6 +517,10 @@ jqx-gauge, jqx-slider, jqx-numeric-text-box, jqx-led {
   .laptop-display-none {
     display: none;
   }
+
+  .laptop-show {
+    display: block;
+  }
 }
 
 /**************************************/
@@ -530,6 +538,10 @@ jqx-gauge, jqx-slider, jqx-numeric-text-box, jqx-led {
 
 .tablet-display-none {
   display: none;
+}
+
+.tablet-show {
+  display: block;
 }
 
 
@@ -598,8 +610,12 @@ jqx-gauge, jqx-slider, jqx-numeric-text-box, jqx-led {
     border-bottom: none;
   }
 
-  .mobile-display-none {
+  .phone-display-none {
     display: none;
+  }
+
+  .phone-show {
+    display: block;
   }
 
   jqx-led[ni-control-id='228'] {
