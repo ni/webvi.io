@@ -3,16 +3,17 @@
   <Job OutputType="WebApplication">
     <CurrentBuildId>
       <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
-      <BuildId>C:\Users\markblack\Documents\GitHub\webvi-squeeze-page\g-source\Builds\Web Server\Configuration1\WebApp</BuildId>
+      <BuildId>C:\Users\markblack\Documents\GitHub\webvi-squeeze-page\g-source\Builds\WebApp_Web Server</BuildId>
     </CurrentBuildId>
     <RootBuildId>
       <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
-      <BuildId>C:\Users\markblack\Documents\GitHub\webvi-squeeze-page\g-source\Builds\Web Server\Configuration1\WebApp</BuildId>
+      <BuildId>C:\Users\markblack\Documents\GitHub\webvi-squeeze-page\g-source\Builds\WebApp_Web Server</BuildId>
     </RootBuildId>
-    <OutputPath>Builds\Web Server\Configuration1\WebApp</OutputPath>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
     <BuildName>WebApp</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:00</LastTotalTime>
+    <LastTotalTime>00:00:02</LastTotalTime>
     <HasChild>False</HasChild>
+    <QualifiedName>:Web\ Server:Interactive:WebApp\.gcomp</QualifiedName>
   </Job>
 </JobList>
