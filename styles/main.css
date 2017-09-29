@@ -341,7 +341,6 @@ ni-cartesian-plot[ni-control-id='213'] {
 }
 
 ni-graph-tools[ni-control-id='74'] {
-    display: none;
     position: relative;
     width: 120px;
     height: 30px;
@@ -418,8 +417,16 @@ jqx-slider .jqx-value {
     background-color: #02B09E;
 }
 
+jqx-slider .jqx-tooltip {
+  color: #02B09E;
+}
+
 jqx-slider .jqx-thumb {
   background-color: #1B1C3D;
+}
+
+jqx-slider .jqx-thumb:hover {
+  border-color: #02B09E;
 }
 
 jqx-slider .jqx-track:hover {
