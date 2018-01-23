@@ -1,9 +1,9 @@
 // track links links
 mixpanel.track_links(".track", "link clicked", {
-        "teir": window.location.hostname
-    });
+    "tier": window.location.hostname
+});
 
 // track navbar links
-    mixpanel.track_links(".nav-track", "nav clicked", {
-            "teir": window.location.hostname
-        });
+mixpanel.track_links(".nav-track", "nav clicked", {
+    "tier": window.location.hostname
+});
