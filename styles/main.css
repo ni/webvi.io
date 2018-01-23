@@ -83,6 +83,15 @@ h3 {
  justify-content: center;
 }
 
+#title {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#title div {
+  text-align: center;
+}
+
 #fat-footer {
   background-color: #1B1C3D;
   align-items: baseline;
@@ -576,6 +585,7 @@ jqx-gauge, jqx-slider, jqx-numeric-text-box, jqx-led {
 
   #hero .content-text-b {
        margin-right: auto;
+       margin-top: 25px;
   }
 
   #fat-footer {

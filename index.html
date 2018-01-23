@@ -29,28 +29,37 @@
 
   <script defer="" src="scripts/main.js" type="text/javascript"></script>
   <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+  <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init("61d63d3f2a3631a5cf699e8eea182e98");</script><!-- end Mixpanel -->
+
 </head>
 <body>
   <ni-web-application engine="VIREO" location="BROWSER" vireo-source="g-source/Builds/WebApp_Web Server/Main.via.txt"><ni-virtual-instrument vi-name=":Web Server:Interactive:Application:Main.gviweb"></ni-virtual-instrument></ni-web-application>
   <div id="ni-outdated-browser-message" style="display:none">This browser is reporting compatibility with older browser technologies that may perform poorly if it all.</div>
 
   <div class="nav-bar">
-    <h3 id="logo"><a href="http://www.ni.com">NI</a></h3>
+    <h3 id="logo"><a class="track" href="http://www.ni.com">NI</a></h3>
     <ul class="nav-links phone-display-none tablet-display-none">
-      <li><a href="#g-on-the-web">G on the Web</a></li>
-      <li><a href="#engineering-views">Measurement Ready</a></li>
-      <li><a href="#iot">IoT</a></li>
-      <li><a href="#vireo">Vireo</a></li>
-      <li><a href="#standards">Open Standards</a></li>
-      <li><a href="#whats-next">What's Next?</a></li>
+      <li><a class="nav-track" href="#g-on-the-web">G on the Web</a></li>
+      <li><a class="nav-track" href="#engineering-views">Measurement Ready</a></li>
+      <li><a class="nav-track" href="#iot">IoT</a></li>
+      <li><a class="nav-track" href="#vireo">Vireo</a></li>
+      <li><a class="nav-track" href="#standards">Open Standards</a></li>
+      <li><a class="nav-track" href="#whats-next">What's Next?</a></li>
     </ul>
   </div>
 
   <div class="primary-content">
     <div class="section section-b" id="hero">
       <div class="column-container content-text content-text-b">
-        <h1>WebVI</h1>
-      </div>
+        <div id="title">
+          <h1>WebVI</h1>
+          <div><a class="track" href="http://www.ni.com/en-us/shop/labview/download.html">Download LabVIEW NXG</a></div>
+        </div>
+    </div>
       <div class="right-content column-container content-text content-text-b">
         <div>LabVIEW on the Web</div>
         <div>WYSIWYG HTML Panels</div>
@@ -68,7 +77,7 @@
           <jqx-led data-ni-base-style="uninitialized" ni-control-id='228' binding-info='{"prop":"value","dco":10,"dataItem":"dataItem_LED","unplacedOrDisabled":false,"accessMode":"writeOnly","isLatched":false,"sync":false}' label-id='229' readonly='true' click-mode='release' true-content='&lt;span class=&apos;jqx-true-content ni-hidden&apos;&gt;On&lt;/span&gt;' false-content='&lt;span class=&apos;jqx-false-content ni-hidden&apos;&gt;Off&lt;/span&gt;' shape='square'><span class='jqx-true-content ni-hidden'>On</span><span class='jqx-false-content ni-hidden'>Off</span></jqx-led>
           <jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='100' binding-info='{"prop":"value","dco":5,"dataItem":"dataItem_Numeric","unplacedOrDisabled":false,"accessMode":"readOnly","isLatched":false,"sync":false}' label-id='101' value='300000' min='-Infinity' max='Infinity' input-format='floatingPoint' scientific-notation='true' significant-digits='4' spin-buttons-step='10000' spin-buttons='true' spin-buttons-initial-delay='500'></jqx-numeric-text-box>
         </div>
-        <jqx-slider data-ni-base-style="uninitialized" ni-control-id='129' binding-info='{"prop":"value","dco":7,"dataItem":"dataItem_Slider_3","unplacedOrDisabled":false,"accessMode":"readOnly","isLatched":false,"sync":false}' label-id='130' value='0' min='0' max='100000' interval='1' scale-type='floatingPoint' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='5' scale-position='far' orientation='horizontal' mechanical-action='switchWhileDragging' show-tooltip='true'></jqx-slider>
+        <jqx-slider id="my-slider" data-ni-base-style="uninitialized" ni-control-id='129' binding-info='{"prop":"value","dco":7,"dataItem":"dataItem_Slider_3","unplacedOrDisabled":false,"accessMode":"readOnly","isLatched":false,"sync":false}' label-id='130' value='0' min='0' max='100000' interval='1' scale-type='floatingPoint' scale-visible='true' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='5' scale-position='far' orientation='horizontal' mechanical-action='switchWhileDragging' show-tooltip='true'></jqx-slider>
       </div>
 
       <div class="column-container content-text content-text-a">
@@ -81,11 +90,11 @@
     <div class="section section-b" id="engineering-views">
       <div class="column-container content-duo content-text content-text-b">
         <h2>Scientific Grade Charts</h2>
-        <div><a href="https://ni-kismet.github.io/webcharts-drive-test/performance/graph.html">Best in class performance</a></div>
+        <div><a class="track "href="https://ni-kismet.github.io/webcharts-drive-test/performance/graph.html">Best in class performance</a></div>
         <div>Measurement ready controls</div>
       </div>
       <div id="graph" class="column-container content-duo content front-panel">
-        <ni-cartesian-graph data-ni-base-style="uninitialized" ni-control-id='64' binding-info='{"prop":"value","dco":2,"dataItem":"dataItem_Graph","unplacedOrDisabled":false,"accessMode":"writeOnly","isLatched":false,"sync":false}' label-id='75' read-only='true' ni-type='{"name":"Array","rank":2,"subtype":"Double"}' value='[]' plot-area-margin='{"left":0,"top":0,"right":0,"bottom":0}'><ni-cartesian-axis data-ni-base-style="uninitialized" label='Time' show='true' ni-control-id='65' axis-position='bottom' minimum='0' maximum='100' format='LVRelativeSeconds:N0' show-tick-labels='all' auto-scale='sliding-window' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
+        <ni-cartesian-graph id="the-graph" data-ni-base-style="uninitialized" ni-control-id='64' binding-info='{"prop":"value","dco":2,"dataItem":"dataItem_Graph","unplacedOrDisabled":false,"accessMode":"writeOnly","isLatched":false,"sync":false}' label-id='75' read-only='true' ni-type='{"name":"Array","rank":2,"subtype":"Double"}' value='[]' plot-area-margin='{"left":0,"top":0,"right":0,"bottom":0}'><ni-cartesian-axis data-ni-base-style="uninitialized" label='Time' show='true' ni-control-id='65' axis-position='bottom' minimum='0' maximum='100' format='LVRelativeSeconds:N0' show-tick-labels='all' auto-scale='sliding-window' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
           <ni-cartesian-axis data-ni-base-style="uninitialized" label='Amplitude' show='true' ni-control-id='66' axis-position='left' minimum='-1.5' maximum='2.5' format='LVRelativeSeconds:G6&gt;&gt;0.000E+0' show-tick-labels='all' auto-scale='none' grid-lines='true' show-ticks='true' show-minor-ticks='true'></ni-cartesian-axis>
           <ni-cartesian-plot data-ni-base-style="uninitialized" label='Plot' show='true' show-label='true' ni-control-id='67' xaxis='65' yaxis='66' hover-format='{0}, {1}'><ni-cartesian-plot-renderer data-ni-base-style="uninitialized" ni-control-id='70' line-width='1' line-stroke='rgba(130,163,209,1)' line-style='solid' point-color='' area-fill='' area-base-line='negativeinfinity' bar-fill='' bar-base-line='negativeinfinity' point-size='7.0710678118654755' point-shape='ellipse'></ni-cartesian-plot-renderer>
           </ni-cartesian-plot>
@@ -115,7 +124,7 @@
     <div class="section section-b" id="vireo">
       <div class="column-container content-duo content-text content-text-b">
         <h2>Vireo Runtime</h2>
-        <div>Compact, Portable, <a href="https://github.com/ni/VireoSDK">Open Source</a></div>
+        <div>Compact, Portable, <a class="track "href="https://github.com/ni/VireoSDK">Open Source</a></div>
       </div>
       <div class="column-container content-duo  content-img content-img-solo">
         <img  src="styles/vireo-logo.png" />
@@ -131,9 +140,9 @@
       </div>
       <div class="column-container content-trio content-text content-text-a">
         <h2>Plays well with others</h2>
-        <div><a href="https://www.w3.org/TR/custom-elements/">Web Standards<a/></div>
-        <div><a href="http://asmjs.org/">ASM.js</a></div>
-        <div><a href="https://github.com/ni/webvi-examples/tree/master/EmbedWebVIIntoContent">Direct Access to HTML</a></div>
+        <div><a class="track" href="https://www.w3.org/TR/custom-elements/">Web Standards<a/></div>
+        <div><a class="track" href="http://asmjs.org/">ASM.js</a></div>
+        <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/EmbedWebVIIntoContent">Direct Access to HTML</a></div>
       </div>
     </div>
 
@@ -157,37 +166,33 @@
   <div class="section" id="fat-footer">
     <div class="column-container footer-container">
       <h2>Products</h2>
-      <div><a href="http://www.ni.com/en-us/shop/labview/labview-nxg.html">LabVIEW NXG</a></div>
-      <div><a href="https://github.com/ni/VireoSDK">VireoSDK on Github</a></div>
-      <div><a href="http://www.ni.com/en-us/landing/systems-management-software.html">System Link</a></div>
+      <div><a class="track" href="http://www.ni.com/en-us/shop/labview/labview-nxg.html">LabVIEW NXG</a></div>
+      <div><a class="track" href="https://github.com/ni/VireoSDK">VireoSDK on Github</a></div>
+      <div><a class="track" href="http://www.ni.com/en-us/landing/systems-management-software.html">System Link</a></div>
     </div>
     <div class="column-container footer-container">
       <h2>Examples</h2>
-      <div><a href="https://github.com/ni/webvi-examples/tree/master/CallLabVIEWWebService">Call LabVIEW Web Service</a></div>
-      <div><a href="https://github.com/ni/webvi-examples/tree/master/Call3rdPartyWebService">Call 3rd Party Web Service</a></div>
-      <div><a href="https://github.com/ni/webvi-examples/tree/master/CustomizeWithCss">Customize with CSS</a></div>
-      <div><a href="https://github.com/ni/webvi-examples/tree/master/EmbedContentIntoWebVI">Embed Content Into a WebVI</a></div>
-      <div><a href="https://github.com/ni/webvi-examples/tree/master/EmbedWebVIIntoContent">Embed a WebVI into Content</a></div>
-      <div><a href="https://github.com/ni/webvi-examples/tree/master/IncorporateUserResources">Incorporate User Resources</a></div>
-      <div><a href="https://github.com/ni/webvi-examples/tree/master/MultipleTopLevelWebVIs">Multiple Top Level WebVIs</a></div>
-      <div><a href="https://github.com/ni/webvi-examples/tree/master/UtilizeSkylineDataServices">Utilize Skyline Data Services</a></div>
+      <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/CallLabVIEWWebService">Call LabVIEW Web Service</a></div>
+      <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/Call3rdPartyWebService">Call 3rd Party Web Service</a></div>
+      <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/CustomizeWithCss">Customize with CSS</a></div>
+      <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/EmbedContentIntoWebVI">Embed Content Into a WebVI</a></div>
+      <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/EmbedWebVIIntoContent">Embed a WebVI into Content</a></div>
+      <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/IncorporateUserResources">Incorporate User Resources</a></div>
+      <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/MultipleTopLevelWebVIs">Multiple Top Level WebVIs</a></div>
+      <div><a class="track" href="https://github.com/ni/webvi-examples/tree/master/UtilizeSkylineDataServices">Utilize Skyline Data Services</a></div>
     </div>
     <div class="column-container footer-container">
-      <h2><a href="http://www.ni.com">NI</a></h2>
-      <div><a href="http://www.ni.com/company/">About</a></div>
-      <div><a href="http://www.ni.com/careers/">Careers</a></div>
-      <div><a href="http://www.ni.com/contact-us/">Contact Us</a></div>
+      <h2><a class="track" href="http://www.ni.com">NI</a></h2>
+      <div><a class="track" href="http://www.ni.com/company/">About</a></div>
+      <div><a class="track" href="http://www.ni.com/careers/">Careers</a></div>
+      <div><a class="track" href="http://www.ni.com/contact-us/">Contact Us</a></div>
     </div>
   </div>
 
   <div class="section" id="footer">
     <div class="column-container footer-container">
-      <div><a href="http://www.ni.com/legal/">Legal</a> | <a href="http://www.ni.com/legal/privacy/unitedstates/us/">Privacy</a> | © 2017 National Instruments. All rights reserved.</div>
+      <div><a class="track" href="http://www.ni.com/legal/">Legal</a> | <a class="track" href="http://www.ni.com/legal/privacy/unitedstates/us/">Privacy</a> | © 2017 National Instruments. All rights reserved.</div>
     </div>
   </div>
-
-<!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3335354.js"></script>
-<!-- End of HubSpot Embed Code -->
 </body>
 </html>
