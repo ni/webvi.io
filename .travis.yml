@@ -11,4 +11,4 @@ deploy:
   cache_control: "max-age=31536000"
   on:
     repo: prestwick/webvi-squeeze-page
-    tags: true 
+    brach: master
