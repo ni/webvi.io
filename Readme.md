@@ -116,9 +116,3 @@ The `ni-virtual-instrument` custom element needs no modification after it has be
 - **`g-source`**: Everything within this directory is either the source code of the WebVI of the build output from LabVIEW. Most of the path and filenames are defaults obtained by using the **Web Application** template in LabVIEW NXG 2.0.
  - **`g-source/Builds/Web Server/Configuration1/WebApp`**: This is the important bits of the emitted by LabVIEW when the Web Application is built.
 - **`app`**: This directory contains all the hand maintained HTML and CSS files of the static page. This example requires no additional JavaScript.
-
-# Publishing
-```
-npm version major|minor|patch
-git push --follow-tags
-```
