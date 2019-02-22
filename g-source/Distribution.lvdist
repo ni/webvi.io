@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="6F712F877E1D67437516E0DE2075AEB433AC341C44AC6727DFB95BE1092219CD5517DEA7C4233AF1CFCA992C781F1B17CC1D312488BFA1D13FAE90182381106F" Timestamp="1D4CAFA934D04AB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2293" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.2293" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.2293" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="NI" ContentType="Binary" OutputDirectory="&quot;C:\\Users\\rprather\\Documents\\LabVIEW Projects\\WebVI.io&quot;" Product="webvi.io" TargetedProduct="LabVIEW" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="79978e979263452f84e2042da0348ae0" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:MaintainerEmail="NI" p3:MaintainerName="NI" p3:PackageDisplayName="webvi.io" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="8457b619b9964ae192cd47719bdf36e3" Target="::Web Server" />
+	</DistributionDefinition>
+</SourceFile>
