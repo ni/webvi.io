@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1D7ACEA00ABAD79D10B5769D36131EE822D0E99E9DD9CE737FE718377E7AA40D0664062454352D7BFD608F649F8F804AE2DB6B7E595A2233F482D5DFDD9BC860" Timestamp="1D4CB1502204FF2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="649DF68EB9433F9D579113291ECDBA37D024CA34BC71B81C4229429A8725FDB5F947676ABC498C81DCFD8DE4A16F1ADAB8DFAA14E0A7705373888C8147145718" Timestamp="1D4CB18143A936E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2293" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.0.2293" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -481,7 +481,7 @@
 								</HtmlPlot>
 							</HtmlChart>
 							<HtmlScaleLegend Extras="[Dictionary&lt;string, string&gt;]&quot;graph-ref&quot;=&quot;80&quot;" Graph="[UIModel]92" Height="[float]70" Id="99" Left="[float]527" MinWidth="[float]160" Top="[float]298" Visible="[bool]False" Width="[float]160" />
-							<HtmlPlotLegend Extras="[Dictionary&lt;string, string&gt;]&quot;graph-ref&quot;=&quot;80&quot;" Graph="[UIModel]92" Height="[float]28" Id="100" Left="[float]0" MinWidth="[float]160" Top="[float]362" Width="[float]160" />
+							<HtmlPlotLegend Extras="[Dictionary&lt;string, string&gt;]&quot;graph-ref&quot;=&quot;80&quot;" Graph="[UIModel]92" Height="[float]28" Id="100" Left="[float]0" MinWidth="[float]160" Top="[float]362" Width="[float]520" />
 							<HtmlCursorLegend Extras="[Dictionary&lt;string, string&gt;]&quot;graph-ref&quot;=&quot;80&quot;" Graph="[UIModel]92" Height="[float]200" Id="101" Left="[float]0" MinWidth="[float]320" Top="[float]409" Visible="[bool]False" Width="[float]320" />
 							<HtmlGraphTools Extras="[Dictionary&lt;string, string&gt;]&quot;graph-ref&quot;=&quot;80&quot;" Graph="[UIModel]92" Height="[float]35" Id="102" Left="[float]0" MinWidth="[float]168" Top="[float]367" Visible="[bool]False" Width="[float]168" />
 							<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]" Height="[float]16" Id="103" LabelOwner="[UIModel]92" Left="[float]0" Text="[string]Chart" Top="[float]-20" Visible="[bool]False" Width="[float]36" />
