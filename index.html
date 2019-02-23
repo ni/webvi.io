@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>index</title>
-    <link href="ni-webvi-resource-v0/favicon.ico" type="image/x-icon" rel="icon">
+    <head>
+        <meta charset="utf-8">
+        <!---Read only section. Source panel edits to these document properties will not be persisted-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WebVI - LabVIEW NXG</title>
+        <!---End read only section. Additional scripts or document properties can be added outside this section-->
+        <link href="ni-webvi-resource-v0/favicon.ico" type="image/x-icon" rel="icon">
 <link href="ni-webvi-resource-v0/Web/dist/Styles/niBase.DeployedRun.Absolute.min.css" type="text/css" rel="stylesheet">
 <script defer="" src="ni-webvi-resource-v0/Web/dist/niBase.min.js" type="text/javascript"></script>
 <script defer="" src="ni-webvi-resource-v0/Web/dist/niThirdPartyResources.min.js" type="text/javascript"></script>
@@ -213,21 +215,59 @@
 
 	</style>
 
+        <script defer="" src="scripts/main.js"></script>
+<!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init("61d63d3f2a3631a5cf699e8eea182e98");</script><!-- end Mixpanel -->
+    
 </head>
 
-<body><ni-web-application location="BROWSER" engine="VIREO" vireo-source="index.via.txt"><ni-virtual-instrument vi-name="WebApp::index.gviweb"></ni-virtual-instrument></ni-web-application>
-    <div id="ni-outdated-browser-message" style="display:none">This browser is reporting compatibility with older browser technologies that may perform poorly if it all.</div>
-    <div id="ni-failed-to-load-vireo-source" style="display:none">
-        <div id="ni-failed-to-load-vireo-message-title">
-            Unable to load resource file
+    <body><ni-web-application location="BROWSER" engine="VIREO" vireo-source="index.via.txt"><ni-virtual-instrument vi-name="WebApp::index.gviweb"></ni-virtual-instrument></ni-web-application>
+        <div id="ni-outdated-browser-message" style="display:none">This browser is reporting compatibility with older browser technologies that may perform poorly if it all.</div>
+        <div id="ni-failed-to-load-vireo-source" style="display:none">
+            <div id="ni-failed-to-load-vireo-message-title">
+                Unable to load resource file
+            </div>
+            <div id="ni-failed-to-load-vireo-message-body">
+                Verify all WebVI files are available and served using an HTTP server or use a browser that can load files directly from the file system. See <a href="http://digital.ni.com/express.nsf/bycode/HOSTWEBAPP">Hosting a Web Application on a Server</a>                for more information.
+            </div>
         </div>
-        <div id="ni-failed-to-load-vireo-message-body">
-            Verify all WebVI files are available and served using an HTTP server or use a browser that can load files directly from the file system. See <a href="http://digital.ni.com/express.nsf/bycode/HOSTWEBAPP">Hosting a Web Application on a Server</a> for more information.
-        </div>
-    </div>
-    <div class="ni-front-panel-wrapper" vi-ref="" ni-control-id="FrontPanelWrapper">
-        <ni-front-panel control-resize-mode="fixed" layout="flexible" ni-control-id="225">
-        <ni-flexible-layout-group control-resize-mode='both-directions' ni-control-id='211'><ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='220'><ni-flexible-layout-container control-resize-mode='both-directions' direction='row' horizontal-content-alignment='flex-start' ni-control-id='221' vertical-content-alignment='center'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='222'><ni-url-image alternate='' binding-info='{"accessMode": "writeOnly", "dataItem": "dataItem_URLImage_2", "dco": 9, "isLatched": false, "prop": "source", "sync": false, "unplacedOrDisabled": true}' control-resize-mode='fixed' follower-ids='["223"]' label-id='223' ni-control-id='224' read-only='true' source='Images/NI%20logo.svg' stretch='uniformtofill'></ni-url-image>
+        <div class="ni-front-panel-wrapper" vi-ref="" ni-control-id="FrontPanelWrapper">
+            <ni-front-panel control-resize-mode="fixed" layout="flexible" ni-control-id="225">
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+            <ni-flexible-layout-group control-resize-mode='both-directions' ni-control-id='211'><ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='220'><ni-flexible-layout-container control-resize-mode='both-directions' direction='row' horizontal-content-alignment='flex-start' ni-control-id='221' vertical-content-alignment='center'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='222'><ni-url-image alternate='' binding-info='{"accessMode": "writeOnly", "dataItem": "dataItem_URLImage_2", "dco": 9, "isLatched": false, "prop": "source", "sync": false, "unplacedOrDisabled": true}' control-resize-mode='fixed' follower-ids='["223"]' label-id='223' ni-control-id='224' read-only='true' source='Images/NI%20logo.svg' stretch='uniformtofill'></ni-url-image>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='223' text='URL Image_2'></ni-label>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
@@ -256,7 +296,7 @@ Runs on any device with no plugins required'></ni-text>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
 </ni-flexible-layout-wrapper>
-<ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='190'><ni-flexible-layout-container control-resize-mode='both-directions' direction='row' horizontal-content-alignment='center' ni-control-id='191' vertical-content-alignment='center'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='192'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl", "dco": 16, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Create WebVIs with the LabVIEW NXG Web Module. Start your free trial today!' control-resize-mode='fixed' follower-ids='["193"]' href='http://www.ni.com/en-us/support/downloads/software-products/download.labview-nxg-web-module.html#288604' label-id='193' ni-control-id='195'></ni-hyperlink>
+<ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='190'><ni-flexible-layout-container control-resize-mode='both-directions' direction='row' horizontal-content-alignment='center' ni-control-id='191' vertical-content-alignment='center'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='192'><ni-hyperlink class='free-trial-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl", "dco": 16, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Create WebVIs with the LabVIEW NXG Web Module. Start your free trial today!' control-resize-mode='fixed' follower-ids='["193"]' href='http://www.ni.com/en-us/support/downloads/software-products/download.labview-nxg-web-module.html#288604' label-id='193' ni-control-id='195'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='193' text='Hyperlink Control'></ni-label>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
@@ -315,10 +355,10 @@ Measurement Ready Controls
 <ni-cartesian-plot hover-format='{0}, {1}' label='Plot' ni-control-id='138' show='true' show-label='true' xaxis='142' yaxis='140'><ni-cartesian-plot-renderer area-base-line='negativeinfinity' area-fill='' bar-base-line='negativeinfinity' bar-fill='' line-stroke='rgba(130,163,209,1)' line-style='solid' line-width='1' ni-control-id='139' point-color='' point-shape='ellipse' point-size='7.0710678118654755'></ni-cartesian-plot-renderer>
 </ni-cartesian-plot>
 </ni-chart>
-<ni-scale-legend class='ni-hidden' control-resize-mode='fixed' graph-ref='137' ni-control-id='136'></ni-scale-legend>
-<ni-plot-legend control-resize-mode='fixed' graph-ref='137' ni-control-id='135'></ni-plot-legend>
-<ni-cursor-legend class='ni-hidden' control-resize-mode='fixed' graph-ref='137' ni-control-id='134'></ni-cursor-legend>
-<ni-graph-tools class='ni-hidden' control-resize-mode='fixed' graph-ref='137' ni-control-id='133'></ni-graph-tools>
+<ni-scale-legend class='ni-hidden' control-resize-mode='fixed' graph-ref='80' ni-control-id='136'></ni-scale-legend>
+<ni-plot-legend control-resize-mode='fixed' graph-ref='80' ni-control-id='135'></ni-plot-legend>
+<ni-cursor-legend class='ni-hidden' control-resize-mode='fixed' graph-ref='80' ni-control-id='134'></ni-cursor-legend>
+<ni-graph-tools class='ni-hidden' control-resize-mode='fixed' graph-ref='80' ni-control-id='133'></ni-graph-tools>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='132' text='Chart'></ni-label>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
@@ -338,39 +378,39 @@ Measurement Ready Controls
 </ni-flexible-layout-wrapper>
 </ni-flexible-layout-group>
 
-<ni-flexible-layout-group control-resize-mode='both-directions' ni-control-id='67'><ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='90'><ni-flexible-layout-container control-resize-mode='both-directions' direction='column' horizontal-content-alignment='center' ni-control-id='91' vertical-content-alignment='flex-start'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='112'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_5", "dco": 21, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Call SystemLink Data Services' control-resize-mode='fixed' follower-ids='["113"]' href='https://github.com/ni/webvi-examples/tree/master/CallSystemLinkDataServices' label-id='113' ni-control-id='114'></ni-hyperlink>
+<ni-flexible-layout-group control-resize-mode='both-directions' ni-control-id='67'><ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='90'><ni-flexible-layout-container control-resize-mode='both-directions' direction='column' horizontal-content-alignment='center' ni-control-id='91' vertical-content-alignment='flex-start'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='112'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_5", "dco": 21, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Call SystemLink Data Services' control-resize-mode='fixed' follower-ids='["113"]' href='https://github.com/ni/webvi-examples/tree/master/CallSystemLinkDataServices' label-id='113' ni-control-id='114'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='113' text='Hyperlink Control_5'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='108'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_7", "dco": 23, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Call 3rd Party Web Service' control-resize-mode='fixed' follower-ids='["109"]' href='https://github.com/ni/webvi-examples/tree/master/Call3rdPartyWebService' label-id='109' ni-control-id='110'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='108'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_7", "dco": 23, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Call 3rd Party Web Service' control-resize-mode='fixed' follower-ids='["109"]' href='https://github.com/ni/webvi-examples/tree/master/Call3rdPartyWebService' label-id='109' ni-control-id='110'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='109' text='Hyperlink Control_7'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='104'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_8", "dco": 24, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Multiple Top Level WebVIs' control-resize-mode='fixed' follower-ids='["105"]' href='https://github.com/ni/webvi-examples/tree/master/MultipleTopLevelWebVIs' label-id='105' ni-control-id='106'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='104'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_8", "dco": 24, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Multiple Top Level WebVIs' control-resize-mode='fixed' follower-ids='["105"]' href='https://github.com/ni/webvi-examples/tree/master/MultipleTopLevelWebVIs' label-id='105' ni-control-id='106'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='105' text='Hyperlink Control_8'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='100'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_9", "dco": 25, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Customize with CSS' control-resize-mode='fixed' follower-ids='["101"]' href='https://github.com/ni/webvi-examples/tree/master/CustomizeWithCss' label-id='101' ni-control-id='102'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='100'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_9", "dco": 25, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Customize with CSS' control-resize-mode='fixed' follower-ids='["101"]' href='https://github.com/ni/webvi-examples/tree/master/CustomizeWithCss' label-id='101' ni-control-id='102'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='101' text='Hyperlink Control_9'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='96'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_6", "dco": 22, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Call JavaScript from a WebVI' control-resize-mode='fixed' follower-ids='["97"]' href='https://github.com/ni/webvi-examples/tree/master/CallJavaScriptFromAWebVI' label-id='97' ni-control-id='98'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='96'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_6", "dco": 22, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Call JavaScript from a WebVI' control-resize-mode='fixed' follower-ids='["97"]' href='https://github.com/ni/webvi-examples/tree/master/CallJavaScriptFromAWebVI' label-id='97' ni-control-id='98'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='97' text='Hyperlink Control_6'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='92'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_14", "dco": 30, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Incorporate User Resources' control-resize-mode='fixed' follower-ids='["93"]' href='https://github.com/ni/webvi-examples/tree/master/IncorporateUserResources' label-id='93' ni-control-id='94'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='92'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_14", "dco": 30, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Incorporate User Resources' control-resize-mode='fixed' follower-ids='["93"]' href='https://github.com/ni/webvi-examples/tree/master/IncorporateUserResources' label-id='93' ni-control-id='94'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='93' text='Hyperlink Control_14'></ni-label>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
 </ni-flexible-layout-wrapper>
-<ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='68'><ni-flexible-layout-container control-resize-mode='both-directions' direction='column' horizontal-content-alignment='center' ni-control-id='69' vertical-content-alignment='flex-start'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='86'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_4", "dco": 20, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Call LabVIEW Web Service' control-resize-mode='fixed' follower-ids='["87"]' href='https://github.com/ni/webvi-examples/tree/master/CallLabVIEWWebService' label-id='87' ni-control-id='88'></ni-hyperlink>
+<ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='68'><ni-flexible-layout-container control-resize-mode='both-directions' direction='column' horizontal-content-alignment='center' ni-control-id='69' vertical-content-alignment='flex-start'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='86'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_4", "dco": 20, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Call LabVIEW Web Service' control-resize-mode='fixed' follower-ids='["87"]' href='https://github.com/ni/webvi-examples/tree/master/CallLabVIEWWebService' label-id='87' ni-control-id='88'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='87' text='Hyperlink Control_4'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='82'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_11", "dco": 27, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Connect WebVI to WebSockets' control-resize-mode='fixed' follower-ids='["83"]' href='https://github.com/ni/webvi-examples/tree/master/ConnectWebVIToWebSocketEchoServer' label-id='83' ni-control-id='84'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='82'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_11", "dco": 27, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Connect WebVI to WebSockets' control-resize-mode='fixed' follower-ids='["83"]' href='https://github.com/ni/webvi-examples/tree/master/ConnectWebVIToWebSocketEchoServer' label-id='83' ni-control-id='84'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='83' text='Hyperlink Control_11'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='78'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_13", "dco": 29, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Embed Content Into WebVI - Web Cam' control-resize-mode='fixed' follower-ids='["79"]' href='https://github.com/ni/webvi-examples/tree/master/EmbedContentIntoWebVI' label-id='79' ni-control-id='80'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='78'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_13", "dco": 29, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Embed Content Into WebVI - Web Cam' control-resize-mode='fixed' follower-ids='["79"]' href='https://github.com/ni/webvi-examples/tree/master/EmbedContentIntoWebVI' label-id='79' ni-control-id='80'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='79' text='Hyperlink Control_13'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='74'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_12", "dco": 28, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Embed WebVI Into Content' control-resize-mode='fixed' follower-ids='["75"]' href='https://github.com/ni/webvi-examples/tree/master/EmbedWebVIIntoContent' label-id='75' ni-control-id='76'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='74'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_12", "dco": 28, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Embed WebVI Into Content' control-resize-mode='fixed' follower-ids='["75"]' href='https://github.com/ni/webvi-examples/tree/master/EmbedWebVIIntoContent' label-id='75' ni-control-id='76'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='75' text='Hyperlink Control_12'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='70'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_10", "dco": 26, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Generate User Events' control-resize-mode='fixed' follower-ids='["71"]' href='https://github.com/ni/webvi-examples/tree/master/UserEventGeneration' label-id='71' ni-control-id='72'></ni-hyperlink>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='70'><ni-hyperlink class='example-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_10", "dco": 26, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Generate User Events' control-resize-mode='fixed' follower-ids='["71"]' href='https://github.com/ni/webvi-examples/tree/master/UserEventGeneration' label-id='71' ni-control-id='72'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='71' text='Hyperlink Control_10'></ni-label>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
@@ -414,7 +454,7 @@ No web expertise required, but customizable if you need it'></ni-text>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
 </ni-flexible-layout-wrapper>
-<ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='29'><ni-flexible-layout-container control-resize-mode='both-directions' direction='row' horizontal-content-alignment='center' ni-control-id='30' vertical-content-alignment='center'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='31'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_2", "dco": 17, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Learn more about the LabVIEW NXG Web Module' control-resize-mode='fixed' follower-ids='["32"]' href='http://www.ni.com/en-us/shop/electronic-test-instrumentation/add-ons-for-electronic-test-and-instrumentation/what-is-labview-nxg-web-module.html' label-id='32' ni-control-id='33'></ni-hyperlink>
+<ni-flexible-layout-wrapper control-resize-mode='both-directions' ni-control-id='29'><ni-flexible-layout-container control-resize-mode='both-directions' direction='row' horizontal-content-alignment='center' ni-control-id='30' vertical-content-alignment='center'><ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='31'><ni-hyperlink class='learn-more-link' binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_2", "dco": 17, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Learn more about the LabVIEW NXG Web Module' control-resize-mode='fixed' follower-ids='["32"]' href='http://www.ni.com/en-us/shop/electronic-test-instrumentation/add-ons-for-electronic-test-and-instrumentation/what-is-labview-nxg-web-module.html' label-id='32' ni-control-id='33'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='32' text='Hyperlink Control_2'></ni-label>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
@@ -439,13 +479,14 @@ No web expertise required, but customizable if you need it'></ni-text>
 <ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='8'><ni-hyperlink binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_HyperlinkControl_16", "dco": 35, "isLatched": false, "prop": "href", "sync": false, "unplacedOrDisabled": true}' content='Privacy' control-resize-mode='fixed' follower-ids='["9"]' href='http://www.ni.com/legal/privacy/unitedstates/us/' label-id='9' ni-control-id='10'></ni-hyperlink>
 <ni-label class='ni-hidden' control-resize-mode='fixed' ni-control-id='9' text='Hyperlink Control_16'></ni-label>
 </ni-flexible-layout-component>
-<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='5'><ni-text control-resize-mode='fixed' ni-control-id='6' text='© 2017 National Instruments. All rights reserved.'></ni-text>
+<ni-flexible-layout-component control-resize-mode='fixed' ni-control-id='5'><ni-text control-resize-mode='fixed' ni-control-id='6' text='© 2019 National Instruments. All rights reserved.'></ni-text>
 </ni-flexible-layout-component>
 </ni-flexible-layout-container>
 </ni-flexible-layout-wrapper>
 </ni-flexible-layout-group>
 
 </ni-front-panel>
-    </div>
-</body>
+        </div>
+    </body>
+
 </html>
