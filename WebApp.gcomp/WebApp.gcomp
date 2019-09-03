@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C67366E4F075A7CD22FC138B00BCE2401B4AF8184EBE1AFEFE8DA02994CD7A882A1D0772D714E970E1250DC47FC3A543D78CDAD189E19F756443D59B701731FF" Timestamp="1D561EFD6405CCE" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B056F4891CBE6E82BA060330E8D9C149ED237545AB3D87C65E9D9BFB2867145F7E90CDB6EC036E35E25EC00EE60589DAEF1DB3E167366D6DCFA5D99CE00DDB98" Timestamp="1D561F3E280B2C8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
@@ -27,6 +27,7 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d6cefb093d0447379b0bdc3fc77368b1" Id="e1d1464122ee4785ae38475580262400" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="3359dd2f23064052b9249336d6cfffe4" Id="42603e87c8744ebc9a1ed76b45d0f307" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c6cf8b9b200e4f399b225eb61c401b1d" Id="81e2e99b3d3b44fc9f851f0c677d81c1" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4db1537d4bf14863afdd440e02748d43" Id="620ae266757047c2a5cd996b6a743d6e" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -87,6 +88,11 @@
 				<EmbeddedDefinitionReference Id="c6cf8b9b200e4f399b225eb61c401b1d" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="robots.txt">
 					<ExternalFile>
 						<p.StoragePath>robots.txt</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Id="4db1537d4bf14863afdd440e02748d43" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="CNAME">
+					<ExternalFile>
+						<p.StoragePath>CNAME</p.StoragePath>
 					</ExternalFile>
 				</EmbeddedDefinitionReference>
 			</NameScopingEnvoy>
