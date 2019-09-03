@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="44259D6460E38F6831A3D5129ECACFDDDAE26771E29113F40A39983433096A4D22785E0E523F2AC06FBD46B783357780817711BEBA02C53FDE0E02742D8FC30F" Timestamp="1D4CB12D29051DE" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C67366E4F075A7CD22FC138B00BCE2401B4AF8184EBE1AFEFE8DA02994CD7A882A1D0772D714E970E1250DC47FC3A543D78CDAD189E19F756443D59B701731FF" Timestamp="1D561EFD6405CCE" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2293" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2293" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.0.2293" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.0.2293" Name="LabVIEW NXG" Version="3.1.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
 	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -25,6 +25,8 @@
 			<ComponentItemProperties AssociatedEnvoyId="6ff95e3e8a6941369026dc230112fe96" Id="58f04c1036004c50ab749ebd53e862df" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="15f3b4720e7e4fe9947dc038e5159c06" Id="4495bf40d912484d871876a5190f0924" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d6cefb093d0447379b0bdc3fc77368b1" Id="e1d1464122ee4785ae38475580262400" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="3359dd2f23064052b9249336d6cfffe4" Id="42603e87c8744ebc9a1ed76b45d0f307" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c6cf8b9b200e4f399b225eb61c401b1d" Id="81e2e99b3d3b44fc9f851f0c677d81c1" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -77,6 +79,16 @@
 						</ExternalFile>
 					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
+				<EmbeddedDefinitionReference Id="3359dd2f23064052b9249336d6cfffe4" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name=".nojekyll">
+					<ExternalFile>
+						<p.StoragePath>.nojekyll</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Id="c6cf8b9b200e4f399b225eb61c401b1d" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="robots.txt">
+					<ExternalFile>
+						<p.StoragePath>robots.txt</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">

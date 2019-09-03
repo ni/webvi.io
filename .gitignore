@@ -1,13 +1,6 @@
-/node_modules
-/node_modules
 .tmp
-bower_components
-g-source/.cache
-npm-debug.log
-**/.DS_Store
-g-source/g-source.lvcodedb
-*.lvprojectcache
-g-source/WebApp.gcomp/WebApp.gcompcache
-g-source/WebApp.gcomp/WebApp.gcompcache
+*cache
+*.log
+.DS_Store
 *.lvcompile
-g-source/Builds
+Builds
