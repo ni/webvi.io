@@ -1,6 +1,6 @@
 # webvi.io
 
-An example showing G Web Development project used to create the splash page at: https://www.webvi.io
+An example showing [G Web Development Software](https://www.ni.com/en-us/shop/software/products/g-web-development-software.html) project used to create the splash page at: https://www.webvi.io
 
 ## Updating
 
