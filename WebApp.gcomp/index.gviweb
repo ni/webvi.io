@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E8EB4E204E1C49CE0D75E8F9697402EDE835138743C436E280C2C97CF6E864CD6EB32BBBDD24486B21EACB2661F16C8C9146DDCD6E5C8C5DA799048CA5821B1B" Timestamp="1D78B8EE6BE7899" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C7B0036D31F375D9C1991508930A00C9E31F7974B346EB887EA5039846DEFB3BEC35A6E4912B3704B79EEDB1C4F898531002498CD90B7C7E0B36B970866F6354" Timestamp="1D78DA1BF67FF95" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -709,7 +709,7 @@
 			<p.DefaultValue>Images/Divider%20Line.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="62965b1fd45b4f858c795eb45e35b4bf" Name="URL Image_2" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Images/NI%20logo.webp</p.DefaultValue>
+			<p.DefaultValue>Images/NI%20logo.svg</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="bf435c2a78e54d6f9c0cf7cff1cb51b5" Name="URL Image_3" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Images/Block%20Diagram.PNG</p.DefaultValue>
@@ -727,7 +727,7 @@
 			<p.DefaultValue>Images/Divider%20Line.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="a38eccf981174ba8821a1e05beb79faa" Name="URL Image_6" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Images/LabVIEW.webp</p.DefaultValue>
+			<p.DefaultValue>Images/LabVIEW.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="47ce00050eef4bc59b73281634b16341" Name="Hyperlink Control" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>https://www.ni.com/en-us/support/downloads/software-products/download.g-web-development-software.html</p.DefaultValue>
