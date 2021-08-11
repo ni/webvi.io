@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C7B0036D31F375D9C1991508930A00C9E31F7974B346EB887EA5039846DEFB3BEC35A6E4912B3704B79EEDB1C4F898531002498CD90B7C7E0B36B970866F6354" Timestamp="1D78DA1BF67FF95" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FFC6D1047AE08F3A2A9CC62CABB1E71A5A92A20CE0A6997AD2B71DB7C5703305DAA6DB357C7DA6869D8BB8ED1FF186EC3216CFF9A9D38401B72442D6135A49AF" Timestamp="1D78E740BCBC7B0" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -339,13 +339,13 @@
 			<FlexibleLayoutGroup Height="[float]132" Id="40eff366ccb44eafa4234cceb80d0488" Left="[float]30" Top="[float]166" Width="[float]1380" xmlns="http://www.ni.com/PanelCommon">
 				<FlexibleLayoutWrapper FlexGrow="[double]1.320588231086731" Height="[float]132" Id="f0d6bbb2d48a480c9b2649d0b8ae050e" Left="[float]0" Top="[float]0" Width="[float]908">
 					<FlexibleLayoutContainer Height="[float]116" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="49501da4219a4b728fb570f8aad48ed7" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]892">
-						<FlexibleLayoutComponent Height="[float]74" Id="e65a0d5bd7c645559fa4c254148cc7c7" Left="[float]113" Top="[float]21" Width="[float]227">
+						<FlexibleLayoutComponent Height="[float]74" Id="e65a0d5bd7c645559fa4c254148cc7c7" Left="[float]99" Top="[float]21" Width="[float]227">
 							<Text BaseName="[string]Text" Foreground="[SMColor]#ff044123" Height="[float]74" Id="20190c79da95480f84297e2c7bce2bfc" Left="[float]0" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]SizeToText" Text="[string]WebVI" TextWrapping="[TextWrapping]Wrap" Top="[float]0" Width="[float]227" xmlns="http://www.ni.com/PlatformFramework">
 								<FontSetting FontFamily="Arial" FontSize="48" Id="2ef8058208eb4443b219e55381a0350b" />
 							</Text>
 						</FlexibleLayoutComponent>
-						<FlexibleLayoutComponent Height="[float]74" Id="65de4e55a0924624b5039c08b3327607" Left="[float]348" Top="[float]21" Width="[float]431">
-							<Text BaseName="[string]Text" Foreground="[SMColor]#ff044123" Height="[float]74" Id="3df336c1db194ee2afc59ea0ead42733" Left="[float]0" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Remote UIs created using G&#xD;&#xA;Integrates with LabVIEW Applications&#xD;&#xA;Runs on any device with no plugins required" TextWrapping="[TextWrapping]Wrap" Top="[float]0" Width="[float]431" xmlns="http://www.ni.com/PlatformFramework">
+						<FlexibleLayoutComponent Height="[float]74" Id="65de4e55a0924624b5039c08b3327607" Left="[float]334" Top="[float]21" Width="[float]459">
+							<Text BaseName="[string]Text" Foreground="[SMColor]#ff044123" Height="[float]74" Id="3df336c1db194ee2afc59ea0ead42733" Left="[float]0" MinHeight="[float]11" MinWidth="[float]11" Text="[string]Remote UIs created via graphical programming&#xD;&#xA;Integrates with LabVIEW Applications&#xD;&#xA;Runs on any device with no plugins required" TextWrapping="[TextWrapping]Wrap" Top="[float]0" Width="[float]459" xmlns="http://www.ni.com/PlatformFramework">
 								<FontSetting FontFamily="Arial" FontSize="16" Id="c8a466c45e1f4e8691fc34c5d22013ff" />
 							</Text>
 						</FlexibleLayoutComponent>
@@ -376,16 +376,16 @@
 				</FlexibleLayoutWrapper>
 			</FlexibleLayoutGroup>
 			<FlexibleLayoutGroup Height="[float]452" Id="1476f89bac8b425187368dd35617d701" Left="[float]30" Top="[float]350" Width="[float]1380" xmlns="http://www.ni.com/PanelCommon">
-				<FlexibleLayoutWrapper FlexGrow="[double]1.4369747638702393" Height="[float]452" Id="1d21a2115f084657a4fad27049ac69b0" Left="[float]0" Top="[float]0" Width="[float]657">
-					<FlexibleLayoutContainer Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="77e898c5039e480ab9540ec2e51f79ad" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]640.6375">
+				<FlexibleLayoutWrapper FlexGrow="[double]1.4377777576446533" Height="[float]452" Id="1d21a2115f084657a4fad27049ac69b0" Left="[float]0" Top="[float]0" Width="[float]657">
+					<FlexibleLayoutContainer Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="77e898c5039e480ab9540ec2e51f79ad" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]640.525">
 						<FlexibleLayoutComponent Height="[float]424" Id="3c2ad48fd05142cdbbec7c11b73fff0c" Left="[float]53" Top="[float]6" Width="[float]536">
 							<UrlImage Alternate="[string]" BaseName="[string]UrlImage" ControlResizeMode="[ControlResizeMode]MaintainAspectRatio" Height="[float]424" Id="4b556fe0ad7b436299a223c1528426ed" Label="[UIModel]9624080c194c44e4a8dc30f0863dcfef" Left="[float]0" MinHeight="[float]212" MinWidth="[float]268" Source="{DataItemBinding Id=bf435c2a78e54d6f9c0cf7cff1cb51b5}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]0" Width="[float]536" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="9624080c194c44e4a8dc30f0863dcfef" LabelOwner="[UIModel]4b556fe0ad7b436299a223c1528426ed" Left="[float]0" Text="[string]URL Image_3" Top="[float]-20" Visible="[bool]False" Width="[float]69" />
 						</FlexibleLayoutComponent>
 					</FlexibleLayoutContainer>
 				</FlexibleLayoutWrapper>
-				<FlexibleLayoutWrapper FlexGrow="[double]0.78151261806488037" Height="[float]452" Id="420b9cc058ad4029a548471485d79aba" Left="[float]657" Top="[float]0" Width="[float]362">
-					<FlexibleLayoutContainer Direction="[FlexibleLayoutDirection]Column" Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="8b7728702b20411f897b73d155284c36" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]345.675018">
+				<FlexibleLayoutWrapper FlexGrow="[double]0.7822222113609314" Height="[float]452" Id="420b9cc058ad4029a548471485d79aba" Left="[float]657" Top="[float]0" Width="[float]362">
+					<FlexibleLayoutContainer Direction="[FlexibleLayoutDirection]Column" Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="8b7728702b20411f897b73d155284c36" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]345.737518">
 						<FlexibleLayoutComponent Height="[float]93" Id="95dedcac37064f98b641fbe2da8634b5" Left="[float]57" Top="[float]140" Width="[float]232">
 							<Slider BaseName="[string]Slider" Fill="[SMSolidColorBrush]#ff03b585" Height="[float]93" Id="142" Label="[UIModel]143" LabelPresenter="[string]LV:G6" Left="[float]0" Maximum="[double]100000" MinHeight="[float]40" MinWidth="[float]50" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=140}" Width="[float]232" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<FontSetting FontFamily="Arial" FontSize="14" Id="cd2a6573e2ae4ac28176d4f4d806f432" xmlns="http://www.ni.com/PlatformFramework" />
@@ -400,8 +400,8 @@
 						</FlexibleLayoutComponent>
 					</FlexibleLayoutContainer>
 				</FlexibleLayoutWrapper>
-				<FlexibleLayoutWrapper FlexGrow="[double]0.78151261806488037" Height="[float]452" Id="6ac8d4b923a74aee89e161e2d11f7c71" Left="[float]1019" Top="[float]0" Width="[float]362">
-					<FlexibleLayoutContainer Direction="[FlexibleLayoutDirection]Column" Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="5d12712695124a199668c7a6a69bb635" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]345.675018">
+				<FlexibleLayoutWrapper FlexGrow="[double]0.7822222113609314" Height="[float]452" Id="6ac8d4b923a74aee89e161e2d11f7c71" Left="[float]1019" Top="[float]0" Width="[float]362">
+					<FlexibleLayoutContainer Direction="[FlexibleLayoutDirection]Column" Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="5d12712695124a199668c7a6a69bb635" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]345.737518">
 						<FlexibleLayoutComponent Height="[float]248" Id="fd2ea0cd82104661b87eaceec889684d" Left="[float]49" Top="[float]62" Width="[float]248">
 							<Gauge AnalogDisplayType="[AnalogDisplayType]Needle" BaseName="[string]Gauge" ControlResizeMode="[ControlResizeMode]MaintainAspectRatio" DigitalDisplayVisible="[bool]True" Height="[float]248" Id="152" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]153" LabelPresenter="[string]LV:G2" Left="[float]0" MajorRangeDivisionsMode="[RangeDivisionsMode]Auto" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]600000" MinHeight="[float]200" MinWidth="[float]200" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=150}" Width="[float]248" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<FontSetting FontFamily="Arial" FontSize="10" Id="172" xmlns="http://www.ni.com/PlatformFramework" />
@@ -409,8 +409,8 @@
 							<Label Height="[float]16" Id="153" LabelOwner="[UIModel]152" Left="[float]0" Text="[string]Gauge" Top="[float]-20" Visible="[bool]False" Width="[float]35" />
 						</FlexibleLayoutComponent>
 						<FlexibleLayoutComponent Height="[float]56" Id="c170a7a698f74785abfd81cd10995e53" Left="[float]145" Top="[float]318" Width="[float]56">
-							<LED BaseName="[string]LED" ContentVisibility="[Visibility]Visible" FalseBackground="[SMSolidColorBrush]#fff04e23" FalseContent="[string]Off" FalseForeground="[SMColor]#ff044123" Height="[float]56" Id="157" IsReadOnly="[bool]True" Label="[UIModel]158" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]0" Top="[float]0" TrueBackground="[SMSolidColorBrush]#ff03b585" TrueContent="[string]On" Value="{DataItemBinding Id=155}" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<Label Height="[float]16" Id="158" LabelOwner="[UIModel]157" Left="[float]0" Text="[string]LED" Top="[float]-20" Visible="[bool]False" Width="[float]21" />
+							<LED BaseName="[string]LED" ContentVisibility="[Visibility]Collapsed" FalseBackground="[SMSolidColorBrush]#ff00b050" FalseContent="[string]Inactive" FalseForeground="[SMColor]#ff044123" Height="[float]56" Id="157" IsReadOnly="[bool]True" Label="[UIModel]158" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]0" Top="[float]0" TrueBackground="[SMSolidColorBrush]#ffff0000" TrueContent="[string]Active" Value="{DataItemBinding Id=155}" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<Label Height="[float]0" Id="158" LabelOwner="[UIModel]157" Left="[float]0" Text="[string]LED" Top="[float]-20" Visible="[bool]False" Width="[float]0" />
 						</FlexibleLayoutComponent>
 					</FlexibleLayoutContainer>
 				</FlexibleLayoutWrapper>

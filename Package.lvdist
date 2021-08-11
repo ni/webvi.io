@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A78160E02D4EABB0E68A1D4D09ED98FEE968060BD498F57FCDB6D3D4D38FDC4BDFC602EB4B346926217443D68E0ED85D896A0A65B4F3E13A2739A73C512C66EA" Timestamp="1D78B9151789F92" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="60EFB74E96BF3D47D65D6C8FB888A3895BA62AA500AE6517AE7CBCAFCFC1933B1B7442B35C03F674EE328946B682160FC55F22C0A1510F7AA82B39C825DB548D" Timestamp="1D78E753C48D7C6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition Company="NI" Product="webvi.io" ShortDescription="webvi.io" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+	<DistributionDefinition Company="NI" Product="webvi.io" ShortDescription="webvi.io" TargetedProduct="LabVIEW" Version="1.0.0.3" xmlns="http://www.ni.com/GComponent.xsd">
 		<DistributionOutput CachedDisplayName="Package" Id="6c7abbce51284d21bb320ac955f117a8" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="webvi.io" p3:DistributionCategory="Application" p3:MaintainerEmail="support@ni.com" p3:MaintainerName="NI" p3:PackageDisplayName="Package" xmlns:p3="http://www.ni.com/GComponent.xsd" />
 		<DistributionBuildTarget Id="4df6f0a9bd4f4036b64e4da6644e62db" Target="::VireoDevSystem" />
 		<DistributionMemberDependencySource Id="970080b93c244535882847a8611bdcd3" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RootLocation="ApplicationFiles_64" Target="::VireoDevSystem::Interactive::WebApp.gcomp" />
