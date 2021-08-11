@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B056F4891CBE6E82BA060330E8D9C149ED237545AB3D87C65E9D9BFB2867145F7E90CDB6EC036E35E25EC00EE60589DAEF1DB3E167366D6DCFA5D99CE00DDB98" Timestamp="1D561F3E280B2C8" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A9BEC6EC7F4E58E7E7932B31AF024690966DA0E39D547EA4C397186C44B1963668F6862FDE92BB2ED8C55BFB9DA1CAD1F20BC69ACC82A4C60E2A015F6BFAF4DD" Timestamp="1D78DA1C5997163" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
 	</SourceModelFeatureSet>
 	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -17,9 +17,7 @@
 			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
 			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="28" Id="29" />
-			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="30" Id="33" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="31" Id="34" />
-			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="32" Id="35" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="38" Id="39" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="270673c563224c2fab45f584eee16416" Id="eaf9bdbe1aa04211bfe03252a5a8e5b7" />
 			<ComponentItemProperties AssociatedEnvoyId="6ff95e3e8a6941369026dc230112fe96" Id="58f04c1036004c50ab749ebd53e862df" TopLevel="True" />
@@ -28,77 +26,34 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="3359dd2f23064052b9249336d6cfffe4" Id="42603e87c8744ebc9a1ed76b45d0f307" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c6cf8b9b200e4f399b225eb61c401b1d" Id="81e2e99b3d3b44fc9f851f0c677d81c1" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4db1537d4bf14863afdd440e02748d43" Id="620ae266757047c2a5cd996b6a743d6e" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="90a2f283df52484ab1e8568bfc63ce4b" Id="e6f375c56841454da82ff1fbf9a4d853" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1c19bc332adc4f54957d80fb217fe631" Id="84f3ed57b8a04917b81f1a15041b6848" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
-		<ProjectSettings Id="7" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EnvoyManagerRootEnvoy Id="7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
 			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="27" Name="Images">
-					<EmbeddedDefinitionReference Id="28" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Block Diagram.PNG">
-						<ExternalFile>
-							<p.StoragePath>"Images\\Block Diagram.PNG"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="30" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="LabVIEW Logo.PNG">
-						<ExternalFile>
-							<p.StoragePath>"Images\\LabVIEW Logo.PNG"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="31" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Divider Line.png">
-						<ExternalFile>
-							<p.StoragePath>"Images\\Divider Line.png"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="32" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="NI logo.svg">
-						<ExternalFile>
-							<p.StoragePath>"Images\\NI logo.svg"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="38" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Powered By LabVIEW.PNG">
-						<ExternalFile>
-							<p.StoragePath>"Images\\Powered By LabVIEW.PNG"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="270673c563224c2fab45f584eee16416" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="standards-logos.png">
-						<ExternalFile>
-							<p.StoragePath>"Images\\standards-logos.png"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="15f3b4720e7e4fe9947dc038e5159c06" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="html-snippet.png">
-						<ExternalFile>
-							<p.StoragePath>"Images\\html-snippet.png"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
+					<FileReference Bindings=".png" Id="28" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Block Diagram.PNG" StoragePath="Images\Block Diagram.PNG" />
+					<FileReference Bindings=".png" Id="31" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Divider Line.png" StoragePath="Images\Divider Line.png" />
+					<FileReference Bindings=".png" Id="38" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Powered By LabVIEW.PNG" StoragePath="Images\Powered By LabVIEW.PNG" />
+					<FileReference Bindings=".png" Id="270673c563224c2fab45f584eee16416" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="standards-logos.png" StoragePath="Images\standards-logos.png" />
+					<FileReference Bindings=".png" Id="15f3b4720e7e4fe9947dc038e5159c06" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="html-snippet.png" StoragePath="Images\html-snippet.png" />
+					<FileReference Bindings=".svg" Id="90a2f283df52484ab1e8568bfc63ce4b" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="NI logo.svg" StoragePath="Images\NI logo.svg" />
+					<FileReference Bindings=".png" Id="1c19bc332adc4f54957d80fb217fe631" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LabVIEW.png" StoragePath="Images\LabVIEW.png" />
 				</NameScopingEnvoy>
 				<SourceFileReference Id="6ff95e3e8a6941369026dc230112fe96" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="4482b67705a44423b87b006670a30f14" Name="scripts">
-					<EmbeddedDefinitionReference Id="d6cefb093d0447379b0bdc3fc77368b1" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="main.js">
-						<ExternalFile>
-							<p.StoragePath>"scripts\\main.js"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
+					<FileReference Bindings=".js" Id="d6cefb093d0447379b0bdc3fc77368b1" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="main.js" StoragePath="scripts\main.js" />
 				</NameScopingEnvoy>
-				<EmbeddedDefinitionReference Id="3359dd2f23064052b9249336d6cfffe4" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name=".nojekyll">
-					<ExternalFile>
-						<p.StoragePath>.nojekyll</p.StoragePath>
-					</ExternalFile>
-				</EmbeddedDefinitionReference>
-				<EmbeddedDefinitionReference Id="c6cf8b9b200e4f399b225eb61c401b1d" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="robots.txt">
-					<ExternalFile>
-						<p.StoragePath>robots.txt</p.StoragePath>
-					</ExternalFile>
-				</EmbeddedDefinitionReference>
-				<EmbeddedDefinitionReference Id="4db1537d4bf14863afdd440e02748d43" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="CNAME">
-					<ExternalFile>
-						<p.StoragePath>CNAME</p.StoragePath>
-					</ExternalFile>
-				</EmbeddedDefinitionReference>
+				<FileReference Bindings=".nojekyll" Id="3359dd2f23064052b9249336d6cfffe4" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name=".nojekyll" StoragePath=".nojekyll" />
+				<FileReference Bindings=".txt" Id="c6cf8b9b200e4f399b225eb61c401b1d" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="robots.txt" StoragePath="robots.txt" />
+				<FileReference Bindings="" Id="4db1537d4bf14863afdd440e02748d43" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="CNAME" StoragePath="CNAME" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
-		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">
-			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+		<NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">
 			<ContentReference ContentIdentifier="10" Id="13" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
