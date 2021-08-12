@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FFC6D1047AE08F3A2A9CC62CABB1E71A5A92A20CE0A6997AD2B71DB7C5703305DAA6DB357C7DA6869D8BB8ED1FF186EC3216CFF9A9D38401B72442D6135A49AF" Timestamp="1D78E740BCBC7B0" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7BA6DD94448D286859EE2E8857739A30B0FB6BDC818E53091FAAA3FD64A90EDC5AF3E2816EC0AE04BE2CC03297A05E869C39D654DFB75F4D20B1CB86413666D8" Timestamp="1D78F36D73F223B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -410,7 +410,7 @@
 						</FlexibleLayoutComponent>
 						<FlexibleLayoutComponent Height="[float]56" Id="c170a7a698f74785abfd81cd10995e53" Left="[float]145" Top="[float]318" Width="[float]56">
 							<LED BaseName="[string]LED" ContentVisibility="[Visibility]Collapsed" FalseBackground="[SMSolidColorBrush]#ff00b050" FalseContent="[string]Inactive" FalseForeground="[SMColor]#ff044123" Height="[float]56" Id="157" IsReadOnly="[bool]True" Label="[UIModel]158" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]0" Top="[float]0" TrueBackground="[SMSolidColorBrush]#ffff0000" TrueContent="[string]Active" Value="{DataItemBinding Id=155}" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<Label Height="[float]0" Id="158" LabelOwner="[UIModel]157" Left="[float]0" Text="[string]LED" Top="[float]-20" Visible="[bool]False" Width="[float]0" />
+							<Label Height="[float]16" Id="158" LabelOwner="[UIModel]157" Left="[float]0" Text="[string]LED" Top="[float]-20" Visible="[bool]False" Width="[float]21" />
 						</FlexibleLayoutComponent>
 					</FlexibleLayoutContainer>
 				</FlexibleLayoutWrapper>
@@ -700,7 +700,7 @@
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="221" Name="URL Image_8" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Images/Powered%20By%20LabVIEW.PNG</p.DefaultValue>
+			<p.DefaultValue>Images/Powered%20by%20NI.PNG</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="231" Name="URL Image_9" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Images/NI%20logo.svg</p.DefaultValue>
