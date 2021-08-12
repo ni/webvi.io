@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7BA6DD94448D286859EE2E8857739A30B0FB6BDC818E53091FAAA3FD64A90EDC5AF3E2816EC0AE04BE2CC03297A05E869C39D654DFB75F4D20B1CB86413666D8" Timestamp="1D78F36D73F223B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="292419A7B430AF164018FEFB6081DB5BCF75A69420BE397401785A97A1A22E59195ABD9AB9D462AD7FC0AADC9193FA0C0ECCE12E42E6CF710D759ADD5DCB14D6" Timestamp="1D78F3896C42947" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -700,7 +700,7 @@
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="221" Name="URL Image_8" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Images/Powered%20by%20NI.PNG</p.DefaultValue>
+			<p.DefaultValue>Images/powered-by-NI.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="231" Name="URL Image_9" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Images/NI%20logo.svg</p.DefaultValue>

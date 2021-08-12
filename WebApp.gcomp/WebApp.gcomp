@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3BD6E14BEA5ED5E706DC04073888C20730995396998B720EBBE40049048DEA41DB8F4D161F4F0D61992E679DDA899E95F7CD0654F2F0663EEC71EAA448B9CDED" Timestamp="1D78F36ED3F679E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="26E96A0BF78DE2A7D9576CC02C49CB2B9BF2E77501D359C461D39B35E98D9ABE9F4A751D49D914E8A8F50E45EF667AA3DB8AC3AFB962B3A753A9A78ADB49E5C4" Timestamp="1D78F388FC45750" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -42,7 +42,7 @@
 					<FileReference Bindings=".png" Id="15f3b4720e7e4fe9947dc038e5159c06" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="html-snippet.png" StoragePath="Images\html-snippet.png" />
 					<FileReference Bindings=".svg" Id="90a2f283df52484ab1e8568bfc63ce4b" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="NI logo.svg" StoragePath="Images\NI logo.svg" />
 					<FileReference Bindings=".png" Id="1c19bc332adc4f54957d80fb217fe631" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LabVIEW.png" StoragePath="Images\LabVIEW.png" />
-					<FileReference Bindings=".png" Id="9c7bade78244e1099e387c17cb93f3f" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Powered by NI.png" StoragePath="Images\Powered by NI.png" />
+					<FileReference Bindings=".png" Id="9c7bade78244e1099e387c17cb93f3f" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="powered-by-NI.png" StoragePath="Images\powered-by-NI.png" />
 				</NameScopingEnvoy>
 				<SourceFileReference Id="6ff95e3e8a6941369026dc230112fe96" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="4482b67705a44423b87b006670a30f14" Name="scripts">
