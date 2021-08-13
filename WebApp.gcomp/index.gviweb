@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="292419A7B430AF164018FEFB6081DB5BCF75A69420BE397401785A97A1A22E59195ABD9AB9D462AD7FC0AADC9193FA0C0ECCE12E42E6CF710D759ADD5DCB14D6" Timestamp="1D78F3896C42947" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="27F5E6376CA38003214B5CDEF15A22E4FE6E2D661E635459C055786478E53C9F4EECB971FD5CC1CCD9EB2840B196A147CE116C92E525A8D6F69495DA46F2716B" Timestamp="1D79099FF18CE4B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -41,12 +41,6 @@
 			</DataAccessor>
 			<NodeLabel AttachedTo="222" Bounds="45 0 30 15" Id="225" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>URL Image_8</p.Text>
-			</NodeLabel>
-			<DataAccessor Bounds="0 0 40 15" DataItem="231" Id="232" Label="235">
-				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="232" Bounds="45 0 30 15" Id="235" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>URL Image_9</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="0 0 40 15" DataItem="836e7bc0020f45c2868d1cb6e0b41e4d" Id="91a3a9594a3f4e818ef9d4f94c627562" Label="826f6455dab247b2b4723489659e61ce">
 				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -199,11 +193,7 @@
 				<p.Text>Hyperlink Control_16</p.Text>
 			</NodeLabel>
 		</DiagramUnplacedItems>
-		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
-			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]72" Id="233" Label="[UIModel]234" Left="[float]0" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=231}" Stretch="[SMStretch]UniformToFill" TabIndex="[int]0" Top="[float]0" Width="[float]216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<Label Height="[float]16" Id="234" IsVisualChild="[bool]False" LabelOwner="[UIModel]233" Left="[float]0" Text="[string]URL Image_9" Top="[float]-20" Visible="[bool]False" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
-			</UrlImage>
-		</FrontPanelUnplacedItems>
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="12">
 			<WhileLoop Bounds="285 110 541 355" DiagramId="17" Id="16">
 				<LoopIteration Bounds="5 325 15 15" Id="18" />
@@ -377,7 +367,7 @@
 			</FlexibleLayoutGroup>
 			<FlexibleLayoutGroup Height="[float]452" Id="1476f89bac8b425187368dd35617d701" Left="[float]30" Top="[float]350" Width="[float]1380" xmlns="http://www.ni.com/PanelCommon">
 				<FlexibleLayoutWrapper FlexGrow="[double]1.4377777576446533" Height="[float]452" Id="1d21a2115f084657a4fad27049ac69b0" Left="[float]0" Top="[float]0" Width="[float]657">
-					<FlexibleLayoutContainer Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="77e898c5039e480ab9540ec2e51f79ad" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]640.525">
+					<FlexibleLayoutContainer Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="77e898c5039e480ab9540ec2e51f79ad" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]640.5156">
 						<FlexibleLayoutComponent Height="[float]424" Id="3c2ad48fd05142cdbbec7c11b73fff0c" Left="[float]53" Top="[float]6" Width="[float]536">
 							<UrlImage Alternate="[string]" BaseName="[string]UrlImage" ControlResizeMode="[ControlResizeMode]MaintainAspectRatio" Height="[float]424" Id="4b556fe0ad7b436299a223c1528426ed" Label="[UIModel]9624080c194c44e4a8dc30f0863dcfef" Left="[float]0" MinHeight="[float]212" MinWidth="[float]268" Source="{DataItemBinding Id=bf435c2a78e54d6f9c0cf7cff1cb51b5}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]0" Width="[float]536" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="9624080c194c44e4a8dc30f0863dcfef" LabelOwner="[UIModel]4b556fe0ad7b436299a223c1528426ed" Left="[float]0" Text="[string]URL Image_3" Top="[float]-20" Visible="[bool]False" Width="[float]69" />
@@ -385,7 +375,7 @@
 					</FlexibleLayoutContainer>
 				</FlexibleLayoutWrapper>
 				<FlexibleLayoutWrapper FlexGrow="[double]0.7822222113609314" Height="[float]452" Id="420b9cc058ad4029a548471485d79aba" Left="[float]657" Top="[float]0" Width="[float]362">
-					<FlexibleLayoutContainer Direction="[FlexibleLayoutDirection]Column" Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="8b7728702b20411f897b73d155284c36" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]345.737518">
+					<FlexibleLayoutContainer Direction="[FlexibleLayoutDirection]Column" Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="8b7728702b20411f897b73d155284c36" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]345.734375">
 						<FlexibleLayoutComponent Height="[float]93" Id="95dedcac37064f98b641fbe2da8634b5" Left="[float]57" Top="[float]140" Width="[float]232">
 							<Slider BaseName="[string]Slider" Fill="[SMSolidColorBrush]#ff03b585" Height="[float]93" Id="142" Label="[UIModel]143" LabelPresenter="[string]LV:G6" Left="[float]0" Maximum="[double]100000" MinHeight="[float]40" MinWidth="[float]50" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=140}" Width="[float]232" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<FontSetting FontFamily="Arial" FontSize="14" Id="cd2a6573e2ae4ac28176d4f4d806f432" xmlns="http://www.ni.com/PlatformFramework" />
@@ -401,7 +391,7 @@
 					</FlexibleLayoutContainer>
 				</FlexibleLayoutWrapper>
 				<FlexibleLayoutWrapper FlexGrow="[double]0.7822222113609314" Height="[float]452" Id="6ac8d4b923a74aee89e161e2d11f7c71" Left="[float]1019" Top="[float]0" Width="[float]362">
-					<FlexibleLayoutContainer Direction="[FlexibleLayoutDirection]Column" Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="5d12712695124a199668c7a6a69bb635" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]345.737518">
+					<FlexibleLayoutContainer Direction="[FlexibleLayoutDirection]Column" Height="[float]436" HorizontalContentAlignment="[FlexibleLayoutHorizontalContentAlignment]Center" Id="5d12712695124a199668c7a6a69bb635" Left="[float]8" Top="[float]8" VerticalContentAlignment="[FlexibleLayoutVerticalContentAlignment]Center" Width="[float]345.734375">
 						<FlexibleLayoutComponent Height="[float]248" Id="fd2ea0cd82104661b87eaceec889684d" Left="[float]49" Top="[float]62" Width="[float]248">
 							<Gauge AnalogDisplayType="[AnalogDisplayType]Needle" BaseName="[string]Gauge" ControlResizeMode="[ControlResizeMode]MaintainAspectRatio" DigitalDisplayVisible="[bool]True" Height="[float]248" Id="152" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]153" LabelPresenter="[string]LV:G2" Left="[float]0" MajorRangeDivisionsMode="[RangeDivisionsMode]Auto" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]600000" MinHeight="[float]200" MinWidth="[float]200" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=150}" Width="[float]248" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<FontSetting FontFamily="Arial" FontSize="10" Id="172" xmlns="http://www.ni.com/PlatformFramework" />
@@ -702,9 +692,6 @@
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="221" Name="URL Image_8" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Images/powered-by-NI.png</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="231" Name="URL Image_9" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>Images/NI%20logo.svg</p.DefaultValue>
-		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="836e7bc0020f45c2868d1cb6e0b41e4d" Name="URL Image" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Images/Divider%20Line.png</p.DefaultValue>
 		</DataItem>
@@ -733,37 +720,37 @@
 			<p.DefaultValue>https://www.ni.com/en-us/support/downloads/software-products/download.g-web-development-software.html</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="aa7d2e02dfa642ebb79996feb73e8384" Name="Hyperlink Control_2" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://www.ni.com/en-us/shop/data-acquisition-and-control/application-software-for-data-acquisition-and-control-category/what-is-g-web-development-software.html</p.DefaultValue>
+			<p.DefaultValue>https://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-g-web-development-software.html</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="f5040f671bf045a2b891deda49d8c083" Name="URL Image_11" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Images/Divider%20Line.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="56e51465446d43ac9c4a108a0beb874f" Name="Hyperlink Control_4" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/CallLabVIEWWebService</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/CallLabVIEWWebService</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="aa18bbb707d34f5db1294c010ab8e3ce" Name="Hyperlink Control_5" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/CallSystemLinkDataServices</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/CallSystemLinkDataServices</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="2359b84fda3149479c88753dba9c34e0" Name="Hyperlink Control_6" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/CallJavaScriptFromAWebVI</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/CallJavaScriptFromAWebVI</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="54aef31ec0744aeb849349d18587a0c5" Name="Hyperlink Control_7" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/Call3rdPartyWebService</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/Call3rdPartyWebService</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="4f0ea7bc2b7042c8962e09afc1b6a2ea" Name="Hyperlink Control_8" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/MultipleTopLevelWebVIs</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/MultipleTopLevelWebVIs</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="df7bb1f332df47a5bc7c34a5df9293d5" Name="Hyperlink Control_9" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/CustomizeWithCss</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/CustomizeWithCss</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="37a9bd769c73494c963cae487943df58" Name="Hyperlink Control_11" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/ConnectWebVIToWebSocketEchoServer</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/ConnectWebVIToWebSocketEchoServer</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="b137f4be6a6443bfa5227cb3b66b94d1" Name="Hyperlink Control_13" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/EmbedContentIntoWebVI</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/EmbedContentIntoWebVI</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="c345fd61e97e4eb0a4dac9f4845a9ee4" Name="Hyperlink Control_14" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/IncorporateUserResources</p.DefaultValue>
+			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/main/IncorporateUserResources</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="8f1a76179b8248c5a019832dad059081" Name="URL Image_12" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Images/html-snippet.png</p.DefaultValue>
