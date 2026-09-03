@@ -1,5 +1,8 @@
 # webvi.io
 
+> [!NOTE]
+> Beginning December 1, 2027, G Web Development Software will enter the Limited Support lifecycle phase. [See the forums for more information](https://forums.ni.com/t5/G-Web-Development-Software/G-Web-Development-Software-Compliance-Driven-Lifecycle-Update/td-p/4483530).
+
 An example showing [G Web Development Software](https://www.ni.com/en-us/shop/software/products/g-web-development-software.html) project used to create the splash page at: https://www.webvi.io
 
 ## Hosting on GitHub Pages

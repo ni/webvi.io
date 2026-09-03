@@ -1,3 +1,5 @@
+/* eslint-disable */ // Disabling all ESLint rules since this file should never be updated to use any modern JS features.
+
 //**********************************************************
 // Detect some outdated browsers and display a message to the user
 // National Instruments Copyright 2020
@@ -6,7 +8,6 @@
 // Note: Lack of modules means the browser is unsupported by WebVIs however modules support does not mean WebVIs are fully supported
 // Note: strict mode, let/const, and strict equality operators avoided to support older browsers
 (function () {
-    // eslint-disable-next-line no-var
     var windowLoaded = function (callback) {
         if (window.addEventListener) {
             window.addEventListener('load', callback);
@@ -19,7 +20,6 @@
         }
     };
     windowLoaded(function () {
-        // eslint-disable-next-line no-var
         var outdatedBrowserMessage = document.getElementById('ni-outdated-browser-message');
         if (outdatedBrowserMessage != null) {
             outdatedBrowserMessage.style.display = 'block';

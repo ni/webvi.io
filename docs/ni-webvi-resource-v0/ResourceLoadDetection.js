@@ -4,6 +4,7 @@
 //**********************************************************
 (function () {
     'use strict';
+
     if (window.NationalInstrumentsMainModuleLoaded !== true) {
         const resourceLoadBanner = document.getElementById('ni-failed-to-load-vireo-source');
         if (resourceLoadBanner !== null) {
